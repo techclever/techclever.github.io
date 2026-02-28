@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "category": "games",
+    "question": { "en": "In what year was Minecraft officially released?" },
+    "options": { "en": ["2009", "2011", "2013", "2015"] },
+    "answer": 1,
+    "explanation": { "en": "Minecraft was officially released by Mojang on November 18, 2011, after being in beta since 2009." }
+  },
+  {
+    "id": 2,
+    "category": "games",
+    "question": { "en": "Which company developed The Legend of Zelda series?" },
+    "options": { "en": ["Sega", "Capcom", "Square Enix", "Nintendo"] },
+    "answer": 3,
+    "explanation": { "en": "The Legend of Zelda was created by Shigeru Miyamoto and developed by Nintendo, first released in 1986." }
+  },
+  {
+    "id": 3,
+    "category": "games",
+    "question": { "en": "What is widely considered the first commercially successful first-person shooter (FPS)?" },
+    "options": { "en": ["Wolfenstein 3D", "Quake", "Doom", "Half-Life"] },
+    "answer": 0,
+    "explanation": { "en": "Wolfenstein 3D, released in 1992 by id Software, is widely credited as the game that popularized the first-person shooter genre." }
+  },
+  {
+    "id": 4,
+    "category": "games",
+    "question": { "en": "Which game features a character named Master Chief?" },
+    "options": { "en": ["Gears of War", "Call of Duty", "Halo", "Destiny"] },
+    "answer": 2,
+    "explanation": { "en": "Master Chief is the iconic protagonist of the Halo franchise, developed originally by Bungie for Microsoft." }
+  },
+  {
+    "id": 5,
+    "category": "games",
+    "question": { "en": "What was the best-selling video game console of all time as of 2024?" },
+    "options": { "en": ["Xbox 360", "Nintendo Wii", "Nintendo Switch", "PlayStation 2"] },
+    "answer": 3,
+    "explanation": { "en": "The PlayStation 2, released in 2000, sold over 155 million units worldwide, making it the best-selling console ever." }
+  },
+  {
+    "id": 6,
+    "category": "games",
+    "question": { "en": "In which game do players build and defend against creatures called Creepers?" },
+    "options": { "en": ["Terraria", "Minecraft", "Roblox", "Fortnite"] },
+    "answer": 1,
+    "explanation": { "en": "Creepers are iconic hostile mobs in Minecraft that silently approach players and explode." }
+  },
+  {
+    "id": 7,
+    "category": "ai",
+    "question": { "en": "Which company created ChatGPT?" },
+    "options": { "en": ["Google", "Meta", "OpenAI", "Microsoft"] },
+    "answer": 2,
+    "explanation": { "en": "ChatGPT was created by OpenAI and launched in November 2022. Microsoft is an investor in OpenAI but did not create the product." }
+  },
+  {
+    "id": 8,
+    "category": "ai",
+    "question": { "en": "What does GPT stand for in ChatGPT?" },
+    "options": { "en": ["General Processing Technology", "Global Prediction Tool", "Guided Programming Technique", "Generative Pre-trained Transformer"] },
+    "answer": 3,
+    "explanation": { "en": "GPT stands for Generative Pre-trained Transformer, a type of large language model architecture." }
+  },
+  {
+    "id": 9,
+    "category": "ai",
+    "question": { "en": "Which AI model is known for generating images from text descriptions and was created by OpenAI?" },
+    "options": { "en": ["DALL-E", "Stable Diffusion", "Midjourney", "Claude"] },
+    "answer": 0,
+    "explanation": { "en": "DALL-E, created by OpenAI, generates images from text prompts. It was first announced in January 2021." }
+  },
+  {
+    "id": 10,
+    "category": "ai",
+    "question": { "en": "What is the term for AI that can perform any intellectual task a human can?" },
+    "options": { "en": ["Narrow AI", "Supervised AI", "Machine Learning", "Artificial General Intelligence"] },
+    "answer": 3,
+    "explanation": { "en": "Artificial General Intelligence (AGI) refers to a hypothetical AI system with human-level reasoning across all domains, unlike narrow AI which is task-specific." }
+  },
+  {
+    "id": 11,
+    "category": "ai",
+    "question": { "en": "Which company developed the AI assistant Claude?" },
+    "options": { "en": ["Anthropic", "Google", "OpenAI", "Apple"] },
+    "answer": 0,
+    "explanation": { "en": "Claude is an AI assistant developed by Anthropic, a company founded by former OpenAI researchers." }
+  },
+  {
+    "id": 12,
+    "category": "ai",
+    "question": { "en": "What technique involves training an AI model by having humans rank its outputs?" },
+    "options": { "en": ["Unsupervised learning", "Reinforcement Learning from Human Feedback", "Transfer learning", "Data augmentation"] },
+    "answer": 1,
+    "explanation": { "en": "RLHF (Reinforcement Learning from Human Feedback) is a technique where human preferences are used to fine-tune AI models, widely used in modern chatbots." }
+  },
+  {
+    "id": 13,
+    "category": "dev",
+    "question": { "en": "Who created the Python programming language?" },
+    "options": { "en": ["James Gosling", "Bjarne Stroustrup", "Dennis Ritchie", "Guido van Rossum"] },
+    "answer": 3,
+    "explanation": { "en": "Python was created by Guido van Rossum and first released in 1991. It was named after the comedy group Monty Python." }
+  },
+  {
+    "id": 14,
+    "category": "dev",
+    "question": { "en": "What does HTML stand for?" },
+    "options": { "en": ["HyperText Markup Language", "High Text Machine Language", "Hyper Transfer Markup Language", "Home Tool Markup Language"] },
+    "answer": 0,
+    "explanation": { "en": "HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages." }
+  },
+  {
+    "id": 15,
+    "category": "dev",
+    "question": { "en": "What is Git primarily used for?" },
+    "options": { "en": ["Web hosting", "Version control", "Database management", "Image editing"] },
+    "answer": 1,
+    "explanation": { "en": "Git is a distributed version control system created by Linus Torvalds in 2005 for tracking changes in source code." }
+  },
+  {
+    "id": 16,
+    "category": "dev",
+    "question": { "en": "Which programming language is most commonly used for iOS app development?" },
+    "options": { "en": ["Kotlin", "Java", "Swift", "Dart"] },
+    "answer": 2,
+    "explanation": { "en": "Swift was introduced by Apple in 2014 and is the primary language for iOS, macOS, and other Apple platform development." }
+  },
+  {
+    "id": 17,
+    "category": "dev",
+    "question": { "en": "What does CSS stand for?" },
+    "options": { "en": ["Computer Style Sheets", "Creative Style System", "Coded Style Syntax", "Cascading Style Sheets"] },
+    "answer": 3,
+    "explanation": { "en": "CSS stands for Cascading Style Sheets and is used to describe the visual presentation of HTML documents." }
+  },
+  {
+    "id": 18,
+    "category": "dev",
+    "question": { "en": "Which symbol is used to denote an ID selector in CSS?" },
+    "options": { "en": ["#", ".", "@", "&"] },
+    "answer": 0,
+    "explanation": { "en": "The hash symbol (#) is used for ID selectors in CSS, while the dot (.) is used for class selectors." }
+  },
+  {
+    "id": 19,
+    "category": "hardware",
+    "question": { "en": "What does CPU stand for?" },
+    "options": { "en": ["Computer Personal Unit", "Central Processing Unit", "Central Program Utility", "Core Processing Unit"] },
+    "answer": 1,
+    "explanation": { "en": "CPU stands for Central Processing Unit. It is the primary component that executes instructions in a computer." }
+  },
+  {
+    "id": 20,
+    "category": "hardware",
+    "question": { "en": "What is the primary function of RAM in a computer?" },
+    "options": { "en": ["Long-term data storage", "Rendering graphics", "Connecting to the internet", "Temporary working memory for active tasks"] },
+    "answer": 3,
+    "explanation": { "en": "RAM (Random Access Memory) serves as temporary, fast-access memory that stores data for currently running programs and processes." }
+  },
+  {
+    "id": 21,
+    "category": "hardware",
+    "question": { "en": "What does SSD stand for?" },
+    "options": { "en": ["Solid State Drive", "Super Speed Disk", "System Storage Device", "Serial Signal Drive"] },
+    "answer": 0,
+    "explanation": { "en": "SSD stands for Solid State Drive. Unlike traditional hard drives, SSDs have no moving parts and use flash memory for faster data access." }
+  },
+  {
+    "id": 22,
+    "category": "hardware",
+    "question": { "en": "What is the primary purpose of a GPU?" },
+    "options": { "en": ["Managing network connections", "Storing the operating system", "Processing graphics and parallel computations", "Cooling the processor"] },
+    "answer": 2,
+    "explanation": { "en": "A GPU (Graphics Processing Unit) is designed to rapidly process graphics rendering and is also used for parallel computing tasks like AI training." }
+  },
+  {
+    "id": 23,
+    "category": "hardware",
+    "question": { "en": "Which component is often called the 'brain' of the computer?" },
+    "options": { "en": ["Hard drive", "CPU", "Motherboard", "Power supply"] },
+    "answer": 1,
+    "explanation": { "en": "The CPU (Central Processing Unit) is often called the brain of the computer because it carries out the instructions of programs." }
+  },
+  {
+    "id": 24,
+    "category": "hardware",
+    "question": { "en": "What does NVMe stand for in storage technology?" },
+    "options": { "en": ["New Volume Memory Extension", "Network Virtual Machine Engine", "Non-Volatile Memory Express", "Nano Vectored Memory Encryption"] },
+    "answer": 2,
+    "explanation": { "en": "NVMe stands for Non-Volatile Memory Express, a protocol designed for SSDs that provides much faster data transfer than older SATA interfaces." }
+  },
+  {
+    "id": 25,
+    "category": "os",
+    "question": { "en": "Who created the Linux kernel?" },
+    "options": { "en": ["Richard Stallman", "Steve Wozniak", "Ken Thompson", "Linus Torvalds"] },
+    "answer": 3,
+    "explanation": { "en": "Linus Torvalds created the Linux kernel in 1991 as a free, open-source operating system kernel." }
+  },
+  {
+    "id": 26,
+    "category": "os",
+    "question": { "en": "Which operating system kernel does Android use?" },
+    "options": { "en": ["Linux", "Windows NT", "XNU", "FreeBSD"] },
+    "answer": 0,
+    "explanation": { "en": "Android is built on top of the Linux kernel, which handles hardware abstraction, memory management, and process management." }
+  },
+  {
+    "id": 27,
+    "category": "os",
+    "question": { "en": "What is the most widely used operating system on web servers?" },
+    "options": { "en": ["Windows Server", "Linux", "macOS Server", "FreeBSD"] },
+    "answer": 1,
+    "explanation": { "en": "Linux dominates the web server market, powering the vast majority of servers worldwide due to its stability, security, and open-source nature." }
+  },
+  {
+    "id": 28,
+    "category": "os",
+    "question": { "en": "Which company developed the Windows operating system?" },
+    "options": { "en": ["Apple", "IBM", "Microsoft", "Google"] },
+    "answer": 2,
+    "explanation": { "en": "Microsoft developed Windows, first released in 1985 as a graphical interface for MS-DOS." }
+  },
+  {
+    "id": 29,
+    "category": "os",
+    "question": { "en": "What does the terminal command 'sudo' stand for?" },
+    "options": { "en": ["Super User Direct Operation", "System Utility Daemon Override", "Switch User Default Option", "Superuser Do"] },
+    "answer": 3,
+    "explanation": { "en": "The 'sudo' command stands for 'Superuser Do' and allows permitted users to execute commands with elevated (root) privileges." }
+  },
+  {
+    "id": 30,
+    "category": "os",
+    "question": { "en": "Which operating system was originally developed at Bell Labs in the 1970s?" },
+    "options": { "en": ["Unix", "MS-DOS", "Linux", "OS/2"] },
+    "answer": 0,
+    "explanation": { "en": "Unix was developed at Bell Labs by Ken Thompson, Dennis Ritchie, and others starting in 1969. It became the foundation for many modern operating systems." }
+  },
+  {
+    "id": 31,
+    "category": "general",
+    "question": { "en": "Who co-founded Apple Inc. along with Steve Wozniak and Ronald Wayne?" },
+    "options": { "en": ["Bill Gates", "Steve Jobs", "Jeff Bezos", "Tim Cook"] },
+    "answer": 1,
+    "explanation": { "en": "Steve Jobs co-founded Apple in 1976 together with Steve Wozniak and Ronald Wayne in a garage in Los Altos, California." }
+  },
+  {
+    "id": 32,
+    "category": "general",
+    "question": { "en": "What does URL stand for?" },
+    "options": { "en": ["Universal Resource Locator", "United Reference Link", "Uniform Resource Locator", "Universal Routing Language"] },
+    "answer": 2,
+    "explanation": { "en": "URL stands for Uniform Resource Locator. It is the address used to access resources on the internet." }
+  },
+  {
+    "id": 33,
+    "category": "general",
+    "question": { "en": "In what decade was the ARPANET, the precursor to the modern internet, first established?" },
+    "options": { "en": ["1950s", "1970s", "1980s", "1960s"] },
+    "answer": 3,
+    "explanation": { "en": "ARPANET was established in the late 1960s, with the first message sent between UCLA and Stanford on October 29, 1969." }
+  },
+  {
+    "id": 34,
+    "category": "general",
+    "question": { "en": "What does Wi-Fi stand for?" },
+    "options": { "en": ["Wireless Fidelity", "It is a brand name and does not stand for anything", "Wide Frequency Internet", "Wired-Free Interface"] },
+    "answer": 1,
+    "explanation": { "en": "Contrary to popular belief, Wi-Fi is a trademark of the Wi-Fi Alliance and does not stand for 'Wireless Fidelity' or anything else." }
+  },
+  {
+    "id": 35,
+    "category": "general",
+    "question": { "en": "Which technology company's motto was originally 'Don't be evil'?" },
+    "options": { "en": ["Google", "Amazon", "Facebook", "Microsoft"] },
+    "answer": 0,
+    "explanation": { "en": "Google's original code of conduct famously included the motto 'Don't be evil,' adopted in the early 2000s." }
+  },
+  {
+    "id": 36,
+    "category": "general",
+    "question": { "en": "What does the abbreviation 'IoT' stand for in technology?" },
+    "options": { "en": ["Integration of Technology", "Input/Output Transfer", "Internet of Things", "Interconnection of Terminals"] },
+    "answer": 2,
+    "explanation": { "en": "IoT stands for Internet of Things, referring to the network of physical devices embedded with sensors and software that connect and exchange data over the internet." }
+  }
+]

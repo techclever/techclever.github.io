@@ -22,6 +22,8 @@ function detectPage() {
   if (path.includes('dev')) return 'dev';
   if (path.includes('hardware')) return 'hardware';
   if (path.includes('platform')) return 'platforms';
+  if (path.includes('os')) return 'os';
+  if (path.includes('quiz')) return 'quiz';
   return 'index';
 }
 
@@ -33,7 +35,9 @@ function renderPage(page) {
     'dev': renderDev,
     'productivity': renderProductivity,
     'hardware': renderHardware,
-    'platforms': renderPlatforms
+    'platforms': renderPlatforms,
+    'os': renderOS,
+    'quiz': renderQuiz
   };
   if (renderers[page]) renderers[page]();
 }
@@ -215,6 +219,23 @@ function renderIndex() {
           <a href="productivity.html">${_t('index.see_all_prod')} \u2192</a>
         </div>
         ${_prodCardHtml(tool)}
+      </div>`;
+    }
+  }
+
+  /* OS Spotlight */
+  const osSection = document.getElementById('os-spotlight-box');
+  if (osSection) {
+    const osList = Data.getOS();
+    if (osList.length) {
+      const dayIdx = Math.floor(Date.now() / 86400000) % osList.length;
+      const os = osList[dayIdx];
+      osSection.innerHTML = `<div class="daily-os-box">
+        <div class="home-section-header">
+          <h2>${_t('index.os_spotlight')}</h2>
+          <a href="os.html">${_t('index.see_all_os')} \u2192</a>
+        </div>
+        ${_osCardHtml(os)}
       </div>`;
     }
   }
@@ -461,6 +482,278 @@ function renderPlatforms() {
         render();
       });
     });
+  }
+
+  render();
+}
+
+/* ========== OS HELPERS ========== */
+function _osCatColor(catId) {
+  const c = Data.getOSCategories().find(x => x.id === catId);
+  return c ? c.color : '#7C3AED';
+}
+
+function _osCatIcon(catId) {
+  const c = Data.getOSCategories().find(x => x.id === catId);
+  return c ? c.icon : '';
+}
+
+/* ========== OS CARD ========== */
+function _osCardHtml(os) {
+  const color = _osCatColor(os.category);
+  const pros = (_loc(os.pros) || []);
+  const cons = (_loc(os.cons) || []);
+  return `<div class="os-card" style="border-left-color:${color}">
+    <div class="os-card-header">
+      <div>
+        <div class="os-card-title">${os.name}</div>
+        <div class="os-card-meta">${os.developer} \u00b7 ${os.year} \u00b7 ${os.license}</div>
+        ${os.price ? `<div class="os-card-price">${_t('os.price')}: <strong>${os.price}</strong></div>` : ''}
+      </div>
+      <span class="os-cat-badge" style="background:${color}">${_osCatIcon(os.category)} ${_t('os_cat.' + os.category)}</span>
+    </div>
+    <div class="os-card-desc">${_loc(os.description)}</div>
+    <div class="os-pros-cons">
+      <div class="os-pros">
+        <div class="os-pc-title os-pc-pro">${_t('os.pros')}</div>
+        <ul>${pros.map(p => `<li>${p}</li>`).join('')}</ul>
+      </div>
+      <div class="os-cons">
+        <div class="os-pc-title os-pc-con">${_t('os.cons')}</div>
+        <ul>${cons.map(c => `<li>${c}</li>`).join('')}</ul>
+      </div>
+    </div>
+    <div class="os-card-best"><span class="os-best-icon">\uD83D\uDC4D</span> <strong>${_t('os.best_for')}:</strong> ${_loc(os.best_for)}</div>
+    <div class="os-card-notideal"><span class="os-best-icon">\uD83D\uDC4E</span> <strong>${_t('os.not_ideal')}:</strong> ${_loc(os.not_ideal_for)}</div>
+    <div class="os-card-footer">
+      <div class="os-card-tags">${(os.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
+      ${os.website ? `<a href="${os.website}" target="_blank" rel="noopener" class="btn btn-visit">${_t('os.visit')} \u2192</a>` : ''}
+    </div>
+  </div>`;
+}
+
+/* ========== OS TIMELINE ========== */
+function _osTimelineHtml() {
+  const history = Data.getOSHistory();
+  if (!history.length) return '';
+
+  const typeColors = { unix: '#F59E0B', windows: '#2563EB', mac: '#333', linux: '#059669', mobile: '#DC2626' };
+
+  return `
+    <div class="os-timeline-section">
+      <h2>${_t('os.history_title')}</h2>
+      <p class="section-subtitle">${_t('os.history_subtitle')}</p>
+      <div class="os-timeline">
+        ${history.map(h => {
+          const c = typeColors[h.type] || '#7C3AED';
+          return `<div class="os-tl-item">
+            <div class="os-tl-node" style="background:${c}"></div>
+            <div class="os-tl-year">${h.year}</div>
+            <div class="os-tl-card">
+              <div class="os-tl-name" style="color:${c}">${h.name}</div>
+              <div class="os-tl-desc">${_loc(h.description)}</div>
+            </div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+}
+
+/* ========== RENDER: OS ========== */
+function renderOS() {
+  const el = document.getElementById('os-content');
+  if (!el) return;
+
+  const categories = Data.getOSCategories();
+  let activeFilter = 'all';
+
+  function render() {
+    const items = activeFilter === 'all' ? Data.getOS() : Data.getOSByCategory(activeFilter);
+
+    el.innerHTML = `
+      ${_backLink()}
+      <h1>${_t('os.title')}</h1>
+      <p class="section-subtitle">${_t('os.subtitle')}</p>
+
+      <div class="filter-bar">
+        <button class="btn ${activeFilter === 'all' ? 'btn-primary' : ''}" data-filter="all">${_t('os.filter_all')}</button>
+        ${categories.map(c => `<button class="btn ${activeFilter === c.id ? 'btn-primary' : ''}" data-filter="${c.id}" style="${activeFilter === c.id ? 'background:'+c.color+';border-color:'+c.color : ''}">${c.icon} ${_t(c.name_key)}</button>`).join('')}
+      </div>
+
+      <div class="os-grid">
+        ${items.map(o => _osCardHtml(o)).join('')}
+      </div>
+
+      ${items.length === 0 ? '<p style="text-align:center;color:var(--text-gray);margin:2rem 0">No operating systems in this category yet.</p>' : ''}
+
+      ${_osTimelineHtml()}
+    `;
+
+    el.querySelectorAll('[data-filter]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeFilter = btn.dataset.filter;
+        render();
+      });
+    });
+  }
+
+  render();
+}
+
+/* ========== RENDER: QUIZ ========== */
+function renderQuiz() {
+  const el = document.getElementById('quiz-content');
+  if (!el) return;
+
+  const allQuestions = Data.getQuiz();
+  const categories = Data.getQuizCategories();
+  let selectedCat = 'all';
+  let questions = [];
+  let current = 0;
+  let score = 0;
+  let answers = [];
+  let phase = 'start';
+
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function startQuiz() {
+    const pool = selectedCat === 'all' ? allQuestions : Data.getQuizByCategory(selectedCat);
+    questions = shuffle(pool).slice(0, Math.min(15, pool.length));
+    current = 0;
+    score = 0;
+    answers = [];
+    phase = 'playing';
+    render();
+  }
+
+  function selectAnswer(idx) {
+    const q = questions[current];
+    const correct = q.answer === idx;
+    if (correct) score++;
+    answers.push({ question: q, selected: idx, correct });
+    renderFeedback(q, idx, correct);
+  }
+
+  function renderFeedback(q, selected, correct) {
+    el.querySelector('.quiz-options').querySelectorAll('.quiz-option').forEach((btn, i) => {
+      btn.disabled = true;
+      if (i === q.answer) btn.classList.add('quiz-correct');
+      if (i === selected && !correct) btn.classList.add('quiz-wrong');
+    });
+    const expEl = el.querySelector('.quiz-explanation');
+    if (expEl) {
+      expEl.innerHTML = `<div class="quiz-exp-box ${correct ? 'quiz-exp-correct' : 'quiz-exp-wrong'}">
+        <strong>${correct ? _t('quiz.correct') : _t('quiz.wrong')}</strong> ${_loc(q.explanation)}
+      </div>`;
+    }
+    const nextBtn = el.querySelector('.quiz-next-btn');
+    if (nextBtn) nextBtn.style.display = 'inline-block';
+  }
+
+  function nextQuestion() {
+    current++;
+    if (current >= questions.length) phase = 'result';
+    render();
+  }
+
+  function getGrade() {
+    const pct = Math.round((score / questions.length) * 100);
+    if (pct >= 90) return { emoji: '\uD83C\uDFC6', key: 'quiz.grade_master' };
+    if (pct >= 70) return { emoji: '\uD83C\uDF1F', key: 'quiz.grade_expert' };
+    if (pct >= 50) return { emoji: '\uD83D\uDC4D', key: 'quiz.grade_good' };
+    return { emoji: '\uD83D\uDCDA', key: 'quiz.grade_learner' };
+  }
+
+  function render() {
+    if (phase === 'start') {
+      el.innerHTML = `
+        ${_backLink()}
+        <div class="quiz-start">
+          <h1>${_t('quiz.title')}</h1>
+          <p class="section-subtitle">${_t('quiz.subtitle')}</p>
+          <div class="quiz-cat-select">
+            <p class="quiz-cat-label">${_t('quiz.choose_category')}</p>
+            <div class="filter-bar quiz-cat-bar">
+              <button class="btn ${selectedCat === 'all' ? 'btn-primary' : ''}" data-qcat="all">${_t('quiz.all_categories')}</button>
+              ${categories.map(c => `<button class="btn ${selectedCat === c.id ? 'btn-primary' : ''}" data-qcat="${c.id}">${c.icon} ${_t(c.name_key)}</button>`).join('')}
+            </div>
+          </div>
+          <button class="btn btn-primary quiz-start-btn" id="quiz-go">${_t('quiz.start')} \u2192</button>
+        </div>
+      `;
+      el.querySelectorAll('[data-qcat]').forEach(btn => {
+        btn.addEventListener('click', () => { selectedCat = btn.dataset.qcat; render(); });
+      });
+      el.querySelector('#quiz-go').addEventListener('click', startQuiz);
+      return;
+    }
+
+    if (phase === 'result') {
+      const grade = getGrade();
+      const pct = Math.round((score / questions.length) * 100);
+      el.innerHTML = `
+        ${_backLink()}
+        <div class="quiz-result">
+          <div class="quiz-result-emoji">${grade.emoji}</div>
+          <h2>${_t(grade.key)}</h2>
+          <div class="quiz-score-big">${score} / ${questions.length}</div>
+          <div class="quiz-score-pct">${pct}%</div>
+          <div class="quiz-result-actions">
+            <button class="btn btn-primary" id="quiz-retry">${_t('quiz.try_again')}</button>
+            <button class="btn" id="quiz-review">${_t('quiz.review')}</button>
+          </div>
+          <div class="quiz-review-section" id="quiz-review-list" style="display:none">
+            ${answers.map((a, i) => {
+              const opts = _loc(a.question.options) || [];
+              return `<div class="quiz-review-item ${a.correct ? 'quiz-review-correct' : 'quiz-review-wrong'}">
+                <div class="quiz-review-q"><strong>${i+1}.</strong> ${_loc(a.question.question)}</div>
+                <div class="quiz-review-a">${a.correct ? '\u2713' : '\u2717'} ${_t('quiz.your_answer')}: ${opts[a.selected] || '?'}</div>
+                ${!a.correct ? `<div class="quiz-review-correct-a">\u2713 ${_t('quiz.correct_answer')}: ${opts[a.question.answer]}</div>` : ''}
+                <div class="quiz-review-exp">${_loc(a.question.explanation)}</div>
+              </div>`;
+            }).join('')}
+          </div>
+        </div>
+      `;
+      el.querySelector('#quiz-retry').addEventListener('click', () => { phase = 'start'; render(); });
+      el.querySelector('#quiz-review').addEventListener('click', () => {
+        const list = el.querySelector('#quiz-review-list');
+        list.style.display = list.style.display === 'none' ? 'block' : 'none';
+      });
+      return;
+    }
+
+    // Playing
+    const q = questions[current];
+    const opts = _loc(q.options) || [];
+    const progress = Math.round(((current) / questions.length) * 100);
+    el.innerHTML = `
+      ${_backLink()}
+      <div class="quiz-play">
+        <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${progress}%"></div></div>
+        <div class="quiz-header">
+          <span class="quiz-counter">${current + 1} / ${questions.length}</span>
+          <span class="quiz-score-inline">${_t('quiz.score')}: ${score}</span>
+        </div>
+        <div class="quiz-question">${_loc(q.question)}</div>
+        <div class="quiz-options">
+          ${opts.map((o, i) => `<button class="quiz-option" data-ans="${i}">${o}</button>`).join('')}
+        </div>
+        <div class="quiz-explanation"></div>
+        <button class="btn btn-primary quiz-next-btn" style="display:none">${current < questions.length - 1 ? _t('quiz.next') : _t('quiz.see_results')} \u2192</button>
+      </div>
+    `;
+    el.querySelectorAll('.quiz-option').forEach(btn => {
+      btn.addEventListener('click', () => selectAnswer(parseInt(btn.dataset.ans)));
+    });
+    el.querySelector('.quiz-next-btn').addEventListener('click', nextQuestion);
   }
 
   render();

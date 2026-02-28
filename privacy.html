@@ -21,7 +21,9 @@
                 <a href="dev.html" data-i18n="nav.dev">Dev</a>
                 <a href="productivity.html" data-i18n="nav.productivity">Productivity</a>
                 <a href="hardware.html" data-i18n="nav.hardware">Hardware</a>
+                <a href="os.html" data-i18n="nav.os">OS</a>
                 <a href="platforms.html" data-i18n="nav.platforms">Platforms</a>
+                <a href="quiz.html" data-i18n="nav.quiz">Quiz</a>
                 <a href="about.html" data-i18n="nav.about">About</a>
                 <div id="lang-switcher"></div>
             </nav>
@@ -84,7 +86,9 @@
                     <li><a href="dev.html" data-i18n="nav.dev">Dev</a></li>
                     <li><a href="productivity.html" data-i18n="nav.productivity">Productivity</a></li>
                     <li><a href="hardware.html" data-i18n="nav.hardware">Hardware</a></li>
+                    <li><a href="os.html" data-i18n="nav.os">OS</a></li>
                     <li><a href="platforms.html" data-i18n="nav.platforms">Platforms</a></li>
+                    <li><a href="quiz.html" data-i18n="nav.quiz">Quiz</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -120,7 +124,9 @@
       var el = document.getElementById('visitor-counter');
       if (!el) return;
       setTimeout(function() {
-        fetch('https://techclever.goatcounter.com/counter/' + encodeURIComponent(location.pathname || '/') + '.json')
+        var p = location.pathname || '/';
+        if (p === '/index.html') p = '/';
+        fetch('https://techclever.goatcounter.com/counter/' + encodeURIComponent(p) + '.json')
           .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
           .then(function(data) { el.textContent = data.count + ' visitors'; })
           .catch(function() {});

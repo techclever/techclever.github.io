@@ -8,6 +8,9 @@ const Data = (() => {
   let _productivity = null;
   let _hardware = null;
   let _platforms = null;
+  let _os = null;
+  let _osHistory = null;
+  let _quiz = null;
 
   async function _load(url) {
     const resp = await fetch(url);
@@ -21,13 +24,15 @@ const Data = (() => {
 
   async function init() {
     if (!_games) {
-      const [games, ai, dev, productivity, hardware, platforms] = await Promise.all([
+      const [games, ai, dev, productivity, hardware, platforms, osData, quizData] = await Promise.all([
         _load('data/games.json'),
         _loadSafe('data/ai.json'),
         _loadSafe('data/dev.json'),
         _loadSafe('data/productivity.json'),
         _loadSafe('data/hardware.json'),
-        _loadSafe('data/platforms.json')
+        _loadSafe('data/platforms.json'),
+        _loadSafe('data/os.json'),
+        _loadSafe('data/quiz.json')
       ]);
       _games = games;
       _ai = ai;
@@ -35,6 +40,8 @@ const Data = (() => {
       _productivity = productivity;
       _hardware = hardware;
       _platforms = platforms;
+      if (osData) { _os = osData.os || []; _osHistory = osData.history || []; }
+      _quiz = quizData;
     }
   }
 
@@ -112,6 +119,32 @@ const Data = (() => {
   function getPlatforms() { return (_platforms || []).slice().sort((a, b) => a.year - b.year); }
   function getPlatformsByType(type) { return getPlatforms().filter(p => p.type === type); }
 
+  /* Operating Systems */
+  function getOS() { return (_os || []).slice(); }
+  function getOSByCategory(cat) { return getOS().filter(o => o.category === cat); }
+  function getOSCategories() {
+    return [
+      { id: 'desktop', icon: '\uD83D\uDCBB', color: '#2563EB', name_key: 'os_cat.desktop' },
+      { id: 'mobile', icon: '\uD83D\uDCF1', color: '#059669', name_key: 'os_cat.mobile' },
+      { id: 'server', icon: '\uD83D\uDDA5\uFE0F', color: '#DC2626', name_key: 'os_cat.server' }
+    ];
+  }
+  function getOSHistory() { return (_osHistory || []).slice().sort((a, b) => a.year - b.year); }
+
+  /* Quiz */
+  function getQuiz() { return (_quiz || []).slice(); }
+  function getQuizByCategory(cat) { return getQuiz().filter(q => q.category === cat); }
+  function getQuizCategories() {
+    return [
+      { id: 'games', icon: '\uD83C\uDFAE', name_key: 'nav.games' },
+      { id: 'ai', icon: '\uD83E\uDD16', name_key: 'nav.ai' },
+      { id: 'dev', icon: '\uD83D\uDCBB', name_key: 'nav.dev' },
+      { id: 'hardware', icon: '\uD83D\uDD27', name_key: 'nav.hardware' },
+      { id: 'os', icon: '\uD83D\uDDA5\uFE0F', name_key: 'nav.os' },
+      { id: 'general', icon: '\uD83C\uDF10', name_key: 'quiz.cat_general' }
+    ];
+  }
+
   return {
     init,
     getGames, getGamesByGenre, getGameGenres,
@@ -119,6 +152,8 @@ const Data = (() => {
     getDev, getDevByCategory, getDevCategories,
     getProductivity, getProductivityByCategory, getProductivityCategories,
     getHardware, getHardwareByCategory, getHardwareCategories,
-    getPlatforms, getPlatformsByType
+    getPlatforms, getPlatformsByType,
+    getOS, getOSByCategory, getOSCategories, getOSHistory,
+    getQuiz, getQuizByCategory, getQuizCategories
   };
 })();
