@@ -1,0 +1,272 @@
+[
+  {
+    "id": "notion",
+    "name": "Notion",
+    "category": "notes",
+    "url": "https://notion.so",
+    "pricing": "Free / Plus $10/mo",
+    "description": {
+      "en": "Notion is an all-in-one workspace that combines notes, documents, databases, and project management into a single platform. It supports rich content blocks, nested pages, and powerful database views. Teams and individuals use it to build wikis, track tasks, and organize knowledge bases."
+    },
+    "best_for": {
+      "en": "Teams and individuals who want a single tool for notes, docs, and lightweight project management. Especially popular with startups and knowledge workers."
+    },
+    "platforms": "Web, Desktop, Mobile",
+    "tags": ["all-in-one", "collaborative", "databases", "wiki"]
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "category": "notes",
+    "url": "https://obsidian.md",
+    "pricing": "Free / Sync $4/mo",
+    "description": {
+      "en": "Obsidian is a powerful knowledge management app built on local Markdown files. It features bidirectional linking, a graph view of connected notes, and a thriving plugin ecosystem. All data stays on your device by default, giving you full ownership of your notes."
+    },
+    "best_for": {
+      "en": "Researchers, writers, and developers who value privacy, local-first storage, and building a personal knowledge graph with linked notes."
+    },
+    "platforms": "Desktop, Mobile",
+    "tags": ["local-first", "markdown", "knowledge-graph", "privacy"]
+  },
+  {
+    "id": "apple_notes",
+    "name": "Apple Notes",
+    "category": "notes",
+    "url": "https://apps.apple.com/app/notes/id1110145109",
+    "pricing": "Free (included with Apple devices)",
+    "description": {
+      "en": "Apple Notes is a built-in note-taking app available across all Apple devices with seamless iCloud sync. It supports rich text, checklists, sketches, document scanning, and folder organization. Recent updates added smart folders, tags, and real-time collaboration features."
+    },
+    "best_for": {
+      "en": "Apple ecosystem users who want a simple, fast, and reliable note-taking app that syncs effortlessly across iPhone, iPad, and Mac."
+    },
+    "platforms": "macOS, iOS, iPadOS, Web (iCloud)",
+    "tags": ["free", "apple-ecosystem", "simple", "built-in"]
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "category": "project",
+    "url": "https://trello.com",
+    "pricing": "Free / Standard $5/mo",
+    "description": {
+      "en": "Trello is a visual project management tool centered around Kanban-style boards, lists, and cards. It makes organizing tasks intuitive through drag-and-drop workflows. Power-Ups extend functionality with integrations for calendars, automation, and third-party services."
+    },
+    "best_for": {
+      "en": "Small teams and freelancers who prefer a visual, card-based approach to task management without a steep learning curve."
+    },
+    "platforms": "Web, Desktop, Mobile",
+    "tags": ["kanban", "visual", "beginner-friendly", "collaborative"]
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "category": "project",
+    "url": "https://asana.com",
+    "pricing": "Free / Starter $10.99/mo",
+    "description": {
+      "en": "Asana is a comprehensive work management platform for teams of all sizes. It offers multiple project views including lists, boards, timelines, and calendars. Advanced features include goals tracking, workload management, and portfolio-level reporting across projects."
+    },
+    "best_for": {
+      "en": "Mid-size to large teams that need structured project tracking with dependencies, milestones, and cross-project visibility."
+    },
+    "platforms": "Web, Desktop, Mobile",
+    "tags": ["enterprise", "timeline", "goals", "collaborative"]
+  },
+  {
+    "id": "linear",
+    "name": "Linear",
+    "category": "project",
+    "url": "https://linear.app",
+    "pricing": "Free / Plus $8/mo",
+    "description": {
+      "en": "Linear is a streamlined issue-tracking tool designed for modern software teams. It emphasizes speed with keyboard shortcuts, a clean interface, and opinionated workflows like cycles and triage. Deep integrations with GitHub, GitLab, and Slack make it a developer favorite."
+    },
+    "best_for": {
+      "en": "Software engineering teams who want a fast, focused issue tracker with Git integration and minimal friction in their development workflow."
+    },
+    "platforms": "Web, Desktop, Mobile",
+    "tags": ["developer", "fast", "issue-tracking", "git-integration"]
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "category": "communication",
+    "url": "https://slack.com",
+    "pricing": "Free / Pro $7.25/mo",
+    "description": {
+      "en": "Slack is the leading team communication platform built around channels, threads, and direct messages. It supports file sharing, voice and video calls, and a massive app directory with thousands of integrations. Slack Connect enables secure communication across organizations."
+    },
+    "best_for": {
+      "en": "Remote and hybrid teams that need organized, real-time communication with deep integrations into their existing tools and workflows."
+    },
+    "platforms": "Web, Desktop, Mobile",
+    "tags": ["team-chat", "integrations", "channels", "enterprise"]
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "category": "communication",
+    "url": "https://discord.com",
+    "pricing": "Free / Nitro $9.99/mo",
+    "description": {
+      "en": "Discord is a versatile communication platform originally built for gamers that has expanded into communities, education, and team collaboration. It offers text channels, voice channels, video calls, screen sharing, and community forums. Server-based organization allows for structured group communication."
+    },
+    "best_for": {
+      "en": "Communities, open-source projects, and informal teams who want always-on voice channels alongside persistent text chat and community features."
+    },
+    "platforms": "Web, Desktop, Mobile",
+    "tags": ["community", "voice-chat", "free", "forums"]
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom",
+    "category": "communication",
+    "url": "https://zoom.us",
+    "pricing": "Free / Pro $13.33/mo",
+    "description": {
+      "en": "Zoom is the industry-standard video conferencing platform for meetings, webinars, and virtual events. It supports HD video, screen sharing, breakout rooms, recording, and AI-powered meeting summaries. Zoom Phone and Zoom Rooms extend its capabilities into telephony and conference room solutions."
+    },
+    "best_for": {
+      "en": "Businesses and educators who need reliable, high-quality video meetings with features like recording, transcription, and large-participant webinars."
+    },
+    "platforms": "Web, Desktop, Mobile",
+    "tags": ["video-conferencing", "webinars", "enterprise", "recording"]
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "design",
+    "url": "https://figma.com",
+    "pricing": "Free / Professional $12/mo",
+    "description": {
+      "en": "Figma is a browser-based design tool for UI/UX design, prototyping, and design systems. Its real-time collaboration features allow multiple designers to work on the same file simultaneously. FigJam, its companion whiteboard tool, supports brainstorming and diagramming."
+    },
+    "best_for": {
+      "en": "Design teams building user interfaces, design systems, and interactive prototypes who need real-time collaboration without desktop software installs."
+    },
+    "platforms": "Web, Desktop",
+    "tags": ["ui-design", "collaborative", "prototyping", "design-systems"]
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "category": "design",
+    "url": "https://canva.com",
+    "pricing": "Free / Pro $12.99/mo",
+    "description": {
+      "en": "Canva is an easy-to-use graphic design platform with thousands of templates for social media posts, presentations, documents, and marketing materials. Its drag-and-drop editor, stock photo library, and AI-powered tools make professional design accessible to non-designers."
+    },
+    "best_for": {
+      "en": "Marketers, small business owners, and content creators who need to produce polished visuals quickly without professional design skills."
+    },
+    "platforms": "Web, Desktop, Mobile",
+    "tags": ["templates", "beginner-friendly", "marketing", "social-media"]
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "category": "design",
+    "url": "https://excalidraw.com",
+    "pricing": "Free (open-source) / Excalidraw+ $7/mo",
+    "description": {
+      "en": "Excalidraw is an open-source virtual whiteboard for sketching diagrams with a hand-drawn aesthetic. It supports real-time collaboration, a shared component library, and end-to-end encryption for private sessions. Its simplicity and charm make it ideal for technical diagrams and brainstorming."
+    },
+    "best_for": {
+      "en": "Developers and teams who need a quick, lightweight tool for architecture diagrams, wireframes, and collaborative brainstorming with a distinctive hand-drawn look."
+    },
+    "platforms": "Web, Desktop (via Electron)",
+    "tags": ["open-source", "whiteboard", "diagrams", "hand-drawn"]
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier",
+    "category": "automation",
+    "url": "https://zapier.com",
+    "pricing": "Free / Starter $19.99/mo",
+    "description": {
+      "en": "Zapier connects over 7,000 apps to automate workflows without writing code. Users create \"Zaps\" that trigger actions across services, such as saving email attachments to cloud storage or posting Slack notifications from form submissions. Multi-step Zaps and conditional logic enable complex automation chains."
+    },
+    "best_for": {
+      "en": "Non-technical users and small businesses who want to automate repetitive tasks across their favorite apps without any coding knowledge."
+    },
+    "platforms": "Web",
+    "tags": ["no-code", "integrations", "workflow", "popular"]
+  },
+  {
+    "id": "make",
+    "name": "Make (formerly Integromat)",
+    "category": "automation",
+    "url": "https://make.com",
+    "pricing": "Free / Core $9/mo",
+    "description": {
+      "en": "Make is a visual automation platform that lets you design, build, and automate workflows using a drag-and-drop interface. It supports complex branching, loops, error handling, and data transformation. With connections to over 1,800 apps, it offers more granular control than many competitors."
+    },
+    "best_for": {
+      "en": "Power users and agencies who need advanced automation scenarios with data manipulation, branching logic, and detailed execution control."
+    },
+    "platforms": "Web",
+    "tags": ["visual-builder", "advanced", "data-transformation", "affordable"]
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "category": "automation",
+    "url": "https://n8n.io",
+    "pricing": "Free (self-hosted) / Cloud from $20/mo",
+    "description": {
+      "en": "n8n is a fair-code workflow automation tool that can be self-hosted for full data control. It provides a visual node-based editor with support for custom JavaScript/Python code nodes alongside pre-built integrations. The self-hosted option makes it popular with privacy-conscious teams and developers."
+    },
+    "best_for": {
+      "en": "Developers and technical teams who want self-hosted automation with the flexibility to write custom code alongside visual workflow building."
+    },
+    "platforms": "Web (self-hosted or cloud)",
+    "tags": ["self-hosted", "open-source", "developer", "privacy"]
+  },
+  {
+    "id": "google_drive",
+    "name": "Google Drive",
+    "category": "cloud",
+    "url": "https://drive.google.com",
+    "pricing": "Free 15 GB / Google One from $1.99/mo",
+    "description": {
+      "en": "Google Drive is a cloud storage service tightly integrated with Google Workspace apps like Docs, Sheets, and Slides. It offers real-time collaboration, powerful search, and seamless sharing with granular permissions. AI-powered features help organize files and surface relevant documents automatically."
+    },
+    "best_for": {
+      "en": "Teams and individuals already using Google Workspace who need reliable cloud storage with excellent collaboration and sharing capabilities."
+    },
+    "platforms": "Web, Desktop, Mobile",
+    "tags": ["google-ecosystem", "collaborative", "office-suite", "popular"]
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "category": "cloud",
+    "url": "https://dropbox.com",
+    "pricing": "Free 2 GB / Plus $11.99/mo",
+    "description": {
+      "en": "Dropbox is a veteran cloud storage platform known for its reliable file syncing and smart sync technology that saves local disk space. It includes Dropbox Paper for collaborative documents, file transfer tools, and electronic signature capabilities. Smart Sync and selective sync give fine control over what lives on each device."
+    },
+    "best_for": {
+      "en": "Professionals and teams who prioritize fast, reliable file syncing across devices and need features like smart sync to manage storage efficiently."
+    },
+    "platforms": "Web, Desktop, Mobile",
+    "tags": ["file-sync", "reliable", "smart-sync", "established"]
+  },
+  {
+    "id": "icloud",
+    "name": "iCloud",
+    "category": "cloud",
+    "url": "https://icloud.com",
+    "pricing": "Free 5 GB / iCloud+ from $0.99/mo",
+    "description": {
+      "en": "iCloud is Apple's cloud storage and syncing service that seamlessly integrates across all Apple devices. It handles photos, documents, device backups, passwords, and app data synchronization. iCloud+ adds features like Private Relay, Hide My Email, and custom email domains."
+    },
+    "best_for": {
+      "en": "Apple ecosystem users who want effortless syncing of photos, files, and device data across iPhone, iPad, Mac, and Apple Watch."
+    },
+    "platforms": "macOS, iOS, iPadOS, Web, Windows",
+    "tags": ["apple-ecosystem", "photos", "backup", "privacy"]
+  }
+]

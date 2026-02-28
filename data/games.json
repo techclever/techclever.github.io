@@ -1,0 +1,452 @@
+[
+  {
+    "id": "witcher3",
+    "title": "The Witcher 3: Wild Hunt",
+    "genre": "rpg",
+    "platform": "PC, PS5, Xbox, Switch",
+    "year": 2015,
+    "developer": "CD Projekt Red",
+    "description": {
+      "en": "An epic open-world RPG where you play as Geralt of Rivia, a monster hunter searching for his adopted daughter. The game features a sprawling narrative with morally complex choices, memorable characters, and two massive expansions that rival standalone games. Its richly detailed world of war-torn kingdoms and ancient magic set a new benchmark for the genre."
+    },
+    "why_play": {
+      "en": "One of the greatest RPGs ever made, offering hundreds of hours of masterful storytelling and world-building. The combat, exploration, and Gwent card game create an experience that keeps pulling you back in."
+    },
+    "tags": ["open-world", "story-rich", "classic"]
+  },
+  {
+    "id": "skyrim",
+    "title": "The Elder Scrolls V: Skyrim",
+    "genre": "rpg",
+    "platform": "PC, PS5, Xbox, Switch",
+    "year": 2011,
+    "developer": "Bethesda Game Studios",
+    "description": {
+      "en": "A legendary open-world RPG set in the frozen province of Skyrim, where you are the Dragonborn destined to defeat the world-eating dragon Alduin. With complete freedom to explore, join guilds, learn magic, and shape your character however you wish, no two playthroughs are the same. Its modding community has kept the game alive and evolving for well over a decade."
+    },
+    "why_play": {
+      "en": "Few games offer the sheer sense of freedom and discovery that Skyrim delivers. Whether you want to be a stealthy archer, a powerful mage, or a noble warrior, the world bends to your imagination."
+    },
+    "tags": ["open-world", "moddable", "classic", "fantasy"]
+  },
+  {
+    "id": "elden-ring",
+    "title": "Elden Ring",
+    "genre": "rpg",
+    "platform": "PC, PS5, Xbox",
+    "year": 2022,
+    "developer": "FromSoftware",
+    "description": {
+      "en": "A vast open-world action RPG born from the collaboration between Hidetaka Miyazaki and George R.R. Martin. Players explore the shattered Lands Between, battling towering bosses and uncovering cryptic lore across a stunningly interconnected world. Its demanding but fair combat system rewards patience, experimentation, and mastery."
+    },
+    "why_play": {
+      "en": "Elden Ring combines the punishing satisfaction of Dark Souls with unprecedented open-world freedom. Every hill hides a secret, every boss tells a story, and victory has never felt so earned."
+    },
+    "tags": ["open-world", "souls-like", "challenging"]
+  },
+  {
+    "id": "baldurs-gate-3",
+    "title": "Baldur's Gate 3",
+    "genre": "rpg",
+    "platform": "PC, PS5, Xbox",
+    "year": 2023,
+    "developer": "Larian Studios",
+    "description": {
+      "en": "A sprawling CRPG based on Dungeons & Dragons 5th Edition rules, featuring an incredible degree of player choice and consequence. Every conversation, combat encounter, and exploration moment can unfold in wildly different ways depending on your decisions. With deep companion relationships and a campaign that spans over 100 hours, it redefined what players expect from the genre."
+    },
+    "why_play": {
+      "en": "Baldur's Gate 3 is a masterclass in player agency, where your creativity is genuinely rewarded at every turn. Its co-op multiplayer makes it one of the best shared RPG experiences ever crafted."
+    },
+    "tags": ["turn-based", "story-rich", "co-op", "D&D"]
+  },
+  {
+    "id": "ff7-remake",
+    "title": "Final Fantasy VII Remake",
+    "genre": "rpg",
+    "platform": "PC, PS5",
+    "year": 2020,
+    "developer": "Square Enix",
+    "description": {
+      "en": "A stunning reimagining of the beloved 1997 classic, expanding the opening hours of the original into a full-length action RPG. Players follow Cloud Strife and the eco-terrorist group AVALANCHE as they fight the Shinra megacorporation in the sprawling city of Midgar. The hybrid real-time and tactical combat system breathes new life into iconic battles."
+    },
+    "why_play": {
+      "en": "Whether you are a longtime fan or a newcomer, the Remake delivers an emotionally powerful story wrapped in gorgeous visuals and thrilling combat. It honors the legacy of the original while boldly charting its own path."
+    },
+    "tags": ["action-rpg", "story-rich", "remake"]
+  },
+  {
+    "id": "civilization-vi",
+    "title": "Sid Meier's Civilization VI",
+    "genre": "strategy",
+    "platform": "PC, PS4, Xbox, Switch",
+    "year": 2016,
+    "developer": "Firaxis Games",
+    "description": {
+      "en": "The definitive 4X strategy game where you lead a civilization from the ancient era to the information age, competing against other leaders through diplomacy, warfare, culture, and science. The unstacking of cities onto the map adds a new layer of strategic depth to district placement and city planning. With dozens of civilizations and leaders, each game tells a unique story of human history."
+    },
+    "why_play": {
+      "en": "The ultimate 'just one more turn' experience that can consume entire weekends in the best possible way. Its accessible design welcomes newcomers while offering enough depth to satisfy veteran strategists."
+    },
+    "tags": ["4X", "turn-based", "historical"]
+  },
+  {
+    "id": "age-of-empires-iv",
+    "title": "Age of Empires IV",
+    "genre": "strategy",
+    "platform": "PC, Xbox",
+    "year": 2021,
+    "developer": "Relic Entertainment",
+    "description": {
+      "en": "A triumphant return for the legendary real-time strategy franchise, spanning eight civilizations across the medieval period. The game features beautifully produced documentary-style campaigns that bring historical battles to life with stunning detail. Each civilization plays distinctly, with unique units, mechanics, and architectural styles that reflect their real-world counterparts."
+    },
+    "why_play": {
+      "en": "Age of Empires IV perfectly balances nostalgia with modern game design, making it the best entry point for RTS newcomers and veterans alike. The historical campaigns are both educational and thrilling."
+    },
+    "tags": ["real-time", "historical", "competitive"]
+  },
+  {
+    "id": "xcom-2",
+    "title": "XCOM 2",
+    "genre": "strategy",
+    "platform": "PC, PS4, Xbox, Switch",
+    "year": 2016,
+    "developer": "Firaxis Games",
+    "description": {
+      "en": "A turn-based tactical masterpiece where Earth has fallen to alien invaders and you lead a guerrilla resistance force to reclaim the planet. Every mission is a nail-biting exercise in risk management, where a single wrong move can permanently kill a soldier you have invested hours into developing. The War of the Chosen expansion adds rival factions, new enemies, and a nemesis system that elevates the experience further."
+    },
+    "why_play": {
+      "en": "XCOM 2 creates unforgettable emergent stories through its permadeath system and procedurally generated missions. The tension of a perfectly executed ambush or a desperate last-stand evacuation is unmatched in gaming."
+    },
+    "tags": ["turn-based", "tactical", "permadeath"]
+  },
+  {
+    "id": "starcraft-ii",
+    "title": "StarCraft II",
+    "genre": "strategy",
+    "platform": "PC",
+    "year": 2010,
+    "developer": "Blizzard Entertainment",
+    "description": {
+      "en": "The gold standard of competitive real-time strategy, featuring three asymmetric races locked in an interstellar conflict. Its three campaign installments tell an epic sci-fi saga across the Terran, Zerg, and Protoss factions. The multiplayer scene, driven by razor-sharp balance and incredible skill ceilings, helped define modern esports."
+    },
+    "why_play": {
+      "en": "StarCraft II remains the pinnacle of competitive RTS design, with a free-to-play multiplayer that is as thrilling to watch as it is to play. Its campaigns offer some of the best single-player strategy content ever made."
+    },
+    "tags": ["real-time", "competitive", "esports", "sci-fi"]
+  },
+  {
+    "id": "total-war-warhammer-iii",
+    "title": "Total War: Warhammer III",
+    "genre": "strategy",
+    "platform": "PC",
+    "year": 2022,
+    "developer": "Creative Assembly",
+    "description": {
+      "en": "The grand finale of the Total War: Warhammer trilogy, combining turn-based empire management with massive real-time battles featuring thousands of units. The Immortal Empires campaign merges all three games into one colossal sandbox with over 80 playable factions. From daemon princes to cathayan dragons, the sheer variety of armies and playstyles is staggering."
+    },
+    "why_play": {
+      "en": "Total War: Warhammer III is the ultimate fantasy strategy experience, offering a scale and variety that no other game can match. Commanding a tide of monsters, heroes, and magic across epic battlefields never gets old."
+    },
+    "tags": ["real-time", "turn-based", "fantasy", "grand-strategy"]
+  },
+  {
+    "id": "counter-strike-2",
+    "title": "Counter-Strike 2",
+    "genre": "fps",
+    "platform": "PC",
+    "year": 2023,
+    "developer": "Valve",
+    "description": {
+      "en": "The latest evolution of the most iconic competitive shooter franchise, rebuilt on the Source 2 engine with responsive tick-rate improvements and stunning visual upgrades. Teams of terrorists and counter-terrorists compete in round-based matches where gunplay precision and team coordination determine victory. Its economy system and map design have been refined over two decades into near-perfection."
+    },
+    "why_play": {
+      "en": "Counter-Strike 2 is the definitive competitive FPS, where raw skill, map knowledge, and teamwork matter more than anything else. Its high skill ceiling ensures that improving always feels rewarding."
+    },
+    "tags": ["competitive", "esports", "tactical"]
+  },
+  {
+    "id": "doom-eternal",
+    "title": "DOOM Eternal",
+    "genre": "fps",
+    "platform": "PC, PS5, Xbox, Switch",
+    "year": 2020,
+    "developer": "id Software",
+    "description": {
+      "en": "A relentless and exhilarating first-person shooter that puts you in the boots of the Doom Slayer on a mission to stop Hell's invasion of Earth. The combat loop of shooting, glory-killing, and chainsawing demons for resources transforms every encounter into an adrenaline-fueled puzzle. Its blistering heavy metal soundtrack perfectly complements the non-stop action."
+    },
+    "why_play": {
+      "en": "DOOM Eternal is pure, distilled fun that makes you feel like an unstoppable force of nature. Its combat system is so perfectly tuned that every demon encounter feels like a violent ballet."
+    },
+    "tags": ["fast-paced", "single-player", "action"]
+  },
+  {
+    "id": "half-life-2",
+    "title": "Half-Life 2",
+    "genre": "fps",
+    "platform": "PC, Xbox",
+    "year": 2004,
+    "developer": "Valve",
+    "description": {
+      "en": "A groundbreaking first-person shooter that follows physicist Gordon Freeman through a dystopian Earth ruled by the alien Combine empire. Its revolutionary physics engine powers the iconic Gravity Gun and creates puzzles and combat encounters that felt decades ahead of their time. The atmospheric world-building and seamless storytelling without cutscenes changed how narrative is delivered in games."
+    },
+    "why_play": {
+      "en": "Half-Life 2 is a timeless masterpiece that still feels incredible to play, with level design and pacing that most modern shooters cannot match. It is essential gaming history that every FPS fan should experience."
+    },
+    "tags": ["story-rich", "classic", "physics-based"]
+  },
+  {
+    "id": "valorant",
+    "title": "Valorant",
+    "genre": "fps",
+    "platform": "PC, PS5, Xbox",
+    "year": 2020,
+    "developer": "Riot Games",
+    "description": {
+      "en": "A tactical 5v5 shooter that blends precise gunplay with unique agent abilities, creating a strategic layer on top of classic competitive FPS mechanics. Each agent brings distinct utility like smokes, flashes, and recon tools that enable creative team strategies. Regular content updates, new agents, and maps keep the competitive meta constantly evolving."
+    },
+    "why_play": {
+      "en": "Valorant strikes a brilliant balance between mechanical skill and strategic depth, making it accessible yet incredibly deep. Its thriving competitive scene and frequent updates ensure there is always something new to master."
+    },
+    "tags": ["competitive", "tactical", "esports", "hero-shooter"]
+  },
+  {
+    "id": "halo-infinite",
+    "title": "Halo Infinite",
+    "genre": "fps",
+    "platform": "PC, Xbox",
+    "year": 2021,
+    "developer": "343 Industries",
+    "description": {
+      "en": "The latest chapter in the legendary Halo saga, featuring Master Chief's most personal story yet as he battles the Banished on the mysterious Zeta Halo. The open-world campaign lets players tackle objectives freely across a vast ringworld with a grappling hook that transforms traversal and combat. Its free-to-play multiplayer captures the classic Halo arena shooter feel with modern polish."
+    },
+    "why_play": {
+      "en": "Halo Infinite's sandbox combat is endlessly creative, and the grappleshot is one of the most fun tools in FPS history. The multiplayer delivers that unmistakable Halo magic that keeps you coming back for one more match."
+    },
+    "tags": ["arena-shooter", "open-world", "sci-fi"]
+  },
+  {
+    "id": "hollow-knight",
+    "title": "Hollow Knight",
+    "genre": "indie",
+    "platform": "PC, PS4, Xbox, Switch",
+    "year": 2017,
+    "developer": "Team Cherry",
+    "description": {
+      "en": "A hauntingly beautiful metroidvania set in the vast underground kingdom of Hallownest, teeming with insects, secrets, and challenging boss fights. Players explore interconnected areas, unlock new abilities, and uncover a melancholic story told through environmental details and cryptic NPC dialogue. Its hand-drawn art style and atmospheric soundtrack create an unforgettable sense of place."
+    },
+    "why_play": {
+      "en": "Hollow Knight offers an absurd amount of content and quality for its price, with dozens of hours of exploration and some of the best boss fights in any 2D game. It is a masterpiece that rewards curiosity and perseverance in equal measure."
+    },
+    "tags": ["metroidvania", "challenging", "atmospheric"]
+  },
+  {
+    "id": "celeste",
+    "title": "Celeste",
+    "genre": "indie",
+    "platform": "PC, PS4, Xbox, Switch",
+    "year": 2018,
+    "developer": "Maddy Makes Games",
+    "description": {
+      "en": "A precision platformer about a young woman named Madeline climbing the titular Celeste Mountain while battling her inner demons. Each screen presents a new challenge that tests your reflexes and problem-solving, with tight controls that make every death feel fair. Its touching narrative about anxiety and self-acceptance elevates it far beyond a typical platformer."
+    },
+    "why_play": {
+      "en": "Celeste proves that difficulty and accessibility can coexist, with assist options that let anyone experience its beautiful story. The pixel-perfect controls and deeply human narrative make it one of the most emotionally resonant games ever made."
+    },
+    "tags": ["platformer", "story-rich", "challenging"]
+  },
+  {
+    "id": "hades",
+    "title": "Hades",
+    "genre": "indie",
+    "platform": "PC, PS5, Xbox, Switch",
+    "year": 2020,
+    "developer": "Supergiant Games",
+    "description": {
+      "en": "A roguelike dungeon crawler where you play as Zagreus, son of Hades, attempting to escape the Underworld with the aid of Olympian gods who grant powerful boons. Each escape attempt plays differently thanks to randomized room layouts, weapon choices, and god combinations that create wildly varied builds. The narrative brilliantly weaves into the roguelike loop, with story progression that continues whether you succeed or fail."
+    },
+    "why_play": {
+      "en": "Hades solved the biggest problem in roguelikes by making every single run feel meaningful through its ever-advancing story. Its fast, fluid combat and incredible voice acting make it impossible to put down."
+    },
+    "tags": ["roguelike", "action", "story-rich"]
+  },
+  {
+    "id": "stardew-valley",
+    "title": "Stardew Valley",
+    "genre": "indie",
+    "platform": "PC, PS4, Xbox, Switch, Mobile",
+    "year": 2016,
+    "developer": "ConcernedApe",
+    "description": {
+      "en": "A charming farming simulation where you inherit your grandfather's old farm and build a new life in the rural town of Pelican Town. Beyond farming, you can mine, fish, forage, raise animals, and build relationships with the townspeople, each with their own unique stories. Created entirely by one developer, it has grown into one of the most beloved indie games of all time."
+    },
+    "why_play": {
+      "en": "Stardew Valley is the perfect cozy game, offering a gentle escape where there is always something satisfying to do at your own pace. Its depth of content and continued free updates make it an incredible value."
+    },
+    "tags": ["farming-sim", "relaxing", "co-op"]
+  },
+  {
+    "id": "undertale",
+    "title": "Undertale",
+    "genre": "indie",
+    "platform": "PC, PS4, Xbox, Switch",
+    "year": 2015,
+    "developer": "Toby Fox",
+    "description": {
+      "en": "A genre-defying RPG where a child falls into an underground world of monsters and can choose to fight, spare, or befriend every creature they encounter. Its innovative combat system blends turn-based menus with bullet-hell dodging sequences, and the game remembers your choices in ways that are genuinely surprising. The witty writing, iconic characters, and legendary soundtrack have cemented it as a cultural phenomenon."
+    },
+    "why_play": {
+      "en": "Undertale subverts everything you expect from an RPG and delivers one of the most memorable experiences in gaming. Multiple playthroughs reveal entirely different games, and its emotional moments will stay with you long after the credits roll."
+    },
+    "tags": ["story-rich", "unique-combat", "multiple-endings"]
+  },
+  {
+    "id": "portal-2",
+    "title": "Portal 2",
+    "genre": "puzzle",
+    "platform": "PC, PS3, Xbox 360",
+    "year": 2011,
+    "developer": "Valve",
+    "description": {
+      "en": "A first-person puzzle game where you use a portal gun to create linked doorways on surfaces, solving increasingly complex spatial puzzles in the decaying Aperture Science facility. The single-player campaign features some of the sharpest writing in gaming, with the sardonic AI GLaDOS and the lovably incompetent Wheatley providing constant entertainment. A separate co-op campaign doubles the portals and the fun with a friend."
+    },
+    "why_play": {
+      "en": "Portal 2 is a perfect game, combining brilliant puzzle design with laugh-out-loud humor and a surprisingly emotional story. Its co-op mode is one of the best cooperative experiences ever designed."
+    },
+    "tags": ["first-person", "co-op", "humor", "classic"]
+  },
+  {
+    "id": "tetris-effect",
+    "title": "Tetris Effect: Connected",
+    "genre": "puzzle",
+    "platform": "PC, PS5, Xbox, Switch",
+    "year": 2018,
+    "developer": "Enhance",
+    "description": {
+      "en": "A transcendent reimagining of Tetris that wraps the timeless block-dropping gameplay in stunning audiovisual experiences that react to your every move. Each stage features unique music, particle effects, and backgrounds that pulse and evolve as you clear lines, creating a synesthetic journey unlike anything else. The Connected multiplayer mode adds cooperative and competitive play to the mix."
+    },
+    "why_play": {
+      "en": "Tetris Effect transforms the most iconic puzzle game ever made into a meditative, emotional experience that can genuinely move you to tears. It proves that even a 40-year-old game can feel completely new."
+    },
+    "tags": ["rhythm", "meditative", "classic-reimagined"]
+  },
+  {
+    "id": "the-witness",
+    "title": "The Witness",
+    "genre": "puzzle",
+    "platform": "PC, PS4, Xbox, Mobile",
+    "year": 2016,
+    "developer": "Thekla, Inc.",
+    "description": {
+      "en": "An open-world puzzle game set on a mysterious, colorful island filled with hundreds of line-drawing puzzles on panels scattered throughout the environment. What begins as simple mazes gradually evolves into an astounding variety of puzzle mechanics that teach themselves without a single word of instruction. The island itself hides deeper layers of meaning and secret puzzles that reward careful observation."
+    },
+    "why_play": {
+      "en": "The Witness is a celebration of the joy of learning, where every breakthrough moment makes you feel genuinely brilliant. Its non-linear structure means you can always walk away from a tough puzzle and find something new to discover."
+    },
+    "tags": ["open-world", "non-linear", "minimalist"]
+  },
+  {
+    "id": "baba-is-you",
+    "title": "Baba Is You",
+    "genre": "puzzle",
+    "platform": "PC, Switch, Mobile",
+    "year": 2019,
+    "developer": "Hempuli",
+    "description": {
+      "en": "A revolutionary puzzle game where the rules of each level are physical objects you can push around and rearrange to change how the game works. By manipulating word blocks like 'BABA IS YOU' and 'FLAG IS WIN,' you redefine what you control, what kills you, and what counts as victory. Its deceptively simple presentation hides some of the most mind-bending puzzles ever conceived."
+    },
+    "why_play": {
+      "en": "Baba Is You will make you think about puzzle games in an entirely new way, constantly surprising you with solutions you never thought possible. It is one of the most original and creative games ever made."
+    },
+    "tags": ["logic", "innovative", "minimalist"]
+  },
+  {
+    "id": "return-of-the-obra-dinn",
+    "title": "Return of the Obra Dinn",
+    "genre": "puzzle",
+    "platform": "PC, PS4, Xbox, Switch",
+    "year": 2018,
+    "developer": "Lucas Pope",
+    "description": {
+      "en": "A mystery puzzle game where you board a ghost ship and use a magical pocket watch to witness the final moments of each crew member who died aboard. Your task is to identify all 60 passengers and crew, determine how each one died, and figure out who or what killed them. Its striking 1-bit visual style and intricate deductive gameplay create a wholly unique detective experience."
+    },
+    "why_play": {
+      "en": "Return of the Obra Dinn is the most satisfying detective game ever made, where every deduction feels like cracking a real case. Its ingenious design respects your intelligence and delivers some of the most rewarding eureka moments in gaming."
+    },
+    "tags": ["mystery", "deduction", "unique-art-style"]
+  },
+  {
+    "id": "zelda-totk",
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "genre": "action",
+    "platform": "Switch",
+    "year": 2023,
+    "developer": "Nintendo",
+    "description": {
+      "en": "The sequel to Breath of the Wild expands Hyrule vertically with sky islands and underground depths, while giving Link extraordinary new abilities to fuse items and build contraptions. The Ultrahand and Fuse mechanics turn the entire world into a creative sandbox where players engineer wild solutions to every challenge. Its physics-driven gameplay encourages experimentation and rewards creativity in ways no other game can match."
+    },
+    "why_play": {
+      "en": "Tears of the Kingdom is a triumph of game design that makes you feel like a genius inventor every time you solve a problem your own way. It is one of the most creatively liberating games ever made."
+    },
+    "tags": ["open-world", "creative", "adventure"]
+  },
+  {
+    "id": "god-of-war-ragnarok",
+    "title": "God of War Ragnarok",
+    "genre": "action",
+    "platform": "PS5, PC",
+    "year": 2022,
+    "developer": "Santa Monica Studio",
+    "description": {
+      "en": "The epic conclusion to Kratos and Atreus's Norse saga, spanning all nine realms as they confront the prophesied end of the world, Ragnarok. Its weighty, visceral combat system expands on the 2018 game with new weapons, abilities, and companion mechanics that keep fights feeling fresh throughout. The emotionally charged story of a father and son navigating destiny, grief, and identity is powerfully told."
+    },
+    "why_play": {
+      "en": "God of War Ragnarok delivers a blockbuster experience that balances spectacular action with genuinely moving storytelling. The relationship between Kratos and Atreus is one of gaming's greatest father-son narratives."
+    },
+    "tags": ["story-rich", "mythology", "cinematic"]
+  },
+  {
+    "id": "rdr2",
+    "title": "Red Dead Redemption 2",
+    "genre": "action",
+    "platform": "PC, PS4, Xbox",
+    "year": 2018,
+    "developer": "Rockstar Games",
+    "description": {
+      "en": "A sweeping open-world epic set in the dying days of the American frontier, following outlaw Arthur Morgan and the Van der Linde gang as civilization closes in. The staggering attention to detail in its living world creates an unparalleled sense of immersion, from dynamic weather systems to wildlife ecosystems and NPC routines. Its story of loyalty, redemption, and the cost of violence is among the most powerful ever told in the medium."
+    },
+    "why_play": {
+      "en": "Red Dead Redemption 2 is a once-in-a-generation achievement in world-building and storytelling that sets the gold standard for open-world games. Arthur Morgan's journey will leave a lasting impression long after the final credits."
+    },
+    "tags": ["open-world", "story-rich", "western"]
+  },
+  {
+    "id": "ghost-of-tsushima",
+    "title": "Ghost of Tsushima",
+    "genre": "action",
+    "platform": "PS5, PC",
+    "year": 2020,
+    "developer": "Sucker Punch Productions",
+    "description": {
+      "en": "An open-world action-adventure set during the 1274 Mongol invasion of Tsushima Island, where samurai Jin Sakai must abandon his honorable warrior code to protect his home. The game features elegant katana combat that balances different stances against enemy types, alongside stealth mechanics that reflect Jin's transformation into the Ghost. Its breathtaking art direction, with fields of swaying pampas grass and falling leaves guiding exploration, is among the most beautiful in gaming."
+    },
+    "why_play": {
+      "en": "Ghost of Tsushima is a love letter to samurai cinema that delivers deeply satisfying sword combat and one of the most gorgeous open worlds ever crafted. Its Kurosawa mode, presented in black and white with Japanese audio, is a standout experience."
+    },
+    "tags": ["open-world", "samurai", "cinematic"]
+  },
+  {
+    "id": "horizon-forbidden-west",
+    "title": "Horizon Forbidden West",
+    "genre": "action",
+    "platform": "PS5, PC",
+    "year": 2022,
+    "developer": "Guerrilla Games",
+    "description": {
+      "en": "Aloy's journey continues westward into uncharted territory as she seeks to stop a mysterious plague threatening all life on Earth. The post-apocalyptic world, overrun by majestic robotic creatures, is a visual showcase featuring diverse biomes from lush jungles to underwater ruins. Strategic combat against machine dinosaurs using an arsenal of traps, bows, and elemental weapons remains endlessly engaging."
+    },
+    "why_play": {
+      "en": "Horizon Forbidden West is a visual masterpiece with deep combat that makes every machine encounter a thrilling tactical puzzle. Its fascinating sci-fi mystery and stunning world make exploration a constant reward."
+    },
+    "tags": ["open-world", "sci-fi", "action-rpg"]
+  }
+]

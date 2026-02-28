@@ -1,0 +1,338 @@
+[
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "languages",
+    "url": "https://www.python.org",
+    "description": {
+      "en": "Python is a high-level, interpreted programming language known for its clean syntax and readability. It supports multiple paradigms including object-oriented, functional, and procedural programming. With a massive ecosystem of libraries, Python powers everything from web apps to scientific research."
+    },
+    "best_for": {
+      "en": "Data science, machine learning, scripting, web development with Django or Flask, and rapid prototyping."
+    },
+    "difficulty": "Beginner",
+    "tags": ["versatile", "beginner-friendly", "popular", "data-science"]
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "languages",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "description": {
+      "en": "JavaScript is the language of the web, running natively in every modern browser. It has evolved far beyond simple page scripts into a full-stack powerhouse with Node.js on the server side. Its event-driven, non-blocking architecture makes it ideal for interactive and real-time applications."
+    },
+    "best_for": {
+      "en": "Front-end web development, full-stack applications with Node.js, and building interactive user interfaces."
+    },
+    "difficulty": "Beginner",
+    "tags": ["web", "full-stack", "essential", "versatile"]
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "category": "languages",
+    "url": "https://www.rust-lang.org",
+    "description": {
+      "en": "Rust is a systems programming language focused on safety, speed, and concurrency. Its ownership model eliminates entire classes of memory bugs at compile time without needing a garbage collector. Rust consistently ranks as the most loved language in developer surveys."
+    },
+    "best_for": {
+      "en": "Systems programming, WebAssembly, game engines, CLI tools, and performance-critical applications where memory safety is paramount."
+    },
+    "difficulty": "Advanced",
+    "tags": ["systems", "performance", "memory-safe", "modern"]
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "category": "languages",
+    "url": "https://go.dev",
+    "description": {
+      "en": "Go is a statically typed, compiled language created at Google, designed for simplicity and efficiency. It features built-in concurrency with goroutines, fast compilation, and a robust standard library. Go excels at building scalable network services and cloud infrastructure."
+    },
+    "best_for": {
+      "en": "Cloud services, microservices, DevOps tooling, and backend APIs where concurrency and deployment simplicity matter."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["concurrency", "cloud", "simple", "fast"]
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "frameworks",
+    "url": "https://react.dev",
+    "description": {
+      "en": "React is a JavaScript library for building user interfaces, created and maintained by Meta. It uses a component-based architecture and a virtual DOM for efficient rendering. Its declarative approach makes it straightforward to build complex, interactive UIs."
+    },
+    "best_for": {
+      "en": "Single-page applications, dynamic user interfaces, and large-scale front-end projects with reusable components."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["ui", "component-based", "popular", "ecosystem"]
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "category": "frameworks",
+    "url": "https://www.djangoproject.com",
+    "description": {
+      "en": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It includes an ORM, authentication, admin panel, and templating engine out of the box. Its 'batteries included' philosophy means less time wiring together third-party packages."
+    },
+    "best_for": {
+      "en": "Full-featured web applications, content management systems, and data-driven sites that benefit from a mature, all-in-one framework."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["python", "batteries-included", "secure", "full-stack"]
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "category": "frameworks",
+    "url": "https://nextjs.org",
+    "description": {
+      "en": "Next.js is a React framework that enables server-side rendering, static site generation, and API routes in a single project. Developed by Vercel, it provides file-based routing, automatic code splitting, and built-in image optimization. It bridges the gap between static sites and dynamic web applications."
+    },
+    "best_for": {
+      "en": "SEO-friendly React applications, marketing sites, e-commerce platforms, and any project that benefits from hybrid static and server rendering."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["react", "ssr", "full-stack", "modern"]
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "category": "frameworks",
+    "url": "https://fastapi.tiangolo.com",
+    "description": {
+      "en": "FastAPI is a modern, high-performance Python web framework for building APIs with type hints. It automatically generates interactive API documentation using OpenAPI and JSON Schema. Built on Starlette and Pydantic, it delivers performance comparable to Node.js and Go."
+    },
+    "best_for": {
+      "en": "RESTful APIs, microservices, and machine learning model serving where speed and automatic validation are priorities."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["python", "api", "high-performance", "async"]
+  },
+  {
+    "id": "vscode",
+    "name": "VS Code",
+    "category": "ides",
+    "url": "https://code.visualstudio.com",
+    "description": {
+      "en": "Visual Studio Code is a free, open-source code editor from Microsoft that runs on Windows, macOS, and Linux. It offers built-in Git integration, IntelliSense code completion, and a vast marketplace of extensions. Its lightweight core combined with powerful extensibility has made it the most popular code editor worldwide."
+    },
+    "best_for": {
+      "en": "General-purpose development across virtually any language, especially web development and Python, with a gentle learning curve for newcomers."
+    },
+    "difficulty": "Beginner",
+    "tags": ["editor", "extensible", "free", "popular"]
+  },
+  {
+    "id": "intellij",
+    "name": "JetBrains IntelliJ IDEA",
+    "category": "ides",
+    "url": "https://www.jetbrains.com/idea",
+    "description": {
+      "en": "IntelliJ IDEA is a powerful IDE from JetBrains with deep code analysis, smart refactoring, and out-of-the-box support for dozens of languages and frameworks. Its intelligent code completion understands context and project structure at a level few editors can match. The Community Edition is free and open-source, while the Ultimate Edition adds enterprise features."
+    },
+    "best_for": {
+      "en": "Java and Kotlin development, large enterprise codebases, and developers who want an IDE that deeply understands their code."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["java", "enterprise", "smart-completion", "refactoring"]
+  },
+  {
+    "id": "neovim",
+    "name": "Neovim",
+    "category": "ides",
+    "url": "https://neovim.io",
+    "description": {
+      "en": "Neovim is a modern, extensible fork of Vim that adds Lua scripting, built-in LSP support, and an asynchronous plugin architecture. It preserves Vim's legendary modal editing efficiency while making configuration and plugin development far more accessible. Its terminal-based workflow appeals to developers who prize speed and keyboard-driven navigation."
+    },
+    "best_for": {
+      "en": "Developers who want maximum editing speed, terminal-centric workflows, and full control over their editor configuration."
+    },
+    "difficulty": "Advanced",
+    "tags": ["terminal", "vim", "customizable", "lightweight"]
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "category": "ides",
+    "url": "https://zed.dev",
+    "description": {
+      "en": "Zed is a high-performance, multiplayer code editor built in Rust by the creators of Atom. It leverages GPU-accelerated rendering for a buttery-smooth editing experience, even on large files. Zed features built-in real-time collaboration, allowing multiple developers to edit the same workspace simultaneously."
+    },
+    "best_for": {
+      "en": "Developers who want a fast, modern editor with native collaborative editing and a minimal, distraction-free interface."
+    },
+    "difficulty": "Beginner",
+    "tags": ["fast", "collaborative", "rust-built", "modern"]
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "devops",
+    "url": "https://www.docker.com",
+    "description": {
+      "en": "Docker is a platform for building, shipping, and running applications in lightweight, portable containers. Containers package an application with all its dependencies, ensuring it runs identically across development, staging, and production. Docker has become the de facto standard for containerization in modern software delivery."
+    },
+    "best_for": {
+      "en": "Consistent development environments, microservices architecture, and streamlining CI/CD pipelines with reproducible builds."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["containers", "deployment", "devops", "portable"]
+  },
+  {
+    "id": "github-actions",
+    "name": "GitHub Actions",
+    "category": "devops",
+    "url": "https://github.com/features/actions",
+    "description": {
+      "en": "GitHub Actions is a CI/CD platform built directly into GitHub, allowing you to automate builds, tests, and deployments from your repository. Workflows are defined in YAML and triggered by events like pushes, pull requests, or schedules. Its marketplace offers thousands of community-maintained actions for common tasks."
+    },
+    "best_for": {
+      "en": "Automating testing and deployment for projects already hosted on GitHub, with minimal setup and tight integration with pull requests."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["ci-cd", "automation", "github", "yaml"]
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "category": "devops",
+    "url": "https://vercel.com",
+    "description": {
+      "en": "Vercel is a cloud platform optimized for front-end frameworks, providing instant global deployments with edge functions and serverless capabilities. It offers automatic preview deployments for every pull request and seamless integration with Git providers. As the creators of Next.js, Vercel provides first-class support for React-based frameworks."
+    },
+    "best_for": {
+      "en": "Deploying front-end applications and Jamstack sites with zero-configuration, especially Next.js and other React frameworks."
+    },
+    "difficulty": "Beginner",
+    "tags": ["hosting", "serverless", "frontend", "edge"]
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "category": "devops",
+    "url": "https://aws.amazon.com",
+    "description": {
+      "en": "Amazon Web Services is the world's most comprehensive cloud computing platform, offering over 200 services from compute and storage to machine learning and IoT. Its global infrastructure spans dozens of regions and availability zones for high availability. AWS powers a significant portion of the internet, from startups to Fortune 500 companies."
+    },
+    "best_for": {
+      "en": "Enterprise-scale cloud infrastructure, complex multi-service architectures, and teams that need the broadest selection of cloud services available."
+    },
+    "difficulty": "Advanced",
+    "tags": ["cloud", "enterprise", "scalable", "comprehensive"]
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "databases",
+    "url": "https://www.postgresql.org",
+    "description": {
+      "en": "PostgreSQL is a powerful, open-source relational database known for its reliability, feature richness, and standards compliance. It supports advanced data types like JSON, arrays, and geospatial data through PostGIS. With over 35 years of active development, it is one of the most robust database systems available."
+    },
+    "best_for": {
+      "en": "Complex queries, data integrity-critical applications, and projects that need advanced features like full-text search, JSONB, or geospatial queries."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["relational", "open-source", "reliable", "feature-rich"]
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "databases",
+    "url": "https://www.mongodb.com",
+    "description": {
+      "en": "MongoDB is a document-oriented NoSQL database that stores data in flexible, JSON-like BSON documents. It provides horizontal scaling through sharding, rich query capabilities, and a powerful aggregation framework. Its schema-flexible design makes it well-suited for applications with evolving data models."
+    },
+    "best_for": {
+      "en": "Applications with rapidly changing schemas, content management systems, and real-time analytics where document-based storage is a natural fit."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["nosql", "document", "scalable", "flexible"]
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "databases",
+    "url": "https://redis.io",
+    "description": {
+      "en": "Redis is an in-memory data store used as a database, cache, message broker, and streaming engine. It supports rich data structures including strings, hashes, lists, sets, and sorted sets with sub-millisecond response times. Redis is widely used to add a high-speed caching layer in front of traditional databases."
+    },
+    "best_for": {
+      "en": "Caching, session management, real-time leaderboards, rate limiting, and any scenario requiring extremely fast data access."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["in-memory", "caching", "fast", "versatile"]
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "category": "databases",
+    "url": "https://www.sqlite.org",
+    "description": {
+      "en": "SQLite is a self-contained, serverless relational database engine that stores an entire database in a single file. It requires no configuration or separate server process, making it the most widely deployed database in the world, embedded in phones, browsers, and countless applications. Despite its simplicity, it is fully ACID-compliant and handles many workloads surprisingly well."
+    },
+    "best_for": {
+      "en": "Embedded applications, mobile apps, local development, small-to-medium websites, and any project that benefits from a zero-configuration database."
+    },
+    "difficulty": "Beginner",
+    "tags": ["embedded", "lightweight", "serverless", "simple"]
+  },
+  {
+    "id": "freecodecamp",
+    "name": "freeCodeCamp",
+    "category": "learning",
+    "url": "https://www.freecodecamp.org",
+    "description": {
+      "en": "freeCodeCamp is a nonprofit platform offering thousands of hours of free coding instruction across web development, data science, and more. Its project-based curriculum lets learners build real applications while earning certifications. With a supportive community of millions, it is one of the largest learn-to-code resources in the world."
+    },
+    "best_for": {
+      "en": "Complete beginners who want a structured, free path from zero experience to job-ready web development skills."
+    },
+    "difficulty": "Beginner",
+    "tags": ["free", "web-development", "certifications", "community"]
+  },
+  {
+    "id": "odin-project",
+    "name": "The Odin Project",
+    "category": "learning",
+    "url": "https://www.theodinproject.com",
+    "description": {
+      "en": "The Odin Project is a free, open-source curriculum for learning full-stack web development using real-world tools and workflows. It teaches through curated readings, tutorials, and increasingly challenging projects rather than hand-holding. Learners use their own development environment from day one, building professional habits early."
+    },
+    "best_for": {
+      "en": "Self-motivated learners who want a comprehensive full-stack curriculum that emphasizes real development practices and problem-solving."
+    },
+    "difficulty": "Beginner",
+    "tags": ["free", "full-stack", "open-source", "project-based"]
+  },
+  {
+    "id": "exercism",
+    "name": "Exercism",
+    "category": "learning",
+    "url": "https://exercism.org",
+    "description": {
+      "en": "Exercism is a free platform offering coding exercises in over 65 programming languages, each with human mentoring and automated feedback. Exercises progress from basic syntax to advanced concepts, and volunteer mentors provide personalized code reviews. It is an excellent way to deepen fluency in a language you already know or explore a new one."
+    },
+    "best_for": {
+      "en": "Developers who want to practice and improve their skills in specific programming languages through focused exercises and mentor feedback."
+    },
+    "difficulty": "Intermediate",
+    "tags": ["practice", "mentoring", "multi-language", "free"]
+  },
+  {
+    "id": "mit-ocw",
+    "name": "MIT OpenCourseWare",
+    "category": "learning",
+    "url": "https://ocw.mit.edu",
+    "description": {
+      "en": "MIT OpenCourseWare provides free access to course materials from MIT's undergraduate and graduate computer science curriculum. It includes lecture videos, assignments, and exams from renowned courses like Introduction to Algorithms and Introduction to Computer Science. The academic rigor offers a depth of understanding that complements hands-on coding practice."
+    },
+    "best_for": {
+      "en": "Learners who want a rigorous, university-level understanding of computer science fundamentals including algorithms, data structures, and theory."
+    },
+    "difficulty": "Advanced",
+    "tags": ["academic", "free", "computer-science", "theory"]
+  }
+]

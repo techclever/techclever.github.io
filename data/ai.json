@@ -1,0 +1,338 @@
+[
+  {
+    "id": "claude",
+    "name": "Claude",
+    "category": "text",
+    "url": "https://claude.ai",
+    "pricing": "Free / Pro $20/mo",
+    "description": {
+      "en": "Claude is an AI assistant built by Anthropic, designed to be helpful, harmless, and honest. It excels at long-form writing, detailed analysis, coding tasks, and nuanced conversations. Claude supports large context windows, making it ideal for working with lengthy documents."
+    },
+    "best_for": {
+      "en": "Long-form writing, document analysis, coding assistance, and thoughtful multi-turn conversations."
+    },
+    "tags": ["chatbot", "writing", "analysis", "coding"]
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "text",
+    "url": "https://chat.openai.com",
+    "pricing": "Free / Plus $20/mo",
+    "description": {
+      "en": "ChatGPT by OpenAI is one of the most widely used AI chatbots in the world. It can generate text, answer questions, write code, and assist with creative tasks. With GPT-4o and plugins, it also supports image understanding, web browsing, and data analysis."
+    },
+    "best_for": {
+      "en": "General-purpose AI chat, brainstorming, quick answers, and creative writing."
+    },
+    "tags": ["chatbot", "writing", "general-purpose"]
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "category": "text",
+    "url": "https://gemini.google.com",
+    "pricing": "Free / Advanced $20/mo",
+    "description": {
+      "en": "Gemini is Google's multimodal AI assistant, deeply integrated with Google Workspace and Search. It can process text, images, and code, and provides real-time information through its connection to Google Search. Gemini Advanced offers extended reasoning and longer context."
+    },
+    "best_for": {
+      "en": "Google ecosystem users who want AI integrated with Gmail, Docs, and Search for research and productivity."
+    },
+    "tags": ["chatbot", "research", "multimodal"]
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "category": "text",
+    "url": "https://www.perplexity.ai",
+    "pricing": "Free / Pro $20/mo",
+    "description": {
+      "en": "Perplexity is an AI-powered search engine that provides sourced, conversational answers to questions. It combines large language models with real-time web search to deliver up-to-date, cited responses. Pro users get access to more powerful models and file uploads."
+    },
+    "best_for": {
+      "en": "Research and fact-checking where you need AI answers backed by cited sources and real-time information."
+    },
+    "tags": ["search", "research", "citations"]
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "category": "image",
+    "url": "https://www.midjourney.com",
+    "pricing": "Basic $10/mo / Standard $30/mo",
+    "description": {
+      "en": "Midjourney is a leading AI image generator known for producing highly artistic, stylized visuals from text prompts. It operates primarily through Discord and a web interface. Midjourney is especially praised for its aesthetic quality and coherent compositions."
+    },
+    "best_for": {
+      "en": "Creating stunning concept art, illustrations, and artistic imagery with rich stylistic control."
+    },
+    "tags": ["image-generation", "art", "design"]
+  },
+  {
+    "id": "dall-e-3",
+    "name": "DALL-E 3",
+    "category": "image",
+    "url": "https://openai.com/dall-e-3",
+    "pricing": "Included with ChatGPT Plus $20/mo",
+    "description": {
+      "en": "DALL-E 3 is OpenAI's latest image generation model, integrated directly into ChatGPT. It excels at following detailed text prompts accurately and can render text within images. The tight ChatGPT integration allows iterative refinement through natural conversation."
+    },
+    "best_for": {
+      "en": "Generating images with accurate text rendering and precise prompt adherence, especially via ChatGPT."
+    },
+    "tags": ["image-generation", "text-rendering", "ai-art"]
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "category": "image",
+    "url": "https://stability.ai",
+    "pricing": "Free (open source) / Stability API from $0.01/image",
+    "description": {
+      "en": "Stable Diffusion is an open-source image generation model by Stability AI that can run locally on your own hardware. It offers unmatched customization through fine-tuning, LoRA adapters, and a vast community ecosystem. Models like SDXL deliver high-quality results across many styles."
+    },
+    "best_for": {
+      "en": "Users who want full control, local generation without cloud dependencies, and extensive customization options."
+    },
+    "tags": ["image-generation", "open-source", "customizable"]
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "category": "image",
+    "url": "https://www.adobe.com/products/firefly.html",
+    "pricing": "Free tier / Premium $4.99/mo",
+    "description": {
+      "en": "Adobe Firefly is an AI image generator trained on licensed and public domain content, making it commercially safe to use. It is integrated into Adobe Creative Cloud apps like Photoshop and Illustrator. Firefly supports generative fill, text effects, and vector recoloring."
+    },
+    "best_for": {
+      "en": "Professional designers who need commercially safe AI-generated assets integrated into their Adobe workflow."
+    },
+    "tags": ["image-generation", "design", "commercial-safe"]
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "category": "code",
+    "url": "https://github.com/features/copilot",
+    "pricing": "Free tier / Individual $10/mo / Business $19/mo",
+    "description": {
+      "en": "GitHub Copilot is an AI pair programmer that suggests code completions, entire functions, and tests directly in your editor. It supports dozens of languages and integrates with VS Code, JetBrains, Neovim, and more. Copilot Chat adds conversational coding assistance within the IDE."
+    },
+    "best_for": {
+      "en": "Day-to-day coding with intelligent autocomplete, boilerplate generation, and in-editor chat assistance."
+    },
+    "tags": ["coding", "autocomplete", "ide-integration"]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "code",
+    "url": "https://www.cursor.com",
+    "pricing": "Free tier / Pro $20/mo",
+    "description": {
+      "en": "Cursor is an AI-first code editor built as a fork of VS Code, with deep AI integration at its core. It offers intelligent code generation, multi-file editing, codebase-aware chat, and a composer mode for complex changes. Cursor understands your entire project context for more accurate suggestions."
+    },
+    "best_for": {
+      "en": "Developers who want an AI-native editor with codebase-aware assistance and multi-file editing capabilities."
+    },
+    "tags": ["coding", "editor", "ai-native"]
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "category": "code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "pricing": "Usage-based via Anthropic API",
+    "description": {
+      "en": "Claude Code is Anthropic's official agentic coding tool that operates directly in your terminal. It can read, search, and edit files across your codebase, run commands, and handle complex multi-step development tasks. It understands project structure and can work autonomously on large changes."
+    },
+    "best_for": {
+      "en": "Complex coding tasks requiring multi-file changes, refactoring, and autonomous project-wide development work."
+    },
+    "tags": ["coding", "terminal", "agentic"]
+  },
+  {
+    "id": "replit-ai",
+    "name": "Replit AI",
+    "category": "code",
+    "url": "https://replit.com/ai",
+    "pricing": "Free tier / Replit Core $25/mo",
+    "description": {
+      "en": "Replit AI is an integrated coding assistant within the Replit cloud development platform. It offers code generation, debugging, and an AI agent that can build and deploy full applications from natural language descriptions. The platform handles hosting, databases, and deployment automatically."
+    },
+    "best_for": {
+      "en": "Rapid prototyping and building full-stack applications in the browser with integrated hosting and deployment."
+    },
+    "tags": ["coding", "cloud-ide", "deployment"]
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "category": "audio",
+    "url": "https://suno.com",
+    "pricing": "Free tier / Pro $10/mo / Premier $30/mo",
+    "description": {
+      "en": "Suno is an AI music generation platform that creates complete songs with vocals, instruments, and lyrics from text prompts. It can generate music in virtually any genre and style, producing radio-quality tracks in seconds. Users can also provide custom lyrics or extend existing clips."
+    },
+    "best_for": {
+      "en": "Creating complete songs with vocals and instrumentation for content creators, hobbyists, and musicians seeking inspiration."
+    },
+    "tags": ["music", "song-generation", "vocals"]
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "category": "audio",
+    "url": "https://elevenlabs.io",
+    "pricing": "Free tier / Starter $5/mo / Creator $22/mo",
+    "description": {
+      "en": "ElevenLabs is a leading AI voice synthesis platform that generates remarkably natural-sounding speech. It offers text-to-speech, voice cloning, and a voice library with thousands of options across 30+ languages. The platform is widely used for audiobooks, podcasts, and video narration."
+    },
+    "best_for": {
+      "en": "High-quality voiceovers, audiobook narration, and voice cloning for content production."
+    },
+    "tags": ["text-to-speech", "voice-cloning", "narration"]
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "category": "audio",
+    "url": "https://www.udio.com",
+    "pricing": "Free tier / Standard $10/mo / Premium $30/mo",
+    "description": {
+      "en": "Udio is an AI music generation tool that creates high-fidelity songs from text descriptions. It is known for producing especially realistic vocals and nuanced musical arrangements. Users can specify genre, mood, and lyrics, and extend or remix generated tracks."
+    },
+    "best_for": {
+      "en": "Generating realistic AI music with high-quality vocals, ideal for musicians exploring ideas and content creators."
+    },
+    "tags": ["music", "song-generation", "composition"]
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "category": "audio",
+    "url": "https://www.descript.com",
+    "pricing": "Free tier / Hobbyist $24/mo / Business $33/mo",
+    "description": {
+      "en": "Descript is an all-in-one audio and video editor that uses AI to make editing as simple as editing a text document. It offers transcription, overdub (AI voice cloning for corrections), filler word removal, and studio-quality audio enhancement. It is a complete podcast and video production suite."
+    },
+    "best_for": {
+      "en": "Podcast and video editing with AI-powered transcription, filler word removal, and voice correction."
+    },
+    "tags": ["audio-editing", "transcription", "podcast"]
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "category": "video",
+    "url": "https://runwayml.com",
+    "pricing": "Free tier / Standard $12/mo / Pro $28/mo",
+    "description": {
+      "en": "Runway is a pioneering AI video generation and editing platform used by filmmakers and creators worldwide. Its Gen-3 Alpha model generates high-quality video clips from text and image prompts. The platform also offers AI-powered video editing tools like inpainting, motion tracking, and green screen removal."
+    },
+    "best_for": {
+      "en": "Creative professionals generating short video clips, visual effects, and AI-enhanced video editing."
+    },
+    "tags": ["video-generation", "vfx", "filmmaking"]
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "category": "video",
+    "url": "https://sora.com",
+    "pricing": "Included with ChatGPT Plus $20/mo / Pro $200/mo",
+    "description": {
+      "en": "Sora is OpenAI's AI video generation model capable of creating realistic and imaginative video scenes from text prompts. It understands physics, motion, and how objects interact in the real world. Sora can generate videos up to 20 seconds long with impressive visual coherence and detail."
+    },
+    "best_for": {
+      "en": "Generating realistic, physically coherent video scenes from detailed text descriptions."
+    },
+    "tags": ["video-generation", "text-to-video", "realistic"]
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "category": "video",
+    "url": "https://www.synthesia.io",
+    "pricing": "Starter $22/mo / Creator $67/mo / Enterprise custom",
+    "description": {
+      "en": "Synthesia is an AI video platform specializing in creating professional talking-head videos with realistic AI avatars. It supports 140+ languages and offers a library of diverse digital presenters. The platform is widely used for corporate training, product demos, and educational content."
+    },
+    "best_for": {
+      "en": "Corporate training videos, product walkthroughs, and multilingual educational content with AI presenters."
+    },
+    "tags": ["ai-avatars", "training-videos", "multilingual"]
+  },
+  {
+    "id": "heygen",
+    "name": "HeyGen",
+    "category": "video",
+    "url": "https://www.heygen.com",
+    "pricing": "Free tier / Creator $24/mo / Business $72/mo",
+    "description": {
+      "en": "HeyGen is an AI video generation platform that creates professional videos with customizable AI avatars and voice cloning. It features instant video translation that matches lip movements to new languages. HeyGen is popular for marketing videos, social media content, and personalized outreach."
+    },
+    "best_for": {
+      "en": "Marketing videos, personalized sales outreach, and translating existing videos into multiple languages."
+    },
+    "tags": ["ai-avatars", "video-translation", "marketing"]
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "category": "productivity-ai",
+    "url": "https://www.notion.so/product/ai",
+    "pricing": "Add-on $10/member/mo",
+    "description": {
+      "en": "Notion AI is an AI assistant integrated into the Notion workspace platform. It can summarize meeting notes, generate content, fill databases, answer questions about your workspace, and automate repetitive tasks. It works seamlessly within Notion's pages, databases, and project management tools."
+    },
+    "best_for": {
+      "en": "Teams already using Notion who want AI-powered writing, summarization, and knowledge management within their workspace."
+    },
+    "tags": ["productivity", "writing", "knowledge-management"]
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "category": "productivity-ai",
+    "url": "https://www.grammarly.com",
+    "pricing": "Free tier / Premium $12/mo / Business $15/member/mo",
+    "description": {
+      "en": "Grammarly is an AI-powered writing assistant that checks grammar, spelling, punctuation, clarity, and tone in real time. It works across browsers, desktop apps, and mobile keyboards. The AI features include full paragraph rewriting, tone adjustment, and generative text composition."
+    },
+    "best_for": {
+      "en": "Professionals and students who want polished, error-free writing with tone and style suggestions everywhere they type."
+    },
+    "tags": ["writing", "grammar", "proofreading"]
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "category": "productivity-ai",
+    "url": "https://otter.ai",
+    "pricing": "Free tier / Pro $16.99/mo / Business $30/mo",
+    "description": {
+      "en": "Otter.ai is an AI meeting assistant that provides real-time transcription, automated summaries, and action items from meetings. It integrates with Zoom, Google Meet, and Microsoft Teams to join calls automatically. Otter also offers a chat feature that lets you ask questions about your meeting content."
+    },
+    "best_for": {
+      "en": "Capturing meeting notes automatically with transcription, summaries, and action items across all major video platforms."
+    },
+    "tags": ["transcription", "meetings", "notes"]
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "category": "productivity-ai",
+    "url": "https://www.jasper.ai",
+    "pricing": "Creator $49/mo / Pro $69/mo / Business custom",
+    "description": {
+      "en": "Jasper is an AI content platform designed for marketing teams and businesses. It offers brand voice customization, campaign generation, and templates for ads, blog posts, social media, and emails. Jasper integrates with tools like Surfer SEO and supports team collaboration with brand consistency features."
+    },
+    "best_for": {
+      "en": "Marketing teams creating on-brand content at scale across blogs, ads, social media, and email campaigns."
+    },
+    "tags": ["marketing", "content-creation", "brand-voice"]
+  }
+]

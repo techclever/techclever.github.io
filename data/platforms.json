@@ -1,0 +1,272 @@
+[
+  {
+    "id": "magnavox_odyssey",
+    "name": "Magnavox Odyssey",
+    "company": "Magnavox",
+    "year": 1972,
+    "type": "Console",
+    "description": { "en": "The very first home video game console. Used analog circuitry and screen overlays instead of on-screen graphics. A groundbreaking invention that proved games could leave the arcade." },
+    "significance": { "en": "Launched the home console industry. Without it, nothing else on this timeline exists." },
+    "tags": ["pioneer", "home-console", "analog"]
+  },
+  {
+    "id": "atari_2600",
+    "name": "Atari 2600",
+    "company": "Atari",
+    "year": 1977,
+    "type": "Console",
+    "description": { "en": "The console that brought gaming to the masses. With swappable cartridges and iconic games like Space Invaders, Pac-Man, and Pitfall, it defined an entire generation of gamers." },
+    "significance": { "en": "Popularized cartridge-based gaming and created the first true gaming culture. Atari became synonymous with video games." },
+    "tags": ["legendary", "cartridge", "arcade-at-home"]
+  },
+  {
+    "id": "commodore_64",
+    "name": "Commodore 64",
+    "company": "Commodore",
+    "year": 1982,
+    "type": "Home Computer",
+    "description": { "en": "The best-selling single personal computer model of all time. Doubled as a powerful gaming machine with thousands of titles, a SID sound chip beloved by musicians, and BASIC programming built in." },
+    "significance": { "en": "Blurred the line between computers and gaming. Introduced millions to both programming and gaming." },
+    "tags": ["home-computer", "best-seller", "programming"]
+  },
+  {
+    "id": "nes",
+    "name": "Nintendo Entertainment System (NES)",
+    "company": "Nintendo",
+    "year": 1983,
+    "type": "Console",
+    "description": { "en": "The console that revived the gaming industry after the 1983 crash. Home to Super Mario Bros., The Legend of Zelda, and Metroid — franchises that still dominate today." },
+    "significance": { "en": "Saved the gaming industry from collapse. Established Nintendo as a gaming giant and set quality standards for the industry." },
+    "tags": ["iconic", "revival", "8-bit"]
+  },
+  {
+    "id": "sega_master_system",
+    "name": "Sega Master System",
+    "company": "Sega",
+    "year": 1985,
+    "type": "Console",
+    "description": { "en": "Sega's first major home console and the NES's main rival. Technically superior hardware with titles like Alex Kidd, Phantasy Star, and Wonder Boy. Hugely successful in Europe and Brazil." },
+    "significance": { "en": "Started the great console wars between Sega and Nintendo. Proved there was room for competition in gaming." },
+    "tags": ["sega", "8-bit", "console-wars"]
+  },
+  {
+    "id": "game_boy",
+    "name": "Game Boy",
+    "company": "Nintendo",
+    "year": 1989,
+    "type": "Handheld",
+    "description": { "en": "The handheld that changed everything. With its green-tinted screen and incredible battery life, it made gaming truly portable. Tetris alone sold millions of units." },
+    "significance": { "en": "Created the handheld gaming market. Proved that gameplay matters more than graphics." },
+    "tags": ["handheld", "portable", "tetris"]
+  },
+  {
+    "id": "sega_genesis",
+    "name": "Sega Genesis / Mega Drive",
+    "company": "Sega",
+    "year": 1988,
+    "type": "Console",
+    "description": { "en": "Sega does what Nintendon't. The Genesis brought arcade-quality gaming home with Sonic the Hedgehog, Streets of Rage, and a rebellious marketing attitude that captured teens worldwide." },
+    "significance": { "en": "Intensified the console wars. Made gaming cool for older audiences and pushed Nintendo to innovate faster." },
+    "tags": ["16-bit", "sonic", "console-wars"]
+  },
+  {
+    "id": "snes",
+    "name": "Super Nintendo (SNES)",
+    "company": "Nintendo",
+    "year": 1990,
+    "type": "Console",
+    "description": { "en": "Nintendo's 16-bit powerhouse. Home to some of the greatest games ever made: Super Mario World, A Link to the Past, Chrono Trigger, Super Metroid, and Final Fantasy VI." },
+    "significance": { "en": "Widely considered the golden age of 2D gaming. Its library is still a benchmark for game design excellence." },
+    "tags": ["16-bit", "golden-age", "legendary"]
+  },
+  {
+    "id": "playstation",
+    "name": "PlayStation",
+    "company": "Sony",
+    "year": 1994,
+    "type": "Console",
+    "description": { "en": "Sony's bold entry into gaming changed everything. CD-based games meant bigger worlds, full soundtracks, and cinematic experiences. Final Fantasy VII, Metal Gear Solid, and Crash Bandicoot became cultural phenomena." },
+    "significance": { "en": "Made gaming mainstream entertainment. Proved that a newcomer could dominate the industry overnight." },
+    "tags": ["cd-rom", "3d-gaming", "cultural-shift"]
+  },
+  {
+    "id": "nintendo_64",
+    "name": "Nintendo 64",
+    "company": "Nintendo",
+    "year": 1996,
+    "type": "Console",
+    "description": { "en": "The console that pioneered 3D gaming with an analog stick. Super Mario 64 redefined what games could be. GoldenEye 007 invented console FPS multiplayer. Ocarina of Time is still called the greatest game ever." },
+    "significance": { "en": "Defined 3D game design. The analog stick and four-controller ports made it the ultimate party console." },
+    "tags": ["3d-pioneer", "multiplayer", "analog-stick"]
+  },
+  {
+    "id": "dreamcast",
+    "name": "Dreamcast",
+    "company": "Sega",
+    "year": 1998,
+    "type": "Console",
+    "description": { "en": "Sega's final console was years ahead of its time. First console with built-in modem for online play, a visual memory unit controller, and stunning games like Shenmue, Jet Set Radio, and Soul Calibur." },
+    "significance": { "en": "Pioneered online console gaming. A commercial failure that was artistically brilliant — beloved by collectors and enthusiasts." },
+    "tags": ["ahead-of-time", "online-pioneer", "cult-classic"]
+  },
+  {
+    "id": "ps2",
+    "name": "PlayStation 2",
+    "company": "Sony",
+    "year": 2000,
+    "type": "Console",
+    "description": { "en": "The best-selling console of all time with over 155 million units sold. Its massive library includes GTA San Andreas, Shadow of the Colossus, God of War, Kingdom Hearts, and Final Fantasy X. Also doubled as a DVD player." },
+    "significance": { "en": "Dominated an entire console generation. Set the standard for what a gaming library should look like." },
+    "tags": ["best-seller", "dvd", "massive-library"]
+  },
+  {
+    "id": "xbox",
+    "name": "Xbox",
+    "company": "Microsoft",
+    "year": 2001,
+    "type": "Console",
+    "description": { "en": "Microsoft's debut in gaming brought PC-level hardware to the living room. Halo: Combat Evolved became a system seller overnight, and Xbox Live pioneered online console multiplayer." },
+    "significance": { "en": "Brought Microsoft into the console wars. Xbox Live set the gold standard for online gaming services." },
+    "tags": ["microsoft", "halo", "xbox-live"]
+  },
+  {
+    "id": "game_boy_advance",
+    "name": "Game Boy Advance",
+    "company": "Nintendo",
+    "year": 2001,
+    "type": "Handheld",
+    "description": { "en": "A SNES in your pocket. The GBA delivered stunning 2D games including Pokemon Ruby/Sapphire, Advance Wars, Metroid Fusion, and Fire Emblem. The SP model added a backlit screen and clamshell design." },
+    "significance": { "en": "Kept handheld gaming alive while home consoles went 3D. Perfect bridge between retro and modern portable gaming." },
+    "tags": ["handheld", "32-bit", "pokemon"]
+  },
+  {
+    "id": "nintendo_ds",
+    "name": "Nintendo DS",
+    "company": "Nintendo",
+    "year": 2004,
+    "type": "Handheld",
+    "description": { "en": "The dual-screen handheld with a touchscreen that seemed crazy — until it worked brilliantly. Brain Age, Nintendogs, Pokemon Diamond/Pearl, and Professor Layton made it a phenomenon across all ages." },
+    "significance": { "en": "Second best-selling console ever (154M units). Proved touch controls and innovation could beat raw power." },
+    "tags": ["dual-screen", "touchscreen", "innovation"]
+  },
+  {
+    "id": "psp",
+    "name": "PlayStation Portable (PSP)",
+    "company": "Sony",
+    "year": 2004,
+    "type": "Handheld",
+    "description": { "en": "Sony's answer to Nintendo's handheld dominance. A portable multimedia powerhouse with console-quality graphics, UMD discs, and games like God of War: Chains of Olympus, Monster Hunter, and Crisis Core." },
+    "significance": { "en": "Showed handhelds could deliver console-quality experiences. Became a cult favorite for RPGs and action games." },
+    "tags": ["portable", "multimedia", "console-quality"]
+  },
+  {
+    "id": "xbox_360",
+    "name": "Xbox 360",
+    "company": "Microsoft",
+    "year": 2005,
+    "type": "Console",
+    "description": { "en": "Microsoft's second console defined online gaming for a generation. Xbox Live, Achievements, and games like Gears of War, Mass Effect, and Halo 3 made it the go-to platform for multiplayer gaming." },
+    "significance": { "en": "Made online multiplayer and digital distribution mainstream. Achievements changed how we play games." },
+    "tags": ["online", "achievements", "multiplayer"]
+  },
+  {
+    "id": "wii",
+    "name": "Nintendo Wii",
+    "company": "Nintendo",
+    "year": 2006,
+    "type": "Console",
+    "description": { "en": "Motion controls brought gaming to everyone — grandparents, families, and people who never touched a controller. Wii Sports alone made it a cultural event. Sold over 100 million units worldwide." },
+    "significance": { "en": "Expanded gaming beyond core gamers. Proved innovation in controls matters more than raw power." },
+    "tags": ["motion-controls", "family", "cultural-phenomenon"]
+  },
+  {
+    "id": "ps3",
+    "name": "PlayStation 3",
+    "company": "Sony",
+    "year": 2006,
+    "type": "Console",
+    "description": { "en": "Despite a rocky launch, the PS3 delivered some of the best exclusives ever: The Last of Us, Uncharted 2, Journey, and Demon's Souls. Also served as an affordable Blu-ray player." },
+    "significance": { "en": "Pushed gaming into the HD era. Its exclusives set new standards for storytelling in games." },
+    "tags": ["blu-ray", "exclusives", "hd-era"]
+  },
+  {
+    "id": "ps4",
+    "name": "PlayStation 4",
+    "company": "Sony",
+    "year": 2013,
+    "type": "Console",
+    "description": { "en": "Sony's comeback console dominated its generation with 117 million units sold. Bloodborne, Horizon Zero Dawn, God of War, Spider-Man, and The Last of Us Part II showcased gaming as art." },
+    "significance": { "en": "Cemented PlayStation as the premium single-player experience brand. Pushed narrative gaming forward." },
+    "tags": ["dominant", "single-player", "narrative"]
+  },
+  {
+    "id": "xbox_one",
+    "name": "Xbox One",
+    "company": "Microsoft",
+    "year": 2013,
+    "type": "Console",
+    "description": { "en": "After a controversial launch focused on multimedia, Microsoft pivoted to gamers with Xbox Game Pass, backward compatibility, and the powerful Xbox One X. Forza Horizon became its standout franchise." },
+    "significance": { "en": "Introduced Xbox Game Pass — the Netflix of gaming — which changed how people buy and play games." },
+    "tags": ["game-pass", "backward-compatible", "services"]
+  },
+  {
+    "id": "nintendo_switch",
+    "name": "Nintendo Switch",
+    "company": "Nintendo",
+    "year": 2017,
+    "type": "Hybrid",
+    "description": { "en": "The hybrid console that plays at home and on the go. Breath of the Wild, Mario Odyssey, Animal Crossing, and Splatoon 3 made it a global sensation. Over 140 million units sold." },
+    "significance": { "en": "Proved hybrid gaming works. Showed that a great concept with great games beats specs every time." },
+    "tags": ["hybrid", "portable", "innovative"]
+  },
+  {
+    "id": "ps5",
+    "name": "PlayStation 5",
+    "company": "Sony",
+    "year": 2020,
+    "type": "Console",
+    "description": { "en": "Sony's current flagship with ultra-fast SSD, haptic feedback controller, and stunning visuals. Spider-Man 2, Final Fantasy XVI, Astro Bot, and Demon's Souls Remake showcase next-gen gaming." },
+    "significance": { "en": "The DualSense controller's haptic feedback changed how games feel. SSD technology eliminated loading screens." },
+    "tags": ["current-gen", "ssd", "haptics"]
+  },
+  {
+    "id": "xbox_series",
+    "name": "Xbox Series X|S",
+    "company": "Microsoft",
+    "year": 2020,
+    "type": "Console",
+    "description": { "en": "Microsoft's current consoles offer raw power (Series X) and affordability (Series S). Game Pass remains the centerpiece, with Starfield, Forza Motorsport, and acquired studios like Bethesda and Activision." },
+    "significance": { "en": "Shifted the industry toward subscription gaming. Microsoft's massive acquisitions reshaped the competitive landscape." },
+    "tags": ["current-gen", "game-pass", "acquisitions"]
+  },
+  {
+    "id": "steam_deck",
+    "name": "Steam Deck",
+    "company": "Valve",
+    "year": 2022,
+    "type": "Handheld PC",
+    "description": { "en": "A full PC gaming handheld running SteamOS (Linux). Play your entire Steam library on the go — from indie games to AAA titles. Customizable, repairable, and backed by Valve's massive ecosystem." },
+    "significance": { "en": "Made PC gaming truly portable. Kickstarted the handheld PC revolution that spawned ASUS ROG Ally, Lenovo Legion Go, and others." },
+    "tags": ["pc-gaming", "portable", "steam"]
+  },
+  {
+    "id": "pc_gaming",
+    "name": "PC Gaming",
+    "company": "Various",
+    "year": 1981,
+    "type": "Platform",
+    "description": { "en": "The longest-running gaming platform. From DOS to Windows to Steam to Game Pass, PC has always been at the cutting edge. Modding communities, esports, and the highest-fidelity gaming all call PC home." },
+    "significance": { "en": "The most versatile gaming platform ever. Every genre, every era, every innovation — PC has been there." },
+    "tags": ["open-platform", "modding", "esports", "cutting-edge"]
+  },
+  {
+    "id": "arcade",
+    "name": "Arcade Machines",
+    "company": "Various",
+    "year": 1971,
+    "type": "Arcade",
+    "description": { "en": "Where it all started. From Pong and Space Invaders to Pac-Man and Street Fighter II, arcades were the birthplace of gaming culture. Quarter by quarter, they built an industry." },
+    "significance": { "en": "Created the entire video game industry and culture. Every home console exists because arcades proved people wanted to play games." },
+    "tags": ["origin", "culture", "competitive"]
+  }
+]
