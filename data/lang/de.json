@@ -68,6 +68,18 @@
   "games.platform": "Plattform",
   "games.developer": "Entwickler",
 
+  "games.stores_title": "Gaming-Shops & Dienste",
+  "games.stores_subtitle": "Wo man Spiele kauft, welche Abos sich lohnen und ehrliche Vor- & Nachteile für jede große Plattform.",
+  "games.store_pros": "Vorteile",
+  "games.store_cons": "Nachteile",
+  "games.store_best_for": "Ideal für",
+  "games.store_not_ideal": "Nicht ideal für",
+  "games.store_visit": "Besuchen",
+
+  "store_type.store": "Shop",
+  "store_type.subscription": "Abo",
+  "store_type.both": "Shop + Abo",
+
   "ai.title": "KI-Tools & Ressourcen",
   "ai.subtitle": "Die nützlichsten KI-Tools von heute — von Chatbots über Bildgeneratoren und Code-Assistenten bis hin zu Video-Erstellern.",
   "ai.filter_all": "Alle Kategorien",

@@ -68,6 +68,18 @@
   "games.platform": "Plataforma",
   "games.developer": "Desarrollador",
 
+  "games.stores_title": "Tiendas y servicios de gaming",
+  "games.stores_subtitle": "Dónde comprar juegos, qué suscripciones merecen la pena y pros y contras honestos de cada plataforma importante.",
+  "games.store_pros": "Ventajas",
+  "games.store_cons": "Desventajas",
+  "games.store_best_for": "Ideal para",
+  "games.store_not_ideal": "No ideal para",
+  "games.store_visit": "Visitar",
+
+  "store_type.store": "Tienda",
+  "store_type.subscription": "Suscripción",
+  "store_type.both": "Tienda + Suscripción",
+
   "ai.title": "Herramientas y recursos de IA",
   "ai.subtitle": "Las herramientas de IA más útiles de hoy — desde chatbots hasta generadores de imágenes, asistentes de código y creadores de vídeo.",
   "ai.filter_all": "Todas las categorías",

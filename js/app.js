@@ -241,6 +241,47 @@ function renderIndex() {
   }
 }
 
+/* ========== STORE CARD ========== */
+function _storeTypeColor(type) {
+  const colors = { store: '#2563EB', subscription: '#7C3AED', both: '#059669' };
+  return colors[type] || '#666';
+}
+function _storeTypeIcon(type) {
+  const icons = { store: '\uD83D\uDED2', subscription: '\uD83D\uDD04', both: '\u2B50' };
+  return icons[type] || '';
+}
+function _storeCardHtml(store) {
+  const color = _storeTypeColor(store.type);
+  const pros = (_loc(store.pros) || []);
+  const cons = (_loc(store.cons) || []);
+  return `<div class="store-card" style="border-left-color:${color}">
+    <div class="store-card-header">
+      <div>
+        <div class="store-card-title">${store.name}</div>
+        <div class="store-card-meta">${store.company} \u00b7 ${store.pricing}</div>
+      </div>
+      <span class="store-type-badge" style="background:${color}">${_storeTypeIcon(store.type)} ${_t('store_type.' + store.type)}</span>
+    </div>
+    <div class="store-card-desc">${_loc(store.description)}</div>
+    <div class="store-pros-cons">
+      <div class="store-pros">
+        <div class="store-pc-title store-pc-pro">${_t('games.store_pros')}</div>
+        <ul>${pros.map(p => `<li>${p}</li>`).join('')}</ul>
+      </div>
+      <div class="store-cons">
+        <div class="store-pc-title store-pc-con">${_t('games.store_cons')}</div>
+        <ul>${cons.map(c => `<li>${c}</li>`).join('')}</ul>
+      </div>
+    </div>
+    <div class="store-card-best"><span class="store-best-icon">\uD83D\uDC4D</span> <strong>${_t('games.store_best_for')}:</strong> ${_loc(store.best_for)}</div>
+    <div class="store-card-notideal"><span class="store-best-icon">\uD83D\uDC4E</span> <strong>${_t('games.store_not_ideal')}:</strong> ${_loc(store.not_ideal_for)}</div>
+    <div class="store-card-footer">
+      <div class="store-card-tags">${(store.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
+      ${store.url ? `<a href="${store.url}" target="_blank" rel="noopener" class="btn btn-visit">${_t('games.store_visit')} \u2192</a>` : ''}
+    </div>
+  </div>`;
+}
+
 /* ========== RENDER: GAMES ========== */
 function renderGames() {
   const el = document.getElementById('games-content');
@@ -267,6 +308,8 @@ function renderGames() {
       </div>
 
       ${games.length === 0 ? '<p style="text-align:center;color:var(--text-gray);margin:2rem 0">No games in this genre yet.</p>' : ''}
+
+      ${_storesSectionHtml()}
     `;
 
     el.querySelectorAll('[data-filter]').forEach(btn => {
@@ -278,6 +321,20 @@ function renderGames() {
   }
 
   render();
+}
+
+/* ========== STORES SECTION (inside games page) ========== */
+function _storesSectionHtml() {
+  const stores = Data.getStores();
+  if (!stores.length) return '';
+  return `
+    <div class="stores-section">
+      <h2>${_t('games.stores_title')}</h2>
+      <p class="section-subtitle">${_t('games.stores_subtitle')}</p>
+      <div class="store-grid">
+        ${stores.map(s => _storeCardHtml(s)).join('')}
+      </div>
+    </div>`;
 }
 
 /* ========== RENDER: AI ========== */

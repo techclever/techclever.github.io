@@ -10,6 +10,7 @@ const Data = (() => {
   let _platforms = null;
   let _os = null;
   let _osHistory = null;
+  let _stores = null;
   let _quiz = null;
 
   async function _load(url) {
@@ -24,7 +25,7 @@ const Data = (() => {
 
   async function init() {
     if (!_games) {
-      const [games, ai, dev, productivity, hardware, platforms, osData, quizData] = await Promise.all([
+      const [games, ai, dev, productivity, hardware, platforms, osData, storesData, quizData] = await Promise.all([
         _load('data/games.json'),
         _loadSafe('data/ai.json'),
         _loadSafe('data/dev.json'),
@@ -32,6 +33,7 @@ const Data = (() => {
         _loadSafe('data/hardware.json'),
         _loadSafe('data/platforms.json'),
         _loadSafe('data/os.json'),
+        _loadSafe('data/stores.json'),
         _loadSafe('data/quiz.json')
       ]);
       _games = games;
@@ -41,6 +43,7 @@ const Data = (() => {
       _hardware = hardware;
       _platforms = platforms;
       if (osData) { _os = osData.os || []; _osHistory = osData.history || []; }
+      _stores = storesData;
       _quiz = quizData;
     }
   }
@@ -131,6 +134,17 @@ const Data = (() => {
   }
   function getOSHistory() { return (_osHistory || []).slice().sort((a, b) => a.year - b.year); }
 
+  /* Gaming Stores & Services */
+  function getStores() { return (_stores || []).slice(); }
+  function getStoresByType(type) { return getStores().filter(s => s.type === type); }
+  function getStoreTypes() {
+    return [
+      { id: 'store', icon: '\uD83D\uDED2', name_key: 'store_type.store' },
+      { id: 'subscription', icon: '\uD83D\uDD04', name_key: 'store_type.subscription' },
+      { id: 'both', icon: '\u2B50', name_key: 'store_type.both' }
+    ];
+  }
+
   /* Quiz */
   function getQuiz() { return (_quiz || []).slice(); }
   function getQuizByCategory(cat) { return getQuiz().filter(q => q.category === cat); }
@@ -154,6 +168,7 @@ const Data = (() => {
     getHardware, getHardwareByCategory, getHardwareCategories,
     getPlatforms, getPlatformsByType,
     getOS, getOSByCategory, getOSCategories, getOSHistory,
+    getStores, getStoresByType, getStoreTypes,
     getQuiz, getQuizByCategory, getQuizCategories
   };
 })();

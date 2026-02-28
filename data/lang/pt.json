@@ -67,6 +67,17 @@
   "games.why_play": "Porque Jogar",
   "games.platform": "Plataforma",
   "games.developer": "Desenvolvedor",
+  "games.stores_title": "Lojas e Serviços de Jogos",
+  "games.stores_subtitle": "Onde comprar jogos, quais subscrições valem a pena e os prós e contras honestos de cada grande plataforma.",
+  "games.store_pros": "Prós",
+  "games.store_cons": "Contras",
+  "games.store_best_for": "Ideal para",
+  "games.store_not_ideal": "Não ideal para",
+  "games.store_visit": "Visitar",
+
+  "store_type.store": "Loja",
+  "store_type.subscription": "Subscrição",
+  "store_type.both": "Loja + Sub",
 
   "ai.title": "Ferramentas e Recursos de IA",
   "ai.subtitle": "As ferramentas de IA mais uteis disponiveis hoje — de chatbots a geradores de imagens, assistentes de codigo a criadores de video.",

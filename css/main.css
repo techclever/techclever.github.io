@@ -2498,3 +2498,162 @@ a.card {
     border-left: none;
     border-right: 4px solid #DC2626;
 }
+
+/* --------------------------------------------------------------------------
+   GAMING STORES & SERVICES
+   -------------------------------------------------------------------------- */
+.stores-section {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 2px solid #E5E7EB;
+}
+.store-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+.store-card {
+    background: #FFF;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    border-left: 5px solid #7C3AED;
+    padding: 1.5rem;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+.store-card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+.store-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.store-card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1F2937;
+}
+.store-card-meta {
+    font-size: 0.85rem;
+    color: #6B7280;
+    margin-top: 0.2rem;
+}
+.store-type-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #FFF;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+.store-card-desc {
+    color: #374151;
+    line-height: 1.7;
+    margin-bottom: 1.25rem;
+    font-size: 0.95rem;
+}
+.store-pros-cons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    background: #FAFAFA;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+}
+.store-pc-title {
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+.store-pc-pro { color: #059669; }
+.store-pc-con { color: #DC2626; }
+.store-pros ul, .store-cons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.store-pros li, .store-cons li {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    padding: 0.25rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+}
+.store-pros li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: #059669;
+    font-weight: 700;
+}
+.store-cons li::before {
+    content: "\2717";
+    position: absolute;
+    left: 0;
+    color: #DC2626;
+    font-weight: 700;
+}
+.store-card-best, .store-card-notideal {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    color: #374151;
+}
+.store-best-icon {
+    margin-right: 0.25rem;
+}
+.store-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #E5E7EB;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.store-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+/* Store responsive */
+@media (max-width: 768px) {
+    .store-grid {
+        grid-template-columns: 1fr;
+    }
+    .store-pros-cons {
+        grid-template-columns: 1fr;
+    }
+    .store-card-header {
+        flex-direction: column;
+    }
+}
+
+/* Store RTL */
+[dir="rtl"] .store-pros li,
+[dir="rtl"] .store-cons li {
+    padding-left: 0;
+    padding-right: 1.2rem;
+}
+[dir="rtl"] .store-pros li::before,
+[dir="rtl"] .store-cons li::before {
+    left: auto;
+    right: 0;
+}
+[dir="rtl"] .store-best-icon {
+    margin-right: 0;
+    margin-left: 0.25rem;
+}
+[dir="rtl"] .store-card {
+    border-left: 1px solid #E5E7EB;
+    border-right: 5px solid #7C3AED;
+}

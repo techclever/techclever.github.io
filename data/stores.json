@@ -1,0 +1,314 @@
+[
+  {
+    "id": "steam",
+    "name": "Steam",
+    "company": "Valve",
+    "type": "store",
+    "url": "https://store.steampowered.com",
+    "pricing": "Free (games purchased individually)",
+    "description": {
+      "en": "If PC gaming has a home, it's Steam. Launched by Valve in 2003, Steam has grown into the undisputed king of digital game stores with over 50,000 titles in its library. The legendary Summer and Winter Sales have become cultural events where your wallet trembles in fear — discounts of 50-90% on games you've been eyeing all year. Steam Workshop turns modding from a nightmare into a one-click experience (Skyrim with 400 mods, anyone?). Remote Play Together lets you share couch co-op games with friends across the world, Family Sharing keeps the peace at home, and with the Steam Deck, Valve proved it could make a killer handheld too. Add community reviews, curated lists, achievement tracking, and Proton making Linux gaming actually viable — Steam isn't just a store, it's the entire ecosystem."
+    },
+    "pros": {
+      "en": [
+        "Largest game library of any PC platform — if it exists, it's probably on Steam",
+        "Legendary seasonal sales where your wallet won't survive",
+        "Steam Workshop makes modding a one-click dream",
+        "Remote Play, Family Sharing, and Steam Deck handheld support",
+        "Incredible community features — reviews, forums, guides, screenshots, and curator lists",
+        "Proton compatibility layer makes thousands of games work on Linux"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Valve takes a 30% cut from developers, sparking industry debate",
+        "Store can feel cluttered with asset-flip shovelware",
+        "No subscription service — you buy everything individually",
+        "Refund window limited to 2 hours of playtime or 14 days"
+      ]
+    },
+    "best_for": { "en": "Every PC gamer. Period. The biggest library, the best sales, the most features, and now a handheld to take it all with you." },
+    "not_ideal_for": { "en": "Those who prefer Netflix-style subscription access, or developers frustrated by the 30% revenue cut" },
+    "tags": ["pc", "store", "mods", "sales", "community", "steam-deck"]
+  },
+  {
+    "id": "epic-games-store",
+    "name": "Epic Games Store",
+    "company": "Epic Games",
+    "type": "store",
+    "url": "https://store.epicgames.com",
+    "pricing": "Free (games purchased individually + free weekly games)",
+    "description": {
+      "en": "Epic shook up the PC gaming world in 2018 when it launched its own store — and started giving away free games every single week. We're not talking obscure titles either: GTA V, Civilization VI, Death Stranding, Control, Hitman, and hundreds more have all been handed out completely free. Even if you never buy a single game, just claiming the freebies each week builds you an impressive library worth thousands of dollars. Backed by Fortnite money and Unreal Engine revenue, Epic offers developers a much fairer 88/12 revenue split (compared to Steam's 70/30), which has attracted timed exclusives like Alan Wake 2 and Kingdom Hearts. The store is simpler than Steam — no reviews, no workshop — but it's clean, fast, and the free games alone make it essential."
+    },
+    "pros": {
+      "en": [
+        "Free games every week — often AAA titles worth $20-60 each",
+        "Much fairer 88/12 revenue split for developers",
+        "Exclusive titles not available on Steam at launch",
+        "Clean, fast storefront without the clutter"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Missing features Steam users take for granted — no reviews, no forums, no workshop",
+        "No mod support or equivalent to Steam Workshop",
+        "Timed exclusives frustrate the PC gaming community",
+        "Smaller overall library compared to Steam"
+      ]
+    },
+    "best_for": { "en": "Smart gamers who claim every free weekly game and don't mind a leaner storefront — free games alone can build a library worth thousands" },
+    "not_ideal_for": { "en": "Players who rely on community reviews, mod support, or want every feature Steam offers" },
+    "tags": ["pc", "store", "free-games", "exclusives", "unreal-engine"]
+  },
+  {
+    "id": "gog",
+    "name": "GOG",
+    "company": "CD Projekt",
+    "type": "store",
+    "url": "https://www.gog.com",
+    "pricing": "Free (games purchased individually)",
+    "description": {
+      "en": "GOG is gaming's last bastion of true ownership. Every single game on GOG is 100% DRM-free — no always-online checks, no launcher required, no corporate server deciding whether you can play the game you paid for. Download the installer, back it up, play it in 20 years — it's yours forever. Started as 'Good Old Games' specializing in classics (Baldur's Gate, Fallout, Heroes of Might and Magic running perfectly on modern PCs), GOG now also carries new releases including its parent company CD Projekt's own Cyberpunk 2077 and The Witcher 3. The optional GOG Galaxy launcher is a hidden gem too — it can unify your Steam, Epic, PlayStation, and Xbox libraries into one interface. And the 30-day money-back guarantee? No other store comes close."
+    },
+    "pros": {
+      "en": [
+        "100% DRM-free — you truly own your games, forever, no strings attached",
+        "Classic games lovingly restored to work on modern PCs",
+        "GOG Galaxy unifies all your gaming libraries into one launcher",
+        "Generous 30-day refund policy, no questions asked",
+        "No launcher required — just download and play"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Smaller library — not every new game comes to GOG",
+        "Some major releases arrive late or skip the platform entirely",
+        "Fewer community and multiplayer features than Steam",
+        "No achievements system for many titles"
+      ]
+    },
+    "best_for": { "en": "Gamers who believe you should own what you pay for, retro game lovers, and anyone who's been burned by always-online DRM" },
+    "not_ideal_for": { "en": "Those who need every AAA launch on day one, or gamers who live in Steam's social ecosystem" },
+    "tags": ["pc", "store", "drm-free", "classic-games", "ownership", "witcher"]
+  },
+  {
+    "id": "xbox-game-pass",
+    "name": "Xbox Game Pass",
+    "company": "Microsoft",
+    "type": "subscription",
+    "url": "https://www.xbox.com/game-pass",
+    "pricing": "PC $10/mo · Standard $15/mo · Ultimate $20/mo",
+    "description": {
+      "en": "Game Pass changed the rules. For the price of one new game every three months, you get access to hundreds — including every single Xbox, Bethesda, and Activision Blizzard title on day one. Starfield? Day one. The next Call of Duty? Day one. Diablo? Day one. Indiana Jones? Day one. Microsoft has spent $80+ billion acquiring studios specifically to make Game Pass the most insane deal in gaming, and it shows. The Ultimate tier bundles PC, Xbox console, cloud streaming (play on your phone, tablet, or any browser), and EA Play all together. Cloud gaming means you can start Forza Horizon 5 on your Xbox, continue on your laptop, and finish on your phone during lunch break. It's also the best way to discover hidden gems — you'll try games you'd never risk $60 on, and some of them become your favorites."
+    },
+    "pros": {
+      "en": [
+        "Best value in gaming — hundreds of games for a flat monthly fee",
+        "Every Xbox, Bethesda, and Activision game on day one, included",
+        "Cloud gaming on phones, tablets, browsers, and Steam Deck",
+        "EA Play included free with Ultimate tier",
+        "Risk-free discovery — try anything in the catalog without committing $60",
+        "Growing catalog of indie gems alongside AAA blockbusters"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Games leave the catalog — your current favorite might disappear",
+        "You don't own anything — cancel and you lose access to everything",
+        "Prices have been creeping up and will likely continue",
+        "Cloud gaming needs decent internet — no offline play there",
+        "Can make you feel overwhelmed — too many choices, too little time"
+      ]
+    },
+    "best_for": { "en": "Gamers who play a lot and want to explore everything — the 'Netflix of gaming' that actually lives up to the name" },
+    "not_ideal_for": { "en": "Players who only play one game at a time, prefer to own their library, or have slow internet for cloud gaming" },
+    "tags": ["subscription", "xbox", "pc", "cloud", "day-one", "best-value", "activision"]
+  },
+  {
+    "id": "playstation-plus",
+    "name": "PlayStation Plus",
+    "company": "Sony",
+    "type": "subscription",
+    "url": "https://www.playstation.com/ps-plus",
+    "pricing": "Essential $60/yr · Extra $100/yr · Premium $120/yr",
+    "description": {
+      "en": "Sony revamped PlayStation Plus into a three-tier powerhouse to compete with Game Pass — and the catalog is stacked. Essential (required for online multiplayer) gives you 2-3 free games every month, and these aren't throwaway titles — recent picks include God of War Ragnarok, Hogwarts Legacy, and Spider-Man 2. Extra is where it gets serious: hundreds of PS4/PS5 games on demand, including bangers like Ghost of Tsushima, Returnal, Demon's Souls, and the entire Ratchet & Clank series. Premium is the nostalgia tier — classic PS1, PS2, PS3, and PSP games, plus game trials that let you play upcoming releases for a few hours before buying. The big difference from Game Pass? Sony's first-party blockbusters don't drop on day one — you'll wait months after launch. But Sony is reportedly planning a more aggressive Game Pass competitor, so watch this space."
+    },
+    "pros": {
+      "en": [
+        "Extra tier is packed with incredible PS4/PS5 exclusives",
+        "Premium unlocks the PlayStation vault — PS1 to PSP classics",
+        "Monthly Essential games are often recent AAA titles",
+        "Game trials let you test-drive new releases before buying (Premium)",
+        "Sony's exclusive lineup is unmatched — God of War, Spider-Man, The Last of Us, Horizon"
+      ]
+    },
+    "cons": {
+      "en": [
+        "First-party games do NOT launch on PS Plus day one — biggest gap vs Game Pass",
+        "More expensive than Game Pass for comparable catalog access",
+        "Cloud streaming quality depends heavily on your connection",
+        "Games rotate in and out — no guarantee your favorites stay",
+        "No PC access for most of the catalog (a few titles via cloud)"
+      ]
+    },
+    "best_for": { "en": "PlayStation loyalists who want access to Sony's legendary exclusives, monthly freebies, and a trip down memory lane with classic titles" },
+    "not_ideal_for": { "en": "Those expecting day-one Sony blockbusters, or gamers who primarily play on PC" },
+    "tags": ["subscription", "playstation", "cloud", "classics", "exclusives", "sony"]
+  },
+  {
+    "id": "nintendo-eshop",
+    "name": "Nintendo eShop",
+    "company": "Nintendo",
+    "type": "store",
+    "url": "https://www.nintendo.com/store",
+    "pricing": "Free (games individually) · Switch Online $20-50/yr",
+    "description": {
+      "en": "Nintendo doesn't compete — it does its own thing, and 150 million Switch owners love it. The eShop is your gateway to Mario, Zelda, Pokemon, Metroid, Smash Bros., Animal Crossing, Splatoon, and every other franchise that defined childhoods for generations. But the real hidden gem is Nintendo Switch Online: for just $20/year you get online multiplayer PLUS a growing library of NES, SNES, Game Boy, and Game Boy Advance classics. The Expansion Pack ($50/yr) adds N64 games (Ocarina of Time, Mario 64, Majora's Mask) and Sega Genesis titles. The Switch also became the go-to indie machine — Hades, Hollow Knight, Celeste, Stardew Valley, and thousands more are perfect on a portable screen. Nintendo games rarely go on sale, which stings, but their first-party quality is so consistently excellent that fans happily pay full price."
+    },
+    "pros": {
+      "en": [
+        "Home to gaming's most iconic franchises — Mario, Zelda, Pokemon, Smash, Metroid",
+        "Switch Online is a steal — online play + retro classics from $20/year",
+        "The Switch is the ultimate indie machine — portable perfection",
+        "Family plan makes Switch Online incredibly affordable for households",
+        "N64 and Game Boy classics through the Expansion Pack"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Nintendo games almost never go on deep sale — $60 forever",
+        "No achievement system on Switch — a glaring omission in 2025",
+        "Online infrastructure is years behind Xbox and PlayStation",
+        "Digital purchases tied strictly to your Nintendo account"
+      ]
+    },
+    "best_for": { "en": "Nintendo fans, families, and anyone who wants Mario, Zelda, and the best indie library on a portable console" },
+    "not_ideal_for": { "en": "Bargain hunters waiting for sales, or serious competitive online gamers who need robust infrastructure" },
+    "tags": ["switch", "store", "exclusives", "retro", "family", "portable", "nintendo"]
+  },
+  {
+    "id": "ea-play",
+    "name": "EA Play",
+    "company": "Electronic Arts",
+    "type": "subscription",
+    "url": "https://www.ea.com/ea-play",
+    "pricing": "$5/mo · $30/yr · Pro $17/mo",
+    "description": {
+      "en": "Love sports games? EA Play is a no-brainer. For just $5/month or $30/year, you get access to EA's massive back catalog — every EA Sports FC (formerly FIFA), Madden, NHL, and NBA Live, plus franchises like Battlefield, The Sims 4, Mass Effect Legendary Edition, Dead Space, It Takes Two, and Star Wars Jedi. The base tier gives you 10-hour trials of new EA releases before anyone else, so you can test-drive the latest EA Sports FC before committing. The Pro tier (PC only, $17/mo) goes further with full day-one access to every new EA game with all premium editions included. And here's the kicker — EA Play is already included for free if you have Xbox Game Pass Ultimate, so millions of gamers get it as a bonus without even paying extra."
+    },
+    "pros": {
+      "en": [
+        "Incredibly affordable at $5/month or $30/year",
+        "10-hour trials of new EA games before they launch publicly",
+        "Included for free with Xbox Game Pass Ultimate",
+        "Pro tier gives full day-one access to every EA release on PC",
+        "Great sports game catalog — every FIFA/EA FC, Madden, NHL back to back"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Library limited to EA's own games only — no third-party titles",
+        "Base tier only gives you older titles and trials, not new releases",
+        "Pro tier is PC-only and expensive for one publisher's catalog",
+        "Some games are loaded with microtransactions (Ultimate Team modes)"
+      ]
+    },
+    "best_for": { "en": "Sports game addicts, Game Pass Ultimate subscribers who get it free, and anyone who wants to binge EA's back catalog on a budget" },
+    "not_ideal_for": { "en": "Gamers who don't care about EA's lineup, or console players wanting day-one access (Pro is PC only)" },
+    "tags": ["subscription", "ea", "sports", "pc", "console", "affordable"]
+  },
+  {
+    "id": "ubisoft-plus",
+    "name": "Ubisoft+",
+    "company": "Ubisoft",
+    "type": "subscription",
+    "url": "https://www.ubisoft.com/ubisoft-plus",
+    "pricing": "Classics $8/mo · Premium $18/mo",
+    "description": {
+      "en": "If you live and breathe Assassin's Creed, Ubisoft+ is your all-access pass. The Classics tier ($8/mo) opens up the Ubisoft vault — every Assassin's Creed from the original to Valhalla, all Far Cry games, Rainbow Six Siege, Watch Dogs, The Division, Ghost Recon, and more. The Premium tier ($18/mo) is for the hardcore fans: day-one access to every new Ubisoft release with all DLC and season passes included. That means the newest Assassin's Creed with its $40 season pass? Covered. The latest Far Cry with all its expansions? Covered. For someone who buys every Ubisoft game at launch, Premium practically pays for itself in a month. It's available on PC through Ubisoft Connect, and Classics tier is partially accessible through PlayStation Plus Extra."
+    },
+    "pros": {
+      "en": [
+        "Day-one access to all new Ubisoft games with Premium — including all DLC",
+        "Every expansion and season pass included — no extra costs",
+        "Classics tier is solid value for Ubisoft's deep back catalog",
+        "Partially available through PlayStation Plus Extra"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Only Ubisoft games — no third-party titles at all",
+        "Premium at $18/mo is steep for one publisher's output",
+        "Ubisoft's game quality has been inconsistent in recent years",
+        "PC requires the Ubisoft Connect launcher (not everyone's favorite)"
+      ]
+    },
+    "best_for": { "en": "Assassin's Creed superfans and Ubisoft loyalists who would buy every release anyway — it pays for itself fast" },
+    "not_ideal_for": { "en": "Casual gamers who only want one or two Ubisoft titles per year — just buy them individually" },
+    "tags": ["subscription", "ubisoft", "pc", "day-one", "assassins-creed"]
+  },
+  {
+    "id": "humble-bundle",
+    "name": "Humble Bundle",
+    "company": "Ziff Davis (IGN)",
+    "type": "both",
+    "url": "https://www.humblebundle.com",
+    "pricing": "Free store · Choice $12/mo · Bundles vary",
+    "description": {
+      "en": "Humble Bundle is where gaming meets generosity. Since 2010, the platform has raised over $250 million for charity through its pay-what-you-want bundle model — and gamers get incredible deals in return. Humble Choice ($12/month) gives you a curated selection of games to keep permanently (Steam keys), and the value is often absurd — recent bundles have included titles worth $200+ total. The Humble Store also sells individual games with competitive pricing, and subscribers get an extra 20% discount. But the real magic is the bundle format: game bundles, book bundles, software bundles — all with a slider letting you choose how much goes to charity, to the developers, and to Humble. It's the only store where spending money actually makes you feel good."
+    },
+    "pros": {
+      "en": [
+        "Bundles offer insane value — often 8-12 games for $12",
+        "Every purchase supports charity — over $250 million raised",
+        "You own the games permanently — receive Steam or DRM-free keys",
+        "20% subscriber discount on the Humble Store",
+        "Book and software bundles are amazing too, not just games"
+      ]
+    },
+    "cons": {
+      "en": [
+        "Monthly Choice quality varies — some months are gold, others are meh",
+        "You can't pick and choose — it's curated selections",
+        "Subscription management and pausing can be confusing",
+        "Now owned by IGN/Ziff Davis, which concerns some users about independence"
+      ]
+    },
+    "best_for": { "en": "Budget gamers who love surprise discoveries and want to build a massive library while supporting charities around the world" },
+    "not_ideal_for": { "en": "Picky gamers who only want specific AAA titles, or those who hate not knowing what they're getting" },
+    "tags": ["bundles", "charity", "pc", "store", "subscription", "value", "feel-good"]
+  },
+  {
+    "id": "itch-io",
+    "name": "itch.io",
+    "company": "itch corp",
+    "type": "store",
+    "url": "https://itch.io",
+    "pricing": "Free (pay-what-you-want / individual pricing)",
+    "description": {
+      "en": "itch.io is where gaming's wild, creative heart beats the loudest. No corporate gatekeepers, no algorithm deciding what you see, no $100 publishing fee — just pure creative freedom. This is where a solo developer can upload their weird experimental art game at 3 AM and someone on the other side of the world discovers it the next day. It's home to thousands of game jam entries (Ludum Dare, Global Game Jam), visual novels, tabletop RPGs, interactive fiction, and the kinds of experimental games that would never survive on Steam. Many beloved indie hits started here — Celeste began as a game jam project on itch.io. Developers set their own revenue split (even 0%), and the pay-what-you-want model means you can get hundreds of free games or support creators directly. The massive charity bundles (like the Bundle for Ukraine) have offered thousands of games for a single donation."
+    },
+    "pros": {
+      "en": [
+        "Thousands of free and pay-what-you-want games — the indie goldmine",
+        "Zero barrier for developers — upload anything, anytime",
+        "Game jam central — discover tomorrow's indie hits today",
+        "Developers choose their own revenue split, even 0%",
+        "Massive charity bundles offer thousands of games for one donation"
+      ]
+    },
+    "cons": {
+      "en": [
+        "No quality curation — gems buried under mountains of unfinished projects",
+        "No achievements, social features, or community tools",
+        "Discoverability is tough without external recommendations or curated lists",
+        "Many games are prototypes, demos, or very rough around the edges"
+      ]
+    },
+    "best_for": { "en": "Indie game lovers, aspiring game developers, game jam enthusiasts, and anyone looking for creative experiences they'll never find on mainstream platforms" },
+    "not_ideal_for": { "en": "Gamers who want polished, finished products and social features — this is the experimental frontier" },
+    "tags": ["indie", "free", "store", "game-jams", "developers", "creative", "open-platform"]
+  }
+]

@@ -67,6 +67,17 @@
   "games.why_play": "De Ce Sa Joci",
   "games.platform": "Platforma",
   "games.developer": "Dezvoltator",
+  "games.stores_title": "Magazine și Servicii de Jocuri",
+  "games.stores_subtitle": "De unde să cumperi jocuri, ce abonamente merită și avantajele și dezavantajele oneste pentru fiecare platformă majoră.",
+  "games.store_pros": "Avantaje",
+  "games.store_cons": "Dezavantaje",
+  "games.store_best_for": "Ideal pentru",
+  "games.store_not_ideal": "Nu este ideal pentru",
+  "games.store_visit": "Vizitează",
+
+  "store_type.store": "Magazin",
+  "store_type.subscription": "Abonament",
+  "store_type.both": "Magazin + Abonament",
 
   "ai.title": "Unelte si Resurse de IA",
   "ai.subtitle": "Cele mai utile unelte de IA disponibile astazi — de la chatboti la generatoare de imagini, asistenti de cod la creatori de video.",

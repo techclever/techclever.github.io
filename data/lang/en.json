@@ -67,6 +67,17 @@
   "games.why_play": "Why Play",
   "games.platform": "Platform",
   "games.developer": "Developer",
+  "games.stores_title": "Gaming Stores & Services",
+  "games.stores_subtitle": "Where to buy games, which subscriptions are worth it, and honest pros & cons for every major platform.",
+  "games.store_pros": "Pros",
+  "games.store_cons": "Cons",
+  "games.store_best_for": "Best for",
+  "games.store_not_ideal": "Not ideal for",
+  "games.store_visit": "Visit",
+
+  "store_type.store": "Store",
+  "store_type.subscription": "Subscription",
+  "store_type.both": "Store + Sub",
 
   "ai.title": "AI Tools & Resources",
   "ai.subtitle": "The most useful AI tools available today — from chatbots to image generators, code assistants to video creators.",

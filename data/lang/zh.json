@@ -67,6 +67,17 @@
   "games.why_play": "\u63a8\u8350\u7406\u7531",
   "games.platform": "\u5e73\u53f0",
   "games.developer": "\u5f00\u53d1\u5546",
+  "games.stores_title": "游戏商店与服务",
+  "games.stores_subtitle": "在哪里购买游戏、哪些订阅值得入手，以及各大平台的真实优缺点。",
+  "games.store_pros": "优点",
+  "games.store_cons": "缺点",
+  "games.store_best_for": "最适合",
+  "games.store_not_ideal": "不太适合",
+  "games.store_visit": "访问",
+
+  "store_type.store": "商店",
+  "store_type.subscription": "订阅",
+  "store_type.both": "商店 + 订阅",
 
   "ai.title": "AI \u5de5\u5177\u4e0e\u8d44\u6e90",
   "ai.subtitle": "\u5f53\u4eca\u6700\u5b9e\u7528\u7684 AI \u5de5\u5177\u2014\u2014\u4ece\u804a\u5929\u673a\u5668\u4eba\u5230\u56fe\u50cf\u751f\u6210\u5668\uff0c\u4ece\u4ee3\u7801\u52a9\u624b\u5230\u89c6\u9891\u521b\u4f5c\u5de5\u5177\u3002",

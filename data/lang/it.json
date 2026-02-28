@@ -68,6 +68,18 @@
   "games.platform": "Piattaforma",
   "games.developer": "Sviluppatore",
 
+  "games.stores_title": "Negozi e servizi di gaming",
+  "games.stores_subtitle": "Dove comprare giochi, quali abbonamenti convengono e pro e contro onesti per ogni grande piattaforma.",
+  "games.store_pros": "Pro",
+  "games.store_cons": "Contro",
+  "games.store_best_for": "Ideale per",
+  "games.store_not_ideal": "Non ideale per",
+  "games.store_visit": "Visita",
+
+  "store_type.store": "Negozio",
+  "store_type.subscription": "Abbonamento",
+  "store_type.both": "Negozio + Abo",
+
   "ai.title": "Strumenti e risorse IA",
   "ai.subtitle": "Gli strumenti di IA più utili di oggi — dai chatbot ai generatori di immagini, assistenti di codice e creatori di video.",
   "ai.filter_all": "Tutte le categorie",

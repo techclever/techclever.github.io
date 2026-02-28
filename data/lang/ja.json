@@ -67,6 +67,17 @@
   "games.why_play": "おすすめの理由",
   "games.platform": "対応機種",
   "games.developer": "開発元",
+  "games.stores_title": "ゲームストア & サービス",
+  "games.stores_subtitle": "どこでゲームを買うべきか、どのサブスクが価値があるか — 主要プラットフォームの正直なメリット・デメリット。",
+  "games.store_pros": "メリット",
+  "games.store_cons": "デメリット",
+  "games.store_best_for": "こんな人におすすめ",
+  "games.store_not_ideal": "不向きな人",
+  "games.store_visit": "サイトへ",
+
+  "store_type.store": "ストア",
+  "store_type.subscription": "サブスク",
+  "store_type.both": "ストア + サブスク",
 
   "ai.title": "AIツール & リソース",
   "ai.subtitle": "今すぐ使える実用的なAIツール — チャットボットから画像生成、コードアシスタントから動画制作まで。",

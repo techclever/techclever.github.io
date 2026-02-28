@@ -182,6 +182,34 @@
     "tags": ["image-generation", "open-source", "photorealistic"]
   },
   {
+    "id": "freepik",
+    "name": "Freepik",
+    "category": "image",
+    "url": "https://www.freepik.com",
+    "pricing": "Free / Premium from $9/mo",
+    "description": {
+      "en": "Freepik is a massive design resource platform offering millions of vectors, photos, icons, and PSD files. Its AI-powered tools include an image generator, background remover, and AI-assisted design features. Freepik has evolved from a stock resource library into a full creative suite with AI capabilities built in."
+    },
+    "best_for": {
+      "en": "Designers, marketers, and content creators who need high-quality stock assets combined with AI-powered design and image generation tools."
+    },
+    "tags": ["design", "stock-assets", "ai-image", "vectors"]
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "category": "image",
+    "url": "https://www.canva.com",
+    "pricing": "Free / Pro $13/mo",
+    "description": {
+      "en": "Canva is an all-in-one visual design platform used by millions for social media graphics, presentations, posters, and more. Its Magic Studio AI suite includes text-to-image generation, background removal, Magic Eraser, AI-powered layout suggestions, and one-click design resizing. No design experience needed."
+    },
+    "best_for": {
+      "en": "Non-designers, social media managers, teachers, and small businesses who need professional-looking visuals quickly with AI-powered assistance."
+    },
+    "tags": ["design", "ai-image", "templates", "social-media"]
+  },
+  {
     "id": "github-copilot",
     "name": "GitHub Copilot",
     "category": "code",

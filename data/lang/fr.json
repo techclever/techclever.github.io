@@ -68,6 +68,18 @@
   "games.platform": "Plateforme",
   "games.developer": "Développeur",
 
+  "games.stores_title": "Boutiques et services de jeux",
+  "games.stores_subtitle": "Où acheter ses jeux, quels abonnements valent le coup et les vrais avantages et inconvénients de chaque grande plateforme.",
+  "games.store_pros": "Avantages",
+  "games.store_cons": "Inconvénients",
+  "games.store_best_for": "Idéal pour",
+  "games.store_not_ideal": "Pas idéal pour",
+  "games.store_visit": "Visiter",
+
+  "store_type.store": "Boutique",
+  "store_type.subscription": "Abonnement",
+  "store_type.both": "Boutique + Abo",
+
   "ai.title": "Outils et ressources IA",
   "ai.subtitle": "Les outils d'IA les plus utiles d'aujourd'hui — des chatbots aux générateurs d'images, assistants de code et créateurs de vidéos.",
   "ai.filter_all": "Toutes les catégories",
