@@ -56,6 +56,62 @@
     "tags": ["search", "research", "citations"]
   },
   {
+    "id": "venice",
+    "name": "Venice AI",
+    "category": "text",
+    "url": "https://venice.ai",
+    "pricing": "Free tier / Pro $9.99/mo",
+    "description": {
+      "en": "Venice AI is a privacy-first AI platform founded by Erik Voorhees that stores no conversations on its servers — all data stays in your browser. It offers uncensored text generation, image creation, web search, and code assistance using top open-source models. Venice also features Memoria, a local-first long-term memory system."
+    },
+    "best_for": {
+      "en": "Privacy-conscious users who want powerful AI without data collection, censorship, or conversation logging."
+    },
+    "tags": ["privacy", "uncensored", "open-source", "chatbot"]
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "category": "text",
+    "url": "https://x.com/i/grok",
+    "pricing": "Free tier / Premium+ $16/mo (via X)",
+    "description": {
+      "en": "Grok is xAI's AI assistant integrated into the X (Twitter) platform. It has real-time access to posts and trending topics on X, giving it unique conversational awareness. Grok is known for its direct, unfiltered style and willingness to engage with topics other AI models decline."
+    },
+    "best_for": {
+      "en": "Users on X who want real-time social media context and a more direct, less filtered AI conversation style."
+    },
+    "tags": ["chatbot", "real-time", "social-media"]
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "category": "text",
+    "url": "https://chat.deepseek.com",
+    "pricing": "Free / API pricing very low",
+    "description": {
+      "en": "DeepSeek is a Chinese AI lab that released open-source models rivaling GPT-4 at a fraction of the training cost. DeepSeek-R1 introduced chain-of-thought reasoning visible to users. The models are fully open-weight, meaning anyone can download and run them locally, and they excel at math, coding, and reasoning."
+    },
+    "best_for": {
+      "en": "Developers and researchers wanting top-tier open-source models for local deployment, coding, and reasoning tasks."
+    },
+    "tags": ["open-source", "reasoning", "coding", "free"]
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral Le Chat",
+    "category": "text",
+    "url": "https://chat.mistral.ai",
+    "pricing": "Free / API from $0.15/M tokens",
+    "description": {
+      "en": "Mistral AI is a French AI company offering high-performance open-source and commercial models. Le Chat is their free conversational interface powered by models like Mistral Large and Codestral. Mistral is notable for its efficiency, strong multilingual capabilities, and commitment to European AI sovereignty."
+    },
+    "best_for": {
+      "en": "European users and developers who want efficient, multilingual AI with strong open-source options."
+    },
+    "tags": ["chatbot", "open-source", "european", "multilingual"]
+  },
+  {
     "id": "midjourney",
     "name": "Midjourney",
     "category": "image",
@@ -112,6 +168,20 @@
     "tags": ["image-generation", "design", "commercial-safe"]
   },
   {
+    "id": "flux",
+    "name": "Flux",
+    "category": "image",
+    "url": "https://blackforestlabs.ai",
+    "pricing": "Free (open source) / API varies by provider",
+    "description": {
+      "en": "Flux is an open-source image generation model by Black Forest Labs, founded by the original creators of Stable Diffusion. Flux Pro and Flux Dev deliver state-of-the-art image quality with excellent prompt adherence and photorealism. The open-weight models can run locally or via various API providers."
+    },
+    "best_for": {
+      "en": "Developers and creators wanting cutting-edge open-source image generation with strong photorealism and prompt accuracy."
+    },
+    "tags": ["image-generation", "open-source", "photorealistic"]
+  },
+  {
     "id": "github-copilot",
     "name": "GitHub Copilot",
     "category": "code",
@@ -166,6 +236,34 @@
       "en": "Rapid prototyping and building full-stack applications in the browser with integrated hosting and deployment."
     },
     "tags": ["coding", "cloud-ide", "deployment"]
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "category": "code",
+    "url": "https://codeium.com/windsurf",
+    "pricing": "Free tier / Pro $15/mo",
+    "description": {
+      "en": "Windsurf is an AI-powered code editor by Codeium, designed as an agentic IDE that can work alongside you or independently. It features Cascade, a deep context-aware AI that understands your codebase, suggests multi-file edits, and can execute terminal commands. Built on VS Code with familiar extensions support."
+    },
+    "best_for": {
+      "en": "Developers wanting an agentic coding experience with deep codebase understanding and multi-file editing at a lower price point."
+    },
+    "tags": ["coding", "editor", "agentic", "ai-native"]
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "category": "code",
+    "url": "https://bolt.new",
+    "pricing": "Free tier / Pro $20/mo / Team $40/mo",
+    "description": {
+      "en": "Bolt by StackBlitz is an AI-powered full-stack app builder that runs entirely in the browser. It can generate, run, and deploy complete web applications from natural language prompts using an in-browser development environment. Bolt handles package installation, file creation, and live previews instantly."
+    },
+    "best_for": {
+      "en": "Quickly prototyping and building full web applications from descriptions without any local setup."
+    },
+    "tags": ["coding", "app-builder", "browser-based", "full-stack"]
   },
   {
     "id": "suno",
@@ -334,5 +432,33 @@
       "en": "Marketing teams creating on-brand content at scale across blogs, ads, social media, and email campaigns."
     },
     "tags": ["marketing", "content-creation", "brand-voice"]
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "category": "productivity-ai",
+    "url": "https://notebooklm.google.com",
+    "pricing": "Free / Plus $20/mo",
+    "description": {
+      "en": "NotebookLM is Google's AI research assistant that works with your uploaded documents, notes, and sources. It can summarize, answer questions about, and generate audio podcasts from your materials. Unlike general chatbots, it stays grounded in your specific sources, reducing hallucinations."
+    },
+    "best_for": {
+      "en": "Researchers and students who want AI analysis grounded in their own documents and sources, plus AI-generated audio summaries."
+    },
+    "tags": ["research", "documents", "audio-summaries", "free"]
+  },
+  {
+    "id": "pika",
+    "name": "Pika",
+    "category": "video",
+    "url": "https://pika.art",
+    "pricing": "Free tier / Standard $10/mo / Pro $35/mo",
+    "description": {
+      "en": "Pika is an AI video generation platform that creates and edits videos from text, images, or existing clips. Its Pika 2.0 model produces high-quality cinematic video with realistic motion and physics. The platform also offers creative effects like exploding, melting, or inflating objects in scenes."
+    },
+    "best_for": {
+      "en": "Content creators wanting quick, creative AI video generation with unique special effects and easy editing tools."
+    },
+    "tags": ["video-generation", "effects", "creative"]
   }
 ]
