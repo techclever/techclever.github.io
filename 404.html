@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechClever — Tech. Games. AI. All in One Place.</title>
-    <meta name="description" content="Your curated guide to the best games, AI tools, developer resources, productivity apps, and hardware. No ads, no fluff.">
-    <meta property="og:title" content="TechClever — Tech. Games. AI. All in One Place.">
-    <meta property="og:description" content="Your curated guide to the best games, AI tools, developer resources, productivity apps, and hardware. No ads, no fluff.">
+    <title>Page Not Found — TechClever</title>
+    <meta name="description" content="The page you're looking for doesn't exist on TechClever.">
+    <meta property="og:title" content="Page Not Found — TechClever">
+    <meta property="og:description" content="The page you're looking for doesn't exist on TechClever.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://techclever.github.io/">
+    <meta property="og:url" content="https://techclever.github.io/404.html">
     <meta property="og:image" content="https://techclever.github.io/img/og-preview.png">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <style>
+        .error-section {
+            text-align: center;
+            padding: 4rem 1rem;
+            min-height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: 800;
+            color: #7C3AED;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        .error-title {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .error-message {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 500px;
+            margin-bottom: 2rem;
+        }
+        .error-home {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background: #7C3AED;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+        .error-home:hover {
+            opacity: 0.9;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -36,26 +78,13 @@
         </div>
     </header>
 
-    <section class="hero">
-        <h1 data-i18n="hero.title">Tech. Games. AI. All in One Place.</h1>
-        <p class="hero-stats" id="hero-stats"></p>
-        <p data-i18n="hero.subtitle">Your curated guide to the best games, AI tools, developer resources, productivity apps, and hardware. No ads, no fluff — just the good stuff.</p>
-    </section>
-
     <div class="container">
-        <div id="whats-new-wrap"></div>
-    </div>
-
-    <div class="container">
-        <section class="home-section" id="game-of-day-box"></section>
-
-        <section class="home-section" id="ai-spotlight-box"></section>
-
-        <section class="home-section" id="dev-pick-box"></section>
-
-        <section class="home-section" id="prod-pick-box"></section>
-
-        <section class="home-section" id="os-spotlight-box"></section>
+        <div class="error-section">
+            <div class="error-code">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-message">Sorry, the page you are looking for doesn't exist or has been moved. Let's get you back on track.</p>
+            <a href="index.html" class="error-home">Back to Home</a>
+        </div>
     </div>
 
     <footer class="footer">
@@ -134,11 +163,5 @@
       }, 1500);
     })();
     </script>
-<button class="scroll-top-btn" id="scroll-top-btn" aria-label="Scroll to top">&#9650;</button>
-<script>
-const stb=document.getElementById("scroll-top-btn");
-window.addEventListener("scroll",()=>{stb.classList.toggle("visible",window.scrollY>300)});
-stb.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
-</script>
 </body>
 </html>

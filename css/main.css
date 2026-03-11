@@ -168,6 +168,7 @@ body::-webkit-scrollbar {
     margin-bottom: 0.3rem;
     font-weight: 300;
     position: relative;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 .hero p {
@@ -1519,6 +1520,21 @@ a.card {
     height: 100%;
     object-fit: cover;
 }
+
+/* What's New */
+.updates-section { margin-bottom: 2rem; }
+.updates-list { display: flex; flex-direction: column; gap: 1rem; }
+.update-item {
+    display: flex; align-items: flex-start; gap: 1rem;
+    background: var(--white); border-left: 4px solid var(--tc-primary);
+    border-radius: 8px; padding: 1rem 1.25rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+.update-icon { font-size: 1.5rem; flex-shrink: 0; margin-top: 2px; }
+.update-body { flex: 1; }
+.update-body strong { color: var(--text-dark); }
+.update-date { display: inline-block; margin-left: 0.5rem; font-size: 0.8rem; color: var(--text-gray); }
+.update-body p { margin: 0.3rem 0 0; color: var(--text-gray); font-size: 0.9rem; }
 
 /* ==========================================================================
    30. RESPONSIVE BREAKPOINTS

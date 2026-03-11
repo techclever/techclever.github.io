@@ -159,6 +159,17 @@ const Data = (() => {
     ];
   }
 
+  // Monthly updates (auto-hides entries older than 2 months)
+  const _updates = [
+    { id: 'mar2026', date: '2026-03-01', icon: '\uD83D\uDCBB', titleKey: 'updates.mar2026.title', descKey: 'updates.mar2026.desc' }
+  ];
+
+  function getUpdates() {
+    const now = new Date();
+    const cutoff = new Date(now.getFullYear(), now.getMonth() - 2, 1);
+    return _updates.filter(u => new Date(u.date) >= cutoff);
+  }
+
   return {
     init,
     getGames, getGamesByGenre, getGameGenres,
@@ -169,6 +180,7 @@ const Data = (() => {
     getPlatforms, getPlatformsByType,
     getOS, getOSByCategory, getOSCategories, getOSHistory,
     getStores, getStoresByType, getStoreTypes,
-    getQuiz, getQuizByCategory, getQuizCategories
+    getQuiz, getQuizByCategory, getQuizCategories,
+    getUpdates
   };
 })();
