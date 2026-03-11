@@ -168,7 +168,7 @@ body::-webkit-scrollbar {
     margin-bottom: 0.3rem;
     font-weight: 300;
     position: relative;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff, 0 -2px 0 #fff, 0 2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
 }
 
 .hero p {
