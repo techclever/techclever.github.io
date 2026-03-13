@@ -11,7 +11,13 @@
       "en": "Data science, machine learning, scripting, web development with Django or Flask, and rapid prototyping."
     },
     "difficulty": "Beginner",
-    "tags": ["versatile", "beginner-friendly", "popular", "data-science"]
+    "tags": [
+      "versatile",
+      "beginner-friendly",
+      "popular",
+      "data-science"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/400px-Python-logo-notext.svg.png"
   },
   {
     "id": "javascript",
@@ -25,7 +31,13 @@
       "en": "Front-end web development, full-stack applications with Node.js, and building interactive user interfaces."
     },
     "difficulty": "Beginner",
-    "tags": ["web", "full-stack", "essential", "versatile"]
+    "tags": [
+      "web",
+      "full-stack",
+      "essential",
+      "versatile"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/JavaScript_code.png/400px-JavaScript_code.png"
   },
   {
     "id": "rust",
@@ -39,7 +51,13 @@
       "en": "Systems programming, WebAssembly, game engines, CLI tools, and performance-critical applications where memory safety is paramount."
     },
     "difficulty": "Advanced",
-    "tags": ["systems", "performance", "memory-safe", "modern"]
+    "tags": [
+      "systems",
+      "performance",
+      "memory-safe",
+      "modern"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/400px-Rust_programming_language_black_logo.svg.png"
   },
   {
     "id": "go",
@@ -53,7 +71,13 @@
       "en": "Cloud services, microservices, DevOps tooling, and backend APIs where concurrency and deployment simplicity matter."
     },
     "difficulty": "Intermediate",
-    "tags": ["concurrency", "cloud", "simple", "fast"]
+    "tags": [
+      "concurrency",
+      "cloud",
+      "simple",
+      "fast"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/400px-Go_Logo_Blue.svg.png"
   },
   {
     "id": "react",
@@ -67,7 +91,13 @@
       "en": "Single-page applications, dynamic user interfaces, and large-scale front-end projects with reusable components."
     },
     "difficulty": "Intermediate",
-    "tags": ["ui", "component-based", "popular", "ecosystem"]
+    "tags": [
+      "ui",
+      "component-based",
+      "popular",
+      "ecosystem"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/400px-React_Logo_SVG.svg.png"
   },
   {
     "id": "django",
@@ -81,7 +111,13 @@
       "en": "Full-featured web applications, content management systems, and data-driven sites that benefit from a mature, all-in-one framework."
     },
     "difficulty": "Intermediate",
-    "tags": ["python", "batteries-included", "secure", "full-stack"]
+    "tags": [
+      "python",
+      "batteries-included",
+      "secure",
+      "full-stack"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Django_2.1_landing_page.png/400px-Django_2.1_landing_page.png"
   },
   {
     "id": "nextjs",
@@ -95,7 +131,13 @@
       "en": "SEO-friendly React applications, marketing sites, e-commerce platforms, and any project that benefits from hybrid static and server rendering."
     },
     "difficulty": "Intermediate",
-    "tags": ["react", "ssr", "full-stack", "modern"]
+    "tags": [
+      "react",
+      "ssr",
+      "full-stack",
+      "modern"
+    ],
+    "image": null
   },
   {
     "id": "fastapi",
@@ -109,7 +151,13 @@
       "en": "RESTful APIs, microservices, and machine learning model serving where speed and automatic validation are priorities."
     },
     "difficulty": "Intermediate",
-    "tags": ["python", "api", "high-performance", "async"]
+    "tags": [
+      "python",
+      "api",
+      "high-performance",
+      "async"
+    ],
+    "image": null
   },
   {
     "id": "vscode",
@@ -123,7 +171,13 @@
       "en": "General-purpose development across virtually any language, especially web development and Python, with a gentle learning curve for newcomers."
     },
     "difficulty": "Beginner",
-    "tags": ["editor", "extensible", "free", "popular"]
+    "tags": [
+      "editor",
+      "extensible",
+      "free",
+      "popular"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/400px-Visual_Studio_Code_1.35_icon.svg.png"
   },
   {
     "id": "intellij",
@@ -137,7 +191,13 @@
       "en": "Java and Kotlin development, large enterprise codebases, and developers who want an IDE that deeply understands their code."
     },
     "difficulty": "Intermediate",
-    "tags": ["java", "enterprise", "smart-completion", "refactoring"]
+    "tags": [
+      "java",
+      "enterprise",
+      "smart-completion",
+      "refactoring"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Intellij_IDEA_2021.1_Community_Edition_screenshot.png/400px-Intellij_IDEA_2021.1_Community_Edition_screenshot.png"
   },
   {
     "id": "neovim",
@@ -151,7 +211,13 @@
       "en": "Developers who want maximum editing speed, terminal-centric workflows, and full control over their editor configuration."
     },
     "difficulty": "Advanced",
-    "tags": ["terminal", "vim", "customizable", "lightweight"]
+    "tags": [
+      "terminal",
+      "vim",
+      "customizable",
+      "lightweight"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Neovim_v0.9.0-dev_intro_screen.png/400px-Neovim_v0.9.0-dev_intro_screen.png"
   },
   {
     "id": "zed",
@@ -165,7 +231,13 @@
       "en": "Developers who want a fast, modern editor with native collaborative editing and a minimal, distraction-free interface."
     },
     "difficulty": "Beginner",
-    "tags": ["fast", "collaborative", "rust-built", "modern"]
+    "tags": [
+      "fast",
+      "collaborative",
+      "rust-built",
+      "modern"
+    ],
+    "image": null
   },
   {
     "id": "docker",
@@ -179,7 +251,13 @@
       "en": "Consistent development environments, microservices architecture, and streamlining CI/CD pipelines with reproducible builds."
     },
     "difficulty": "Intermediate",
-    "tags": ["containers", "deployment", "devops", "portable"]
+    "tags": [
+      "containers",
+      "deployment",
+      "devops",
+      "portable"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Docker_commands_screenshot.webp/400px-Docker_commands_screenshot.webp.png"
   },
   {
     "id": "github-actions",
@@ -193,7 +271,13 @@
       "en": "Automating testing and deployment for projects already hosted on GitHub, with minimal setup and tight integration with pull requests."
     },
     "difficulty": "Intermediate",
-    "tags": ["ci-cd", "automation", "github", "yaml"]
+    "tags": [
+      "ci-cd",
+      "automation",
+      "github",
+      "yaml"
+    ],
+    "image": null
   },
   {
     "id": "vercel",
@@ -207,7 +291,13 @@
       "en": "Deploying front-end applications and Jamstack sites with zero-configuration, especially Next.js and other React frameworks."
     },
     "difficulty": "Beginner",
-    "tags": ["hosting", "serverless", "frontend", "edge"]
+    "tags": [
+      "hosting",
+      "serverless",
+      "frontend",
+      "edge"
+    ],
+    "image": null
   },
   {
     "id": "aws",
@@ -221,7 +311,13 @@
       "en": "Enterprise-scale cloud infrastructure, complex multi-service architectures, and teams that need the broadest selection of cloud services available."
     },
     "difficulty": "Advanced",
-    "tags": ["cloud", "enterprise", "scalable", "comprehensive"]
+    "tags": [
+      "cloud",
+      "enterprise",
+      "scalable",
+      "comprehensive"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/400px-Amazon_Web_Services_Logo.svg.png"
   },
   {
     "id": "postgresql",
@@ -235,7 +331,13 @@
       "en": "Complex queries, data integrity-critical applications, and projects that need advanced features like full-text search, JSONB, or geospatial queries."
     },
     "difficulty": "Intermediate",
-    "tags": ["relational", "open-source", "reliable", "feature-rich"]
+    "tags": [
+      "relational",
+      "open-source",
+      "reliable",
+      "feature-rich"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/400px-Postgresql_elephant.svg.png"
   },
   {
     "id": "mongodb",
@@ -249,7 +351,13 @@
       "en": "Applications with rapidly changing schemas, content management systems, and real-time analytics where document-based storage is a natural fit."
     },
     "difficulty": "Intermediate",
-    "tags": ["nosql", "document", "scalable", "flexible"]
+    "tags": [
+      "nosql",
+      "document",
+      "scalable",
+      "flexible"
+    ],
+    "image": null
   },
   {
     "id": "redis",
@@ -263,7 +371,13 @@
       "en": "Caching, session management, real-time leaderboards, rate limiting, and any scenario requiring extremely fast data access."
     },
     "difficulty": "Intermediate",
-    "tags": ["in-memory", "caching", "fast", "versatile"]
+    "tags": [
+      "in-memory",
+      "caching",
+      "fast",
+      "versatile"
+    ],
+    "image": null
   },
   {
     "id": "sqlite",
@@ -277,7 +391,13 @@
       "en": "Embedded applications, mobile apps, local development, small-to-medium websites, and any project that benefits from a zero-configuration database."
     },
     "difficulty": "Beginner",
-    "tags": ["embedded", "lightweight", "serverless", "simple"]
+    "tags": [
+      "embedded",
+      "lightweight",
+      "serverless",
+      "simple"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/SQLite3.png/400px-SQLite3.png"
   },
   {
     "id": "freecodecamp",
@@ -291,7 +411,13 @@
       "en": "Complete beginners who want a structured, free path from zero experience to job-ready web development skills."
     },
     "difficulty": "Beginner",
-    "tags": ["free", "web-development", "certifications", "community"]
+    "tags": [
+      "free",
+      "web-development",
+      "certifications",
+      "community"
+    ],
+    "image": null
   },
   {
     "id": "odin-project",
@@ -305,7 +431,13 @@
       "en": "Self-motivated learners who want a comprehensive full-stack curriculum that emphasizes real development practices and problem-solving."
     },
     "difficulty": "Beginner",
-    "tags": ["free", "full-stack", "open-source", "project-based"]
+    "tags": [
+      "free",
+      "full-stack",
+      "open-source",
+      "project-based"
+    ],
+    "image": null
   },
   {
     "id": "exercism",
@@ -319,7 +451,13 @@
       "en": "Developers who want to practice and improve their skills in specific programming languages through focused exercises and mentor feedback."
     },
     "difficulty": "Intermediate",
-    "tags": ["practice", "mentoring", "multi-language", "free"]
+    "tags": [
+      "practice",
+      "mentoring",
+      "multi-language",
+      "free"
+    ],
+    "image": null
   },
   {
     "id": "mit-ocw",
@@ -333,6 +471,12 @@
       "en": "Learners who want a rigorous, university-level understanding of computer science fundamentals including algorithms, data structures, and theory."
     },
     "difficulty": "Advanced",
-    "tags": ["academic", "free", "computer-science", "theory"]
+    "tags": [
+      "academic",
+      "free",
+      "computer-science",
+      "theory"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/MIT_OpenCourseWare_Screenshot.png/400px-MIT_OpenCourseWare_Screenshot.png"
   }
 ]

@@ -14,7 +14,13 @@
     "why_buy": {
       "en": "Unmatched performance-per-watt for developers and creatives who need a powerful, silent laptop with exceptional battery life and a brilliant display."
     },
-    "tags": ["premium", "developer", "creative", "apple-silicon"]
+    "tags": [
+      "premium",
+      "developer",
+      "creative",
+      "apple-silicon"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MacBook_Pro_16_%28M1_Pro%2C_2021%29_-_Wikipedia.jpg/400px-MacBook_Pro_16_%28M1_Pro%2C_2021%29_-_Wikipedia.jpg"
   },
   {
     "id": "thinkpad_x1_carbon",
@@ -31,7 +37,13 @@
     "why_buy": {
       "en": "The gold standard for business laptops with the best keyboard in its class, rock-solid reliability, and comprehensive security features for enterprise environments."
     },
-    "tags": ["business", "ultralight", "keyboard", "enterprise"]
+    "tags": [
+      "business",
+      "ultralight",
+      "keyboard",
+      "enterprise"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Lenovo_ThinkPad_X1_Ultrabook.jpg/400px-Lenovo_ThinkPad_X1_Ultrabook.jpg"
   },
   {
     "id": "asus_rog_strix",
@@ -48,7 +60,13 @@
     "why_buy": {
       "en": "A powerhouse gaming laptop that handles AAA titles at high settings while doubling as a capable content creation machine with its fast display and strong GPU."
     },
-    "tags": ["gaming", "high-performance", "rgb", "gpu-heavy"]
+    "tags": [
+      "gaming",
+      "high-performance",
+      "rgb",
+      "gpu-heavy"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/ASUSTeK_Computer_headquarters_20150711.jpg/400px-ASUSTeK_Computer_headquarters_20150711.jpg"
   },
   {
     "id": "framework_laptop_16",
@@ -65,7 +83,13 @@
     "why_buy": {
       "en": "The only laptop designed for total user repairability and upgradability, perfect for environmentally conscious buyers who want a machine that grows with their needs."
     },
-    "tags": ["modular", "repairable", "open-source", "sustainable"]
+    "tags": [
+      "modular",
+      "repairable",
+      "open-source",
+      "sustainable"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Framework_laptop_part_made_with_love_by_team.jpg/400px-Framework_laptop_part_made_with_love_by_team.jpg"
   },
   {
     "id": "mac_studio_m4",
@@ -82,7 +106,13 @@
     "why_buy": {
       "en": "Workstation-level performance in a remarkably small form factor, ideal for professionals who need massive memory bandwidth and GPU power without a tower PC."
     },
-    "tags": ["premium", "creative", "compact", "workstation"]
+    "tags": [
+      "premium",
+      "creative",
+      "compact",
+      "workstation"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mac_Studio_%282022%29_front.jpg/400px-Mac_Studio_%282022%29_front.jpg"
   },
   {
     "id": "custom_gaming_pc",
@@ -99,7 +129,13 @@
     "why_buy": {
       "en": "Maximum performance and value for gamers who want full control over every component, with easy upgrade paths for future GPU and CPU generations."
     },
-    "tags": ["gaming", "custom-build", "upgradeable", "high-performance"]
+    "tags": [
+      "gaming",
+      "custom-build",
+      "upgradeable",
+      "high-performance"
+    ],
+    "image": null
   },
   {
     "id": "intel_nuc",
@@ -116,7 +152,13 @@
     "why_buy": {
       "en": "An excellent space-saving desktop for home offices and media centers that delivers surprising performance in a near-invisible footprint."
     },
-    "tags": ["compact", "mini-pc", "quiet", "affordable"]
+    "tags": [
+      "compact",
+      "mini-pc",
+      "quiet",
+      "affordable"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Intel_NUC8.jpg/400px-Intel_NUC8.jpg"
   },
   {
     "id": "mac_mini_m4",
@@ -133,7 +175,13 @@
     "why_buy": {
       "en": "The best value entry point into the Mac ecosystem, offering remarkable performance for everyday tasks and development work at a very competitive price."
     },
-    "tags": ["affordable", "compact", "apple-silicon", "value"]
+    "tags": [
+      "affordable",
+      "compact",
+      "apple-silicon",
+      "value"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Apple_Mac_Mini_M4.svg/400px-Apple_Mac_Mini_M4.svg.png"
   },
   {
     "id": "nvidia_rtx_5080",
@@ -150,7 +198,13 @@
     "why_buy": {
       "en": "The sweet spot of NVIDIA's lineup offering excellent 4K gaming performance with next-gen ray tracing and AI capabilities at a more reasonable price than the flagship."
     },
-    "tags": ["gpu", "gaming", "ray-tracing", "ai-acceleration"]
+    "tags": [
+      "gpu",
+      "gaming",
+      "ray-tracing",
+      "ai-acceleration"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Leistungsanalyse_NVIDIA_GeForce_RTX_4090_%28Geekerwan%29_02_cropped.jpg/400px-Leistungsanalyse_NVIDIA_GeForce_RTX_4090_%28Geekerwan%29_02_cropped.jpg"
   },
   {
     "id": "amd_ryzen_9_9950x",
@@ -167,7 +221,13 @@
     "why_buy": {
       "en": "The ultimate desktop CPU for users who need top-tier multi-threaded performance alongside excellent gaming capabilities, all on a future-proof AM5 platform."
     },
-    "tags": ["cpu", "multi-core", "enthusiast", "am5"]
+    "tags": [
+      "cpu",
+      "multi-core",
+      "enthusiast",
+      "am5"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ryzen3pro2100ge-ph-gerald.jpg/400px-Ryzen3pro2100ge-ph-gerald.jpg"
   },
   {
     "id": "samsung_990_pro",
@@ -184,7 +244,13 @@
     "why_buy": {
       "en": "One of the fastest and most reliable PCIe 4.0 SSDs available, backed by Samsung's proven track record in NAND storage and a strong 5-year warranty."
     },
-    "tags": ["ssd", "fast", "reliable", "pcie-4"]
+    "tags": [
+      "ssd",
+      "fast",
+      "reliable",
+      "pcie-4"
+    ],
+    "image": null
   },
   {
     "id": "corsair_ddr5_ram",
@@ -201,7 +267,13 @@
     "why_buy": {
       "en": "A reliable, well-priced DDR5 kit from a trusted brand with excellent XMP/EXPO compatibility and a compact form factor that fits any build."
     },
-    "tags": ["ram", "ddr5", "overclocking", "value"]
+    "tags": [
+      "ram",
+      "ddr5",
+      "overclocking",
+      "value"
+    ],
+    "image": null
   },
   {
     "id": "lg_ultrafine_5k",
@@ -218,7 +290,13 @@
     "why_buy": {
       "en": "The best 5K monitor for Mac users who need stunning resolution and accurate colors for creative work, with seamless single-cable Thunderbolt connectivity."
     },
-    "tags": ["5k", "creative", "thunderbolt", "color-accurate"]
+    "tags": [
+      "5k",
+      "creative",
+      "thunderbolt",
+      "color-accurate"
+    ],
+    "image": null
   },
   {
     "id": "dell_ultrasharp_4k",
@@ -235,7 +313,13 @@
     "why_buy": {
       "en": "Outstanding color accuracy and contrast for professionals who need a reliable, factory-calibrated display with the convenience of USB-C docking."
     },
-    "tags": ["4k", "color-accurate", "usb-c", "professional"]
+    "tags": [
+      "4k",
+      "color-accurate",
+      "usb-c",
+      "professional"
+    ],
+    "image": null
   },
   {
     "id": "samsung_odyssey_g9",
@@ -252,7 +336,13 @@
     "why_buy": {
       "en": "The ultimate immersive display that replaces a dual-monitor setup with a single seamless ultrawide OLED panel, perfect for gaming and multitasking power users."
     },
-    "tags": ["ultrawide", "oled", "gaming", "immersive"]
+    "tags": [
+      "ultrawide",
+      "oled",
+      "gaming",
+      "immersive"
+    ],
+    "image": null
   },
   {
     "id": "asus_proart_pa279crv",
@@ -269,7 +359,13 @@
     "why_buy": {
       "en": "Exceptional color accuracy and professional-grade calibration at a budget-friendly price, making it the best value monitor for creative professionals."
     },
-    "tags": ["4k", "color-accurate", "value", "creative"]
+    "tags": [
+      "4k",
+      "color-accurate",
+      "value",
+      "creative"
+    ],
+    "image": null
   },
   {
     "id": "logitech_mx_master_3s",
@@ -286,7 +382,13 @@
     "why_buy": {
       "en": "The most ergonomic and feature-rich productivity mouse available, with unmatched multi-device workflow capabilities and a comfortable design for all-day use."
     },
-    "tags": ["ergonomic", "productivity", "multi-device", "premium"]
+    "tags": [
+      "ergonomic",
+      "productivity",
+      "multi-device",
+      "premium"
+    ],
+    "image": null
   },
   {
     "id": "keychron_q1_pro",
@@ -303,7 +405,13 @@
     "why_buy": {
       "en": "A premium wireless mechanical keyboard that delivers enthusiast-grade build quality and full customization at a price that undercuts most competitors."
     },
-    "tags": ["mechanical-keyboard", "wireless", "customizable", "premium"]
+    "tags": [
+      "mechanical-keyboard",
+      "wireless",
+      "customizable",
+      "premium"
+    ],
+    "image": null
   },
   {
     "id": "sony_wh1000xm5",
@@ -320,7 +428,13 @@
     "why_buy": {
       "en": "The best overall noise-cancelling headphones for remote workers and travelers who need top-tier ANC, excellent call quality, and all-day comfort."
     },
-    "tags": ["noise-cancelling", "wireless", "audio", "comfort"]
+    "tags": [
+      "noise-cancelling",
+      "wireless",
+      "audio",
+      "comfort"
+    ],
+    "image": null
   },
   {
     "id": "elgato_stream_deck",
@@ -337,7 +451,13 @@
     "why_buy": {
       "en": "A versatile macro pad that streamlines any workflow, from live streaming and video editing to developer toolchains and smart home control."
     },
-    "tags": ["streaming", "macro-pad", "customizable", "automation"]
+    "tags": [
+      "streaming",
+      "macro-pad",
+      "customizable",
+      "automation"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Elgato_logo.svg/400px-Elgato_logo.svg.png"
   },
   {
     "id": "asus_rog_rapture",
@@ -354,7 +474,13 @@
     "why_buy": {
       "en": "The ultimate gaming router for enthusiasts who demand the lowest latency, highest throughput, and most advanced features for competitive online gaming."
     },
-    "tags": ["wifi-6e", "gaming", "high-performance", "quad-band"]
+    "tags": [
+      "wifi-6e",
+      "gaming",
+      "high-performance",
+      "quad-band"
+    ],
+    "image": null
   },
   {
     "id": "ubiquiti_dream_machine",
@@ -371,7 +497,13 @@
     "why_buy": {
       "en": "Professional-grade networking for enthusiasts and small businesses who want enterprise features with a beautiful management interface and expandable ecosystem."
     },
-    "tags": ["enterprise", "unified-management", "rackmount", "prosumer"]
+    "tags": [
+      "enterprise",
+      "unified-management",
+      "rackmount",
+      "prosumer"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ubiquiti_Logo_2023.svg/400px-Ubiquiti_Logo_2023.svg.png"
   },
   {
     "id": "tplink_deco_xe75",
@@ -388,7 +520,13 @@
     "why_buy": {
       "en": "The best-value Wi-Fi 6E mesh system for families who want reliable whole-home coverage with simple setup and robust parental controls."
     },
-    "tags": ["mesh", "wifi-6e", "whole-home", "value"]
+    "tags": [
+      "mesh",
+      "wifi-6e",
+      "whole-home",
+      "value"
+    ],
+    "image": null
   },
   {
     "id": "starlink",
@@ -405,6 +543,12 @@
     "why_buy": {
       "en": "The only viable high-speed internet option for rural and remote areas, delivering broadband-level performance via satellite where traditional ISPs cannot reach."
     },
-    "tags": ["satellite", "rural", "portable", "innovative"]
+    "tags": [
+      "satellite",
+      "rural",
+      "portable",
+      "innovative"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Starlink_Mission_%2847926144123%29.jpg/400px-Starlink_Mission_%2847926144123%29.jpg"
   }
 ]

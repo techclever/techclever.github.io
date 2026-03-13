@@ -25,10 +25,22 @@
           "Ships with bloatware and advertising in the Start menu"
         ]
       },
-      "best_for": { "en": "Gamers, general users, and enterprise workstations needing broad software compatibility" },
-      "not_ideal_for": { "en": "Privacy-focused users, older or low-spec hardware, or dedicated server deployments" },
-      "description": { "en": "The most widely used desktop operating system, Windows 11 introduces a centered taskbar, Snap Layouts, and deeper Microsoft Teams integration. It maintains the vast software library that has made Windows the default choice for businesses and gamers alike, though its strict hardware requirements and telemetry practices remain points of contention." },
-      "tags": ["mainstream", "gaming", "enterprise", "proprietary"]
+      "best_for": {
+        "en": "Gamers, general users, and enterprise workstations needing broad software compatibility"
+      },
+      "not_ideal_for": {
+        "en": "Privacy-focused users, older or low-spec hardware, or dedicated server deployments"
+      },
+      "description": {
+        "en": "The most widely used desktop operating system, Windows 11 introduces a centered taskbar, Snap Layouts, and deeper Microsoft Teams integration. It maintains the vast software library that has made Windows the default choice for businesses and gamers alike, though its strict hardware requirements and telemetry practices remain points of contention."
+      },
+      "tags": [
+        "mainstream",
+        "gaming",
+        "enterprise",
+        "proprietary"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Windows_11_Desktop.png/400px-Windows_11_Desktop.png"
     },
     {
       "id": "macos",
@@ -55,10 +67,22 @@
           "Less customizable than Linux or even Windows"
         ]
       },
-      "best_for": { "en": "Creative professionals, developers in the Apple ecosystem, and users who value design and privacy" },
-      "not_ideal_for": { "en": "Budget-conscious users, PC gamers, or those who need deep system customization" },
-      "description": { "en": "Apple's desktop operating system is known for its seamless integration with iPhone, iPad, and other Apple devices. macOS Sonoma brings interactive widgets, Game Mode, and video conferencing enhancements, continuing Apple's focus on a polished user experience built on a Unix foundation." },
-      "tags": ["creative", "unix-based", "proprietary", "privacy"]
+      "best_for": {
+        "en": "Creative professionals, developers in the Apple ecosystem, and users who value design and privacy"
+      },
+      "not_ideal_for": {
+        "en": "Budget-conscious users, PC gamers, or those who need deep system customization"
+      },
+      "description": {
+        "en": "Apple's desktop operating system is known for its seamless integration with iPhone, iPad, and other Apple devices. macOS Sonoma brings interactive widgets, Game Mode, and video conferencing enhancements, continuing Apple's focus on a polished user experience built on a Unix foundation."
+      },
+      "tags": [
+        "creative",
+        "unix-based",
+        "proprietary",
+        "privacy"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/MacOS_Sonoma_Desktop.png/400px-MacOS_Sonoma_Desktop.png"
     },
     {
       "id": "ubuntu",
@@ -85,10 +109,22 @@
           "Not as cutting-edge as rolling-release distributions"
         ]
       },
-      "best_for": { "en": "Linux newcomers, developers, and organizations wanting a well-supported open-source desktop" },
-      "not_ideal_for": { "en": "Users who want bleeding-edge packages, minimal systems, or dislike the Snap ecosystem" },
-      "description": { "en": "Ubuntu is the most popular Linux distribution for desktops, bringing Linux to mainstream accessibility since 2004. It offers a polished GNOME-based experience with regular releases and long-term support options, backed by Canonical's commercial infrastructure and an enormous community." },
-      "tags": ["linux", "beginner-friendly", "open-source", "community"]
+      "best_for": {
+        "en": "Linux newcomers, developers, and organizations wanting a well-supported open-source desktop"
+      },
+      "not_ideal_for": {
+        "en": "Users who want bleeding-edge packages, minimal systems, or dislike the Snap ecosystem"
+      },
+      "description": {
+        "en": "Ubuntu is the most popular Linux distribution for desktops, bringing Linux to mainstream accessibility since 2004. It offers a polished GNOME-based experience with regular releases and long-term support options, backed by Canonical's commercial infrastructure and an enormous community."
+      },
+      "tags": [
+        "linux",
+        "beginner-friendly",
+        "open-source",
+        "community"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ubuntu_25.10_default_desktop_-_English.png/400px-Ubuntu_25.10_default_desktop_-_English.png"
     },
     {
       "id": "fedora",
@@ -115,10 +151,22 @@
           "DNF package manager can be slower than alternatives"
         ]
       },
-      "best_for": { "en": "Developers and enthusiasts who want cutting-edge open-source software on a stable base" },
-      "not_ideal_for": { "en": "Users needing long-term stability, easy multimedia setup, or extensive proprietary software" },
-      "description": { "en": "Fedora is a community-driven distribution sponsored by Red Hat that prioritizes open-source software and innovation. It often debuts technologies like Wayland, PipeWire, and Btrfs before they reach other distributions, making it a favorite among developers and open-source advocates." },
-      "tags": ["linux", "cutting-edge", "open-source", "developer"]
+      "best_for": {
+        "en": "Developers and enthusiasts who want cutting-edge open-source software on a stable base"
+      },
+      "not_ideal_for": {
+        "en": "Users needing long-term stability, easy multimedia setup, or extensive proprietary software"
+      },
+      "description": {
+        "en": "Fedora is a community-driven distribution sponsored by Red Hat that prioritizes open-source software and innovation. It often debuts technologies like Wayland, PipeWire, and Btrfs before they reach other distributions, making it a favorite among developers and open-source advocates."
+      },
+      "tags": [
+        "linux",
+        "cutting-edge",
+        "open-source",
+        "developer"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fedora_43_Workstation.png/400px-Fedora_43_Workstation.png"
     },
     {
       "id": "linuxmint",
@@ -145,10 +193,22 @@
           "Snap packages disabled by default which can limit some software availability"
         ]
       },
-      "best_for": { "en": "Windows switchers, users with older hardware, and anyone wanting a traditional desktop experience" },
-      "not_ideal_for": { "en": "Users wanting the newest software, enterprise environments, or those needing commercial support" },
-      "description": { "en": "Linux Mint is designed to be comfortable and easy to use out of the box, with a traditional desktop metaphor that feels natural to Windows users. Built on Ubuntu's stable base, it includes multimedia codecs, a software manager, and the elegant Cinnamon desktop environment." },
-      "tags": ["linux", "beginner-friendly", "lightweight", "open-source"]
+      "best_for": {
+        "en": "Windows switchers, users with older hardware, and anyone wanting a traditional desktop experience"
+      },
+      "not_ideal_for": {
+        "en": "Users wanting the newest software, enterprise environments, or those needing commercial support"
+      },
+      "description": {
+        "en": "Linux Mint is designed to be comfortable and easy to use out of the box, with a traditional desktop metaphor that feels natural to Windows users. Built on Ubuntu's stable base, it includes multimedia codecs, a software manager, and the elegant Cinnamon desktop environment."
+      },
+      "tags": [
+        "linux",
+        "beginner-friendly",
+        "lightweight",
+        "open-source"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/LinuxMint22-Wilma-English.png/400px-LinuxMint22-Wilma-English.png"
     },
     {
       "id": "archlinux",
@@ -175,10 +235,23 @@
           "Not suitable for production servers or users who want a set-and-forget system"
         ]
       },
-      "best_for": { "en": "Experienced Linux users who want full control over every aspect of their system" },
-      "not_ideal_for": { "en": "Linux beginners, production servers, or users who prefer a stable set-and-forget system" },
-      "description": { "en": "Arch Linux follows a minimalist, do-it-yourself philosophy where the user builds their system from the ground up. Its rolling release model and the Arch Wiki have made it a rite of passage for Linux enthusiasts, offering unparalleled customization at the cost of a steeper learning curve." },
-      "tags": ["linux", "rolling-release", "advanced", "customizable", "open-source"]
+      "best_for": {
+        "en": "Experienced Linux users who want full control over every aspect of their system"
+      },
+      "not_ideal_for": {
+        "en": "Linux beginners, production servers, or users who prefer a stable set-and-forget system"
+      },
+      "description": {
+        "en": "Arch Linux follows a minimalist, do-it-yourself philosophy where the user builds their system from the ground up. Its rolling release model and the Arch Wiki have made it a rite of passage for Linux enthusiasts, offering unparalleled customization at the cost of a steeper learning curve."
+      },
+      "tags": [
+        "linux",
+        "rolling-release",
+        "advanced",
+        "customizable",
+        "open-source"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Archlinux-logo-standard-version.svg/400px-Archlinux-logo-standard-version.svg.png"
     },
     {
       "id": "chromeos",
@@ -205,10 +278,22 @@
           "Chromebook hardware often has limited storage and processing power"
         ]
       },
-      "best_for": { "en": "Students, casual users, and organizations wanting low-cost, low-maintenance devices" },
-      "not_ideal_for": { "en": "Power users, professional creative work, offline-heavy workflows, or privacy-conscious users" },
-      "description": { "en": "ChromeOS is Google's lightweight, cloud-first operating system built around the Chrome browser. Originally limited to web apps, it has expanded to support Android apps and Linux containers, making Chromebooks viable for development and light productivity alongside their traditional education market." },
-      "tags": ["cloud", "education", "lightweight", "proprietary"]
+      "best_for": {
+        "en": "Students, casual users, and organizations wanting low-cost, low-maintenance devices"
+      },
+      "not_ideal_for": {
+        "en": "Power users, professional creative work, offline-heavy workflows, or privacy-conscious users"
+      },
+      "description": {
+        "en": "ChromeOS is Google's lightweight, cloud-first operating system built around the Chrome browser. Originally limited to web apps, it has expanded to support Android apps and Linux containers, making Chromebooks viable for development and light productivity alongside their traditional education market."
+      },
+      "tags": [
+        "cloud",
+        "education",
+        "lightweight",
+        "proprietary"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/ChromeOS_screenshot.png/400px-ChromeOS_screenshot.png"
     },
     {
       "id": "freebsd",
@@ -235,10 +320,23 @@
           "Smaller community means slower response to new hardware"
         ]
       },
-      "best_for": { "en": "Network appliance builders, storage servers, and developers who value code quality and the BSD license" },
-      "not_ideal_for": { "en": "Desktop users wanting broad hardware support, gamers, or those needing a large application ecosystem" },
-      "description": { "en": "FreeBSD is a direct descendant of the original Berkeley Software Distribution, known for its reliability, advanced networking, and the ZFS file system. It powers parts of Netflix, WhatsApp, and PlayStation, and its permissive license has made its code a foundation for many commercial products." },
-      "tags": ["bsd", "server", "networking", "open-source", "advanced"]
+      "best_for": {
+        "en": "Network appliance builders, storage servers, and developers who value code quality and the BSD license"
+      },
+      "not_ideal_for": {
+        "en": "Desktop users wanting broad hardware support, gamers, or those needing a large application ecosystem"
+      },
+      "description": {
+        "en": "FreeBSD is a direct descendant of the original Berkeley Software Distribution, known for its reliability, advanced networking, and the ZFS file system. It powers parts of Netflix, WhatsApp, and PlayStation, and its permissive license has made its code a foundation for many commercial products."
+      },
+      "tags": [
+        "bsd",
+        "server",
+        "networking",
+        "open-source",
+        "advanced"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/FreeBSD_13.0_boot_loader_autoboot_screenshot.png/400px-FreeBSD_13.0_boot_loader_autoboot_screenshot.png"
     },
     {
       "id": "android",
@@ -265,10 +363,22 @@
           "Privacy requires active management of numerous Google service permissions"
         ]
       },
-      "best_for": { "en": "Users who want device choice, customization, and the largest app selection" },
-      "not_ideal_for": { "en": "Users who prioritize consistent long-term updates, a curated app experience, or minimal privacy configuration" },
-      "description": { "en": "Android is the world's most widely used mobile operating system, powering over 70% of smartphones globally. Built on the Linux kernel with an open-source base (AOSP), it offers unmatched device variety and customization, though the experience varies significantly between manufacturers and price points." },
-      "tags": ["mobile", "open-source", "mainstream", "customizable"]
+      "best_for": {
+        "en": "Users who want device choice, customization, and the largest app selection"
+      },
+      "not_ideal_for": {
+        "en": "Users who prioritize consistent long-term updates, a curated app experience, or minimal privacy configuration"
+      },
+      "description": {
+        "en": "Android is the world's most widely used mobile operating system, powering over 70% of smartphones globally. Built on the Linux kernel with an open-source base (AOSP), it offers unmatched device variety and customization, though the experience varies significantly between manufacturers and price points."
+      },
+      "tags": [
+        "mobile",
+        "open-source",
+        "mainstream",
+        "customizable"
+      ],
+      "image": null
     },
     {
       "id": "ios",
@@ -295,10 +405,22 @@
           "File management and default app switching remain more restricted"
         ]
       },
-      "best_for": { "en": "Users in the Apple ecosystem who value privacy, polish, and long-term device support" },
-      "not_ideal_for": { "en": "Budget-conscious users, power users wanting deep customization, or those outside the Apple ecosystem" },
-      "description": { "en": "iOS pioneered the modern smartphone experience with its multi-touch interface and App Store model. It remains the gold standard for mobile privacy and long-term support, with even older iPhones receiving years of updates, though its closed ecosystem limits flexibility and hardware choice." },
-      "tags": ["mobile", "proprietary", "privacy", "premium"]
+      "best_for": {
+        "en": "Users in the Apple ecosystem who value privacy, polish, and long-term device support"
+      },
+      "not_ideal_for": {
+        "en": "Budget-conscious users, power users wanting deep customization, or those outside the Apple ecosystem"
+      },
+      "description": {
+        "en": "iOS pioneered the modern smartphone experience with its multi-touch interface and App Store model. It remains the gold standard for mobile privacy and long-term support, with even older iPhones receiving years of updates, though its closed ecosystem limits flexibility and hardware choice."
+      },
+      "tags": [
+        "mobile",
+        "proprietary",
+        "privacy",
+        "premium"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/IOS_wordmark_%282017%29.svg/400px-IOS_wordmark_%282017%29.svg.png"
     },
     {
       "id": "harmonyos",
@@ -325,10 +447,22 @@
           "Smaller global developer community and third-party support"
         ]
       },
-      "best_for": { "en": "Huawei device owners and users in the Chinese market seeking a unified cross-device experience" },
-      "not_ideal_for": { "en": "Users dependent on Google services, those outside China, or developers targeting global audiences" },
-      "description": { "en": "HarmonyOS was developed by Huawei as an alternative to Android following US trade restrictions. Built around a distributed architecture designed to connect phones, tablets, watches, and IoT devices seamlessly, it has gained significant traction in China but remains largely absent from Western markets." },
-      "tags": ["mobile", "iot", "chinese-market", "cross-device"]
+      "best_for": {
+        "en": "Huawei device owners and users in the Chinese market seeking a unified cross-device experience"
+      },
+      "not_ideal_for": {
+        "en": "Users dependent on Google services, those outside China, or developers targeting global audiences"
+      },
+      "description": {
+        "en": "HarmonyOS was developed by Huawei as an alternative to Android following US trade restrictions. Built around a distributed architecture designed to connect phones, tablets, watches, and IoT devices seamlessly, it has gained significant traction in China but remains largely absent from Western markets."
+      },
+      "tags": [
+        "mobile",
+        "iot",
+        "chinese-market",
+        "cross-device"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HarmonyOS_PC.jpg/400px-HarmonyOS_PC.jpg"
     },
     {
       "id": "lineageos",
@@ -355,10 +489,22 @@
           "Banking and DRM apps may not work due to SafetyNet/Play Integrity"
         ]
       },
-      "best_for": { "en": "Privacy enthusiasts and users wanting to revive older Android devices with a clean, updated system" },
-      "not_ideal_for": { "en": "Non-technical users, those relying on banking apps or DRM content, or users wanting guaranteed hardware compatibility" },
-      "description": { "en": "LineageOS is the successor to CyanogenMod, providing a free and open-source Android distribution focused on privacy and device longevity. It strips away manufacturer bloat and Google tracking, giving users a clean Android experience on devices that may have otherwise been abandoned by their makers." },
-      "tags": ["mobile", "open-source", "privacy", "custom-rom"]
+      "best_for": {
+        "en": "Privacy enthusiasts and users wanting to revive older Android devices with a clean, updated system"
+      },
+      "not_ideal_for": {
+        "en": "Non-technical users, those relying on banking apps or DRM content, or users wanting guaranteed hardware compatibility"
+      },
+      "description": {
+        "en": "LineageOS is the successor to CyanogenMod, providing a free and open-source Android distribution focused on privacy and device longevity. It strips away manufacturer bloat and Google tracking, giving users a clean Android experience on devices that may have otherwise been abandoned by their makers."
+      },
+      "tags": [
+        "mobile",
+        "open-source",
+        "privacy",
+        "custom-rom"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/LineageOS_22.1_Home_Screen.png/400px-LineageOS_22.1_Home_Screen.png"
     },
     {
       "id": "ubuntu_server",
@@ -385,10 +531,23 @@
           "Some enterprise features require Ubuntu Pro subscription"
         ]
       },
-      "best_for": { "en": "Cloud deployments, web servers, and teams wanting a well-documented server OS with commercial support" },
-      "not_ideal_for": { "en": "Minimal container environments, those avoiding Snap, or organizations preferring Red Hat's support model" },
-      "description": { "en": "Ubuntu Server is the most widely deployed Linux distribution in public clouds and a popular choice for on-premises servers. It combines Debian's package management with Canonical's commercial support, offering LTS releases that provide a stable foundation for production workloads." },
-      "tags": ["server", "cloud", "linux", "open-source", "enterprise"]
+      "best_for": {
+        "en": "Cloud deployments, web servers, and teams wanting a well-documented server OS with commercial support"
+      },
+      "not_ideal_for": {
+        "en": "Minimal container environments, those avoiding Snap, or organizations preferring Red Hat's support model"
+      },
+      "description": {
+        "en": "Ubuntu Server is the most widely deployed Linux distribution in public clouds and a popular choice for on-premises servers. It combines Debian's package management with Canonical's commercial support, offering LTS releases that provide a stable foundation for production workloads."
+      },
+      "tags": [
+        "server",
+        "cloud",
+        "linux",
+        "open-source",
+        "enterprise"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ubuntu_25.10_default_desktop_-_English.png/400px-Ubuntu_25.10_default_desktop_-_English.png"
     },
     {
       "id": "rhel",
@@ -415,10 +574,23 @@
           "Can feel bureaucratic compared to community distributions"
         ]
       },
-      "best_for": { "en": "Enterprises needing certified, supported, and compliance-ready infrastructure" },
-      "not_ideal_for": { "en": "Budget-constrained projects, developers wanting latest packages, or small-scale personal servers" },
-      "description": { "en": "RHEL is the industry standard for enterprise Linux, trusted by the majority of Fortune 500 companies. It prioritizes stability, security certifications, and long-term support, backed by Red Hat's extensive professional services, though its subscription model and conservative package policy are not for everyone." },
-      "tags": ["server", "enterprise", "linux", "commercial", "certified"]
+      "best_for": {
+        "en": "Enterprises needing certified, supported, and compliance-ready infrastructure"
+      },
+      "not_ideal_for": {
+        "en": "Budget-constrained projects, developers wanting latest packages, or small-scale personal servers"
+      },
+      "description": {
+        "en": "RHEL is the industry standard for enterprise Linux, trusted by the majority of Fortune 500 companies. It prioritizes stability, security certifications, and long-term support, backed by Red Hat's extensive professional services, though its subscription model and conservative package policy are not for everyone."
+      },
+      "tags": [
+        "server",
+        "enterprise",
+        "linux",
+        "commercial",
+        "certified"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/RHEL_10.0_showing_GNOME_47%2C_12.22.2024.png/400px-RHEL_10.0_showing_GNOME_47%2C_12.22.2024.png"
     },
     {
       "id": "debian",
@@ -445,10 +617,23 @@
           "Multimedia codecs and non-free firmware require manual configuration"
         ]
       },
-      "best_for": { "en": "Server administrators, purists, and anyone who values rock-solid stability over the latest features" },
-      "not_ideal_for": { "en": "Users wanting fresh software, desktop beginners, or those needing commercial support contracts" },
-      "description": { "en": "Debian is one of the oldest and most influential Linux distributions, serving as the upstream base for Ubuntu and many others. Its commitment to free software, democratic governance, and exhaustive testing has made its Stable branch synonymous with reliability in server environments." },
-      "tags": ["server", "linux", "stable", "open-source", "community"]
+      "best_for": {
+        "en": "Server administrators, purists, and anyone who values rock-solid stability over the latest features"
+      },
+      "not_ideal_for": {
+        "en": "Users wanting fresh software, desktop beginners, or those needing commercial support contracts"
+      },
+      "description": {
+        "en": "Debian is one of the oldest and most influential Linux distributions, serving as the upstream base for Ubuntu and many others. Its commitment to free software, democratic governance, and exhaustive testing has made its Stable branch synonymous with reliability in server environments."
+      },
+      "tags": [
+        "server",
+        "linux",
+        "stable",
+        "open-source",
+        "community"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Debian_13_%28Trixie%29_screenshot_-_using_GNOME_desktop.png/400px-Debian_13_%28Trixie%29_screenshot_-_using_GNOME_desktop.png"
     },
     {
       "id": "alpine",
@@ -475,10 +660,23 @@
           "Not well-suited for desktop use or complex application stacks"
         ]
       },
-      "best_for": { "en": "Docker containers, embedded systems, and security-focused minimal deployments" },
-      "not_ideal_for": { "en": "Desktop use, applications requiring glibc, or users needing extensive community support" },
-      "description": { "en": "Alpine Linux is a security-oriented, lightweight distribution built on musl libc and BusyBox. Its tiny footprint has made it the default base image for millions of Docker containers, and its simplicity appeals to those building minimal, purpose-built systems." },
-      "tags": ["server", "containers", "minimal", "security", "open-source"]
+      "best_for": {
+        "en": "Docker containers, embedded systems, and security-focused minimal deployments"
+      },
+      "not_ideal_for": {
+        "en": "Desktop use, applications requiring glibc, or users needing extensive community support"
+      },
+      "description": {
+        "en": "Alpine Linux is a security-oriented, lightweight distribution built on musl libc and BusyBox. Its tiny footprint has made it the default base image for millions of Docker containers, and its simplicity appeals to those building minimal, purpose-built systems."
+      },
+      "tags": [
+        "server",
+        "containers",
+        "minimal",
+        "security",
+        "open-source"
+      ],
+      "image": null
     },
     {
       "id": "windows_server",
@@ -505,10 +703,22 @@
           "Less suitable for containerized and cloud-native workloads"
         ]
       },
-      "best_for": { "en": "Microsoft-centric enterprises running Active Directory, Exchange, or .NET applications" },
-      "not_ideal_for": { "en": "Cost-sensitive projects, containerized workloads, or organizations not invested in Microsoft ecosystem" },
-      "description": { "en": "Windows Server is Microsoft's server operating system, providing the backbone for Active Directory domains, Exchange mail, and enterprise .NET applications. While its licensing costs and resource demands are higher than Linux alternatives, it remains essential for organizations deeply invested in the Microsoft stack." },
-      "tags": ["server", "enterprise", "proprietary", "microsoft"]
+      "best_for": {
+        "en": "Microsoft-centric enterprises running Active Directory, Exchange, or .NET applications"
+      },
+      "not_ideal_for": {
+        "en": "Cost-sensitive projects, containerized workloads, or organizations not invested in Microsoft ecosystem"
+      },
+      "description": {
+        "en": "Windows Server is Microsoft's server operating system, providing the backbone for Active Directory domains, Exchange mail, and enterprise .NET applications. While its licensing costs and resource demands are higher than Linux alternatives, it remains essential for organizations deeply invested in the Microsoft stack."
+      },
+      "tags": [
+        "server",
+        "enterprise",
+        "proprietary",
+        "microsoft"
+      ],
+      "image": null
     },
     {
       "id": "proxmox",
@@ -535,10 +745,22 @@
           "Enterprise features like Ceph integration require careful tuning"
         ]
       },
-      "best_for": { "en": "Homelabs, small businesses, and anyone wanting a free, powerful virtualization platform" },
-      "not_ideal_for": { "en": "Large enterprises requiring vendor-certified support, or environments already standardized on VMware or Hyper-V" },
-      "description": { "en": "Proxmox VE is an open-source server virtualization platform that combines KVM hypervisor and LXC containers with a web-based management interface. It has become the go-to choice for homelabs and small businesses seeking enterprise-grade virtualization without VMware's licensing costs." },
-      "tags": ["server", "virtualization", "open-source", "homelab"]
+      "best_for": {
+        "en": "Homelabs, small businesses, and anyone wanting a free, powerful virtualization platform"
+      },
+      "not_ideal_for": {
+        "en": "Large enterprises requiring vendor-certified support, or environments already standardized on VMware or Hyper-V"
+      },
+      "description": {
+        "en": "Proxmox VE is an open-source server virtualization platform that combines KVM hypervisor and LXC containers with a web-based management interface. It has become the go-to choice for homelabs and small businesses seeking enterprise-grade virtualization without VMware's licensing costs."
+      },
+      "tags": [
+        "server",
+        "virtualization",
+        "open-source",
+        "homelab"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Proxmox-VE-8-0-Cluster-Summary.png/400px-Proxmox-VE-8-0-Cluster-Summary.png"
     }
   ],
   "history": [
@@ -546,121 +768,161 @@
       "year": 1969,
       "name": "Unix",
       "type": "unix",
-      "description": { "en": "Developed at Bell Labs by Ken Thompson and Dennis Ritchie, Unix introduced hierarchical file systems, pipes, and the philosophy of small composable tools that influence every operating system today." }
+      "description": {
+        "en": "Developed at Bell Labs by Ken Thompson and Dennis Ritchie, Unix introduced hierarchical file systems, pipes, and the philosophy of small composable tools that influence every operating system today."
+      }
     },
     {
       "year": 1981,
       "name": "MS-DOS",
       "type": "windows",
-      "description": { "en": "Microsoft's Disk Operating System became the foundation of the IBM PC revolution, establishing Microsoft as the dominant force in personal computing through its OEM licensing model." }
+      "description": {
+        "en": "Microsoft's Disk Operating System became the foundation of the IBM PC revolution, establishing Microsoft as the dominant force in personal computing through its OEM licensing model."
+      }
     },
     {
       "year": 1984,
       "name": "Mac System 1",
       "type": "mac",
-      "description": { "en": "Apple's original Macintosh operating system brought the graphical user interface and mouse-driven interaction to a mass-market personal computer for the first time." }
+      "description": {
+        "en": "Apple's original Macintosh operating system brought the graphical user interface and mouse-driven interaction to a mass-market personal computer for the first time."
+      }
     },
     {
       "year": 1985,
       "name": "Windows 1.0",
       "type": "windows",
-      "description": { "en": "Microsoft's first graphical shell for MS-DOS introduced overlapping windows and mouse support, beginning the Windows dynasty that would come to dominate desktop computing." }
+      "description": {
+        "en": "Microsoft's first graphical shell for MS-DOS introduced overlapping windows and mouse support, beginning the Windows dynasty that would come to dominate desktop computing."
+      }
     },
     {
       "year": 1991,
       "name": "Linux",
       "type": "linux",
-      "description": { "en": "Linus Torvalds released the Linux kernel as a free, open-source project, sparking a movement that would grow to power everything from smartphones to supercomputers and the majority of the world's servers." }
+      "description": {
+        "en": "Linus Torvalds released the Linux kernel as a free, open-source project, sparking a movement that would grow to power everything from smartphones to supercomputers and the majority of the world's servers."
+      }
     },
     {
       "year": 1993,
       "name": "Windows NT",
       "type": "windows",
-      "description": { "en": "Windows NT introduced a modern 32-bit kernel with preemptive multitasking and memory protection, laying the architectural foundation for every subsequent version of Windows including today's Windows 11." }
+      "description": {
+        "en": "Windows NT introduced a modern 32-bit kernel with preemptive multitasking and memory protection, laying the architectural foundation for every subsequent version of Windows including today's Windows 11."
+      }
     },
     {
       "year": 1993,
       "name": "FreeBSD",
       "type": "unix",
-      "description": { "en": "FreeBSD emerged as a free, open-source descendant of the Berkeley Software Distribution, becoming renowned for its network stack and later powering parts of Netflix, WhatsApp, and PlayStation." }
+      "description": {
+        "en": "FreeBSD emerged as a free, open-source descendant of the Berkeley Software Distribution, becoming renowned for its network stack and later powering parts of Netflix, WhatsApp, and PlayStation."
+      }
     },
     {
       "year": 1993,
       "name": "Debian",
       "type": "linux",
-      "description": { "en": "Ian Murdock founded Debian as a community-governed Linux distribution committed to free software principles, creating the base that Ubuntu and dozens of other distributions would later build upon." }
+      "description": {
+        "en": "Ian Murdock founded Debian as a community-governed Linux distribution committed to free software principles, creating the base that Ubuntu and dozens of other distributions would later build upon."
+      }
     },
     {
       "year": 1995,
       "name": "Windows 95",
       "type": "windows",
-      "description": { "en": "Windows 95 introduced the Start menu, taskbar, and plug-and-play hardware support, transforming personal computing into a mainstream consumer experience with one of the most famous product launches in history." }
+      "description": {
+        "en": "Windows 95 introduced the Start menu, taskbar, and plug-and-play hardware support, transforming personal computing into a mainstream consumer experience with one of the most famous product launches in history."
+      }
     },
     {
       "year": 2001,
       "name": "Windows XP",
       "type": "windows",
-      "description": { "en": "Windows XP merged the consumer and enterprise Windows lines on the NT kernel, becoming one of the longest-lived and most beloved operating systems in history with a lifespan stretching over a decade." }
+      "description": {
+        "en": "Windows XP merged the consumer and enterprise Windows lines on the NT kernel, becoming one of the longest-lived and most beloved operating systems in history with a lifespan stretching over a decade."
+      }
     },
     {
       "year": 2001,
       "name": "Mac OS X",
       "type": "mac",
-      "description": { "en": "Apple rebuilt its operating system on a Unix foundation (NeXTSTEP/Mach), combining the stability of Unix with Apple's design sensibility and creating the platform that still powers every Mac today." }
+      "description": {
+        "en": "Apple rebuilt its operating system on a Unix foundation (NeXTSTEP/Mach), combining the stability of Unix with Apple's design sensibility and creating the platform that still powers every Mac today."
+      }
     },
     {
       "year": 2004,
       "name": "Ubuntu",
       "type": "linux",
-      "description": { "en": "Mark Shuttleworth's Canonical released Ubuntu with the mission of making Linux accessible to everyone, shipping free CDs worldwide and establishing Linux as a viable desktop alternative." }
+      "description": {
+        "en": "Mark Shuttleworth's Canonical released Ubuntu with the mission of making Linux accessible to everyone, shipping free CDs worldwide and establishing Linux as a viable desktop alternative."
+      }
     },
     {
       "year": 2007,
       "name": "iPhone OS",
       "type": "mobile",
-      "description": { "en": "Apple's iPhone OS redefined mobile computing with its multi-touch interface and later the App Store, creating the smartphone era and establishing the template every mobile OS follows." }
+      "description": {
+        "en": "Apple's iPhone OS redefined mobile computing with its multi-touch interface and later the App Store, creating the smartphone era and establishing the template every mobile OS follows."
+      }
     },
     {
       "year": 2008,
       "name": "Android",
       "type": "mobile",
-      "description": { "en": "Google released Android as an open-source mobile platform, enabling dozens of manufacturers to build smartphones at every price point and eventually capturing over 70% of the global mobile market." }
+      "description": {
+        "en": "Google released Android as an open-source mobile platform, enabling dozens of manufacturers to build smartphones at every price point and eventually capturing over 70% of the global mobile market."
+      }
     },
     {
       "year": 2009,
       "name": "ChromeOS",
       "type": "linux",
-      "description": { "en": "Google announced ChromeOS as a cloud-first operating system built around the Chrome browser, challenging the traditional desktop OS model and eventually dominating the education market." }
+      "description": {
+        "en": "Google announced ChromeOS as a cloud-first operating system built around the Chrome browser, challenging the traditional desktop OS model and eventually dominating the education market."
+      }
     },
     {
       "year": 2012,
       "name": "Windows 8",
       "type": "windows",
-      "description": { "en": "Windows 8 controversially replaced the Start menu with a full-screen tile interface designed for touchscreens, alienating desktop users but pushing Microsoft toward a unified platform vision." }
+      "description": {
+        "en": "Windows 8 controversially replaced the Start menu with a full-screen tile interface designed for touchscreens, alienating desktop users but pushing Microsoft toward a unified platform vision."
+      }
     },
     {
       "year": 2015,
       "name": "Windows 10",
       "type": "windows",
-      "description": { "en": "Windows 10 restored the Start menu and introduced Windows as a Service with continuous updates, offered as a free upgrade that rapidly achieved over a billion installations worldwide." }
+      "description": {
+        "en": "Windows 10 restored the Start menu and introduced Windows as a Service with continuous updates, offered as a free upgrade that rapidly achieved over a billion installations worldwide."
+      }
     },
     {
       "year": 2019,
       "name": "HarmonyOS",
       "type": "mobile",
-      "description": { "en": "Huawei unveiled HarmonyOS as a cross-device operating system in response to US trade restrictions, building an independent software ecosystem that has grown to hundreds of millions of devices in China." }
+      "description": {
+        "en": "Huawei unveiled HarmonyOS as a cross-device operating system in response to US trade restrictions, building an independent software ecosystem that has grown to hundreds of millions of devices in China."
+      }
     },
     {
       "year": 2021,
       "name": "Windows 11",
       "type": "windows",
-      "description": { "en": "Windows 11 introduced a redesigned interface with a centered taskbar and strict TPM 2.0 hardware requirements, marking Microsoft's push toward modern security standards at the cost of excluding older hardware." }
+      "description": {
+        "en": "Windows 11 introduced a redesigned interface with a centered taskbar and strict TPM 2.0 hardware requirements, marking Microsoft's push toward modern security standards at the cost of excluding older hardware."
+      }
     },
     {
       "year": 2024,
       "name": "Linux 6.x",
       "type": "linux",
-      "description": { "en": "The Linux 6.x kernel series brought Rust programming language support, improved performance on modern hardware, and solidified Linux's dominance across servers, cloud, mobile (Android), and embedded systems." }
+      "description": {
+        "en": "The Linux 6.x kernel series brought Rust programming language support, improved performance on modern hardware, and solidified Linux's dominance across servers, cloud, mobile (Android), and embedded systems."
+      }
     }
   ]
 }

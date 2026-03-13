@@ -63,7 +63,9 @@ function _genreIcon(genreId) {
 /* ========== GAME CARD ========== */
 function _gameCardHtml(game) {
   const color = _genreColor(game.genre);
+  const img = game.image ? `<img src="${game.image}" alt="${game.title}" class="tc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<div class="game-card" style="border-left-color:${color}">
+    ${img}
     <div class="game-card-header">
       <span class="game-card-icon">${_genreIcon(game.genre)}</span>
       <div>
@@ -82,7 +84,9 @@ function _gameCardHtml(game) {
 
 /* ========== AI CARD ========== */
 function _aiCardHtml(tool) {
+  const img = tool.image ? `<img src="${tool.image}" alt="${tool.name}" class="tc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<div class="ai-card">
+    ${img}
     <div class="ai-card-header">
       <div class="ai-card-title">${tool.name}</div>
       <div class="ai-card-meta">${_t('ai.pricing')}: <span class="pricing-badge">${tool.pricing}</span></div>
@@ -97,7 +101,9 @@ function _aiCardHtml(tool) {
 /* ========== DEV CARD ========== */
 function _devCardHtml(res) {
   const diffClass = (res.difficulty || '').toLowerCase().replace(/\s+/g, '-');
+  const img = res.image ? `<img src="${res.image}" alt="${res.name}" class="tc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<div class="dev-card">
+    ${img}
     <div class="dev-card-header">
       <div class="dev-card-title">${res.name}</div>
       <div class="dev-card-meta">
@@ -113,7 +119,9 @@ function _devCardHtml(res) {
 
 /* ========== PRODUCTIVITY CARD ========== */
 function _prodCardHtml(tool) {
+  const img = tool.image ? `<img src="${tool.image}" alt="${tool.name}" class="tc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<div class="prod-card">
+    ${img}
     <div class="prod-card-header">
       <div class="prod-card-title">${tool.name}</div>
       <div class="prod-card-meta">
@@ -130,7 +138,9 @@ function _prodCardHtml(tool) {
 
 /* ========== HARDWARE CARD ========== */
 function _hwCardHtml(item) {
+  const img = item.image ? `<img src="${item.image}" alt="${item.name}" class="tc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<div class="hw-card">
+    ${img}
     <div class="hw-card-header">
       <div class="hw-card-title">${item.name}</div>
       <div class="hw-card-meta">${_t('hardware.price_range')}: <strong>${item.price_range}</strong></div>
@@ -285,7 +295,9 @@ function _storeCardHtml(store) {
   const color = _storeTypeColor(store.type);
   const pros = (_loc(store.pros) || []);
   const cons = (_loc(store.cons) || []);
+  const img = store.image ? `<img src="${store.image}" alt="${store.name}" class="tc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<div class="store-card" style="border-left-color:${color}">
+    ${img}
     <div class="store-card-header">
       <div>
         <div class="store-card-title">${store.name}</div>
@@ -547,9 +559,12 @@ function renderPlatforms() {
       </div>
 
       <div class="timeline">
-        ${items.map(p => `<div class="timeline-item">
+        ${items.map(p => {
+          const pImg = p.image ? `<img src="${p.image}" alt="${p.name}" class="tc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
+          return `<div class="timeline-item">
           <div class="timeline-year">${p.year}</div>
           <div class="timeline-card">
+            ${pImg}
             <div class="timeline-card-header">
               <div class="timeline-card-title">${p.name}</div>
               <div class="timeline-card-meta">${p.company} \u00b7 ${p.type}</div>
@@ -560,7 +575,8 @@ function renderPlatforms() {
             </div>
             <div class="timeline-card-tags">${(p.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
           </div>
-        </div>`).join('')}
+        </div>`;
+        }).join('')}
       </div>
     `;
 
@@ -591,7 +607,9 @@ function _osCardHtml(os) {
   const color = _osCatColor(os.category);
   const pros = (_loc(os.pros) || []);
   const cons = (_loc(os.cons) || []);
+  const img = os.image ? `<img src="${os.image}" alt="${os.name}" class="tc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<div class="os-card" style="border-left-color:${color}">
+    ${img}
     <div class="os-card-header">
       <div>
         <div class="os-card-title">${os.name}</div>

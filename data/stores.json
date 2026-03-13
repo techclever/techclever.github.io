@@ -27,9 +27,21 @@
         "Refund window limited to 2 hours of playtime or 14 days"
       ]
     },
-    "best_for": { "en": "Every PC gamer. Period. The biggest library, the best sales, the most features, and now a handheld to take it all with you." },
-    "not_ideal_for": { "en": "Those who prefer Netflix-style subscription access, or developers frustrated by the 30% revenue cut" },
-    "tags": ["pc", "store", "mods", "sales", "community", "steam-deck"]
+    "best_for": {
+      "en": "Every PC gamer. Period. The biggest library, the best sales, the most features, and now a handheld to take it all with you."
+    },
+    "not_ideal_for": {
+      "en": "Those who prefer Netflix-style subscription access, or developers frustrated by the 30% revenue cut"
+    },
+    "tags": [
+      "pc",
+      "store",
+      "mods",
+      "sales",
+      "community",
+      "steam-deck"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Steam_%28service%29.png/400px-Steam_%28service%29.png"
   },
   {
     "id": "epic-games-store",
@@ -57,9 +69,20 @@
         "Smaller overall library compared to Steam"
       ]
     },
-    "best_for": { "en": "Smart gamers who claim every free weekly game and don't mind a leaner storefront — free games alone can build a library worth thousands" },
-    "not_ideal_for": { "en": "Players who rely on community reviews, mod support, or want every feature Steam offers" },
-    "tags": ["pc", "store", "free-games", "exclusives", "unreal-engine"]
+    "best_for": {
+      "en": "Smart gamers who claim every free weekly game and don't mind a leaner storefront — free games alone can build a library worth thousands"
+    },
+    "not_ideal_for": {
+      "en": "Players who rely on community reviews, mod support, or want every feature Steam offers"
+    },
+    "tags": [
+      "pc",
+      "store",
+      "free-games",
+      "exclusives",
+      "unreal-engine"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Epic_Games_Store_Screen_Shot.png/400px-Epic_Games_Store_Screen_Shot.png"
   },
   {
     "id": "gog",
@@ -88,9 +111,21 @@
         "No achievements system for many titles"
       ]
     },
-    "best_for": { "en": "Gamers who believe you should own what you pay for, retro game lovers, and anyone who's been burned by always-online DRM" },
-    "not_ideal_for": { "en": "Those who need every AAA launch on day one, or gamers who live in Steam's social ecosystem" },
-    "tags": ["pc", "store", "drm-free", "classic-games", "ownership", "witcher"]
+    "best_for": {
+      "en": "Gamers who believe you should own what you pay for, retro game lovers, and anyone who's been burned by always-online DRM"
+    },
+    "not_ideal_for": {
+      "en": "Those who need every AAA launch on day one, or gamers who live in Steam's social ecosystem"
+    },
+    "tags": [
+      "pc",
+      "store",
+      "drm-free",
+      "classic-games",
+      "ownership",
+      "witcher"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/GOG.com_website%2C_Nov_2024.png/400px-GOG.com_website%2C_Nov_2024.png"
   },
   {
     "id": "xbox-game-pass",
@@ -121,9 +156,22 @@
         "Can make you feel overwhelmed — too many choices, too little time"
       ]
     },
-    "best_for": { "en": "Gamers who play a lot and want to explore everything — the 'Netflix of gaming' that actually lives up to the name" },
-    "not_ideal_for": { "en": "Players who only play one game at a time, prefer to own their library, or have slow internet for cloud gaming" },
-    "tags": ["subscription", "xbox", "pc", "cloud", "day-one", "best-value", "activision"]
+    "best_for": {
+      "en": "Gamers who play a lot and want to explore everything — the 'Netflix of gaming' that actually lives up to the name"
+    },
+    "not_ideal_for": {
+      "en": "Players who only play one game at a time, prefer to own their library, or have slow internet for cloud gaming"
+    },
+    "tags": [
+      "subscription",
+      "xbox",
+      "pc",
+      "cloud",
+      "day-one",
+      "best-value",
+      "activision"
+    ],
+    "image": null
   },
   {
     "id": "playstation-plus",
@@ -153,9 +201,21 @@
         "No PC access for most of the catalog (a few titles via cloud)"
       ]
     },
-    "best_for": { "en": "PlayStation loyalists who want access to Sony's legendary exclusives, monthly freebies, and a trip down memory lane with classic titles" },
-    "not_ideal_for": { "en": "Those expecting day-one Sony blockbusters, or gamers who primarily play on PC" },
-    "tags": ["subscription", "playstation", "cloud", "classics", "exclusives", "sony"]
+    "best_for": {
+      "en": "PlayStation loyalists who want access to Sony's legendary exclusives, monthly freebies, and a trip down memory lane with classic titles"
+    },
+    "not_ideal_for": {
+      "en": "Those expecting day-one Sony blockbusters, or gamers who primarily play on PC"
+    },
+    "tags": [
+      "subscription",
+      "playstation",
+      "cloud",
+      "classics",
+      "exclusives",
+      "sony"
+    ],
+    "image": null
   },
   {
     "id": "nintendo-eshop",
@@ -184,9 +244,22 @@
         "Digital purchases tied strictly to your Nintendo account"
       ]
     },
-    "best_for": { "en": "Nintendo fans, families, and anyone who wants Mario, Zelda, and the best indie library on a portable console" },
-    "not_ideal_for": { "en": "Bargain hunters waiting for sales, or serious competitive online gamers who need robust infrastructure" },
-    "tags": ["switch", "store", "exclusives", "retro", "family", "portable", "nintendo"]
+    "best_for": {
+      "en": "Nintendo fans, families, and anyone who wants Mario, Zelda, and the best indie library on a portable console"
+    },
+    "not_ideal_for": {
+      "en": "Bargain hunters waiting for sales, or serious competitive online gamers who need robust infrastructure"
+    },
+    "tags": [
+      "switch",
+      "store",
+      "exclusives",
+      "retro",
+      "family",
+      "portable",
+      "nintendo"
+    ],
+    "image": null
   },
   {
     "id": "ea-play",
@@ -215,9 +288,21 @@
         "Some games are loaded with microtransactions (Ultimate Team modes)"
       ]
     },
-    "best_for": { "en": "Sports game addicts, Game Pass Ultimate subscribers who get it free, and anyone who wants to binge EA's back catalog on a budget" },
-    "not_ideal_for": { "en": "Gamers who don't care about EA's lineup, or console players wanting day-one access (Pro is PC only)" },
-    "tags": ["subscription", "ea", "sports", "pc", "console", "affordable"]
+    "best_for": {
+      "en": "Sports game addicts, Game Pass Ultimate subscribers who get it free, and anyone who wants to binge EA's back catalog on a budget"
+    },
+    "not_ideal_for": {
+      "en": "Gamers who don't care about EA's lineup, or console players wanting day-one access (Pro is PC only)"
+    },
+    "tags": [
+      "subscription",
+      "ea",
+      "sports",
+      "pc",
+      "console",
+      "affordable"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/EA_Play_logo.svg/400px-EA_Play_logo.svg.png"
   },
   {
     "id": "ubisoft-plus",
@@ -245,9 +330,20 @@
         "PC requires the Ubisoft Connect launcher (not everyone's favorite)"
       ]
     },
-    "best_for": { "en": "Assassin's Creed superfans and Ubisoft loyalists who would buy every release anyway — it pays for itself fast" },
-    "not_ideal_for": { "en": "Casual gamers who only want one or two Ubisoft titles per year — just buy them individually" },
-    "tags": ["subscription", "ubisoft", "pc", "day-one", "assassins-creed"]
+    "best_for": {
+      "en": "Assassin's Creed superfans and Ubisoft loyalists who would buy every release anyway — it pays for itself fast"
+    },
+    "not_ideal_for": {
+      "en": "Casual gamers who only want one or two Ubisoft titles per year — just buy them individually"
+    },
+    "tags": [
+      "subscription",
+      "ubisoft",
+      "pc",
+      "day-one",
+      "assassins-creed"
+    ],
+    "image": null
   },
   {
     "id": "humble-bundle",
@@ -276,9 +372,22 @@
         "Now owned by IGN/Ziff Davis, which concerns some users about independence"
       ]
     },
-    "best_for": { "en": "Budget gamers who love surprise discoveries and want to build a massive library while supporting charities around the world" },
-    "not_ideal_for": { "en": "Picky gamers who only want specific AAA titles, or those who hate not knowing what they're getting" },
-    "tags": ["bundles", "charity", "pc", "store", "subscription", "value", "feel-good"]
+    "best_for": {
+      "en": "Budget gamers who love surprise discoveries and want to build a massive library while supporting charities around the world"
+    },
+    "not_ideal_for": {
+      "en": "Picky gamers who only want specific AAA titles, or those who hate not knowing what they're getting"
+    },
+    "tags": [
+      "bundles",
+      "charity",
+      "pc",
+      "store",
+      "subscription",
+      "value",
+      "feel-good"
+    ],
+    "image": null
   },
   {
     "id": "itch-io",
@@ -307,8 +416,21 @@
         "Many games are prototypes, demos, or very rough around the edges"
       ]
     },
-    "best_for": { "en": "Indie game lovers, aspiring game developers, game jam enthusiasts, and anyone looking for creative experiences they'll never find on mainstream platforms" },
-    "not_ideal_for": { "en": "Gamers who want polished, finished products and social features — this is the experimental frontier" },
-    "tags": ["indie", "free", "store", "game-jams", "developers", "creative", "open-platform"]
+    "best_for": {
+      "en": "Indie game lovers, aspiring game developers, game jam enthusiasts, and anyone looking for creative experiences they'll never find on mainstream platforms"
+    },
+    "not_ideal_for": {
+      "en": "Gamers who want polished, finished products and social features — this is the experimental frontier"
+    },
+    "tags": [
+      "indie",
+      "free",
+      "store",
+      "game-jams",
+      "developers",
+      "creative",
+      "open-platform"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Itch.io_homepage_screenshot.png/400px-Itch.io_homepage_screenshot.png"
   }
 ]

@@ -5,9 +5,18 @@
     "company": "Magnavox",
     "year": 1972,
     "type": "Console",
-    "description": { "en": "The very first home video game console. Used analog circuitry and screen overlays instead of on-screen graphics. A groundbreaking invention that proved games could leave the arcade." },
-    "significance": { "en": "Launched the home console industry. Without it, nothing else on this timeline exists." },
-    "tags": ["pioneer", "home-console", "analog"]
+    "description": {
+      "en": "The very first home video game console. Used analog circuitry and screen overlays instead of on-screen graphics. A groundbreaking invention that proved games could leave the arcade."
+    },
+    "significance": {
+      "en": "Launched the home console industry. Without it, nothing else on this timeline exists."
+    },
+    "tags": [
+      "pioneer",
+      "home-console",
+      "analog"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Magnavox-Odyssey-Console-Set.jpg/400px-Magnavox-Odyssey-Console-Set.jpg"
   },
   {
     "id": "atari_2600",
@@ -15,9 +24,18 @@
     "company": "Atari",
     "year": 1977,
     "type": "Console",
-    "description": { "en": "The console that brought gaming to the masses. With swappable cartridges and iconic games like Space Invaders, Pac-Man, and Pitfall, it defined an entire generation of gamers." },
-    "significance": { "en": "Popularized cartridge-based gaming and created the first true gaming culture. Atari became synonymous with video games." },
-    "tags": ["legendary", "cartridge", "arcade-at-home"]
+    "description": {
+      "en": "The console that brought gaming to the masses. With swappable cartridges and iconic games like Space Invaders, Pac-Man, and Pitfall, it defined an entire generation of gamers."
+    },
+    "significance": {
+      "en": "Popularized cartridge-based gaming and created the first true gaming culture. Atari became synonymous with video games."
+    },
+    "tags": [
+      "legendary",
+      "cartridge",
+      "arcade-at-home"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Atari-2600-Wood-4Sw-Set.png/400px-Atari-2600-Wood-4Sw-Set.png"
   },
   {
     "id": "commodore_64",
@@ -25,9 +43,18 @@
     "company": "Commodore",
     "year": 1982,
     "type": "Home Computer",
-    "description": { "en": "The best-selling single personal computer model of all time. Doubled as a powerful gaming machine with thousands of titles, a SID sound chip beloved by musicians, and BASIC programming built in." },
-    "significance": { "en": "Blurred the line between computers and gaming. Introduced millions to both programming and gaming." },
-    "tags": ["home-computer", "best-seller", "programming"]
+    "description": {
+      "en": "The best-selling single personal computer model of all time. Doubled as a powerful gaming machine with thousands of titles, a SID sound chip beloved by musicians, and BASIC programming built in."
+    },
+    "significance": {
+      "en": "Blurred the line between computers and gaming. Introduced millions to both programming and gaming."
+    },
+    "tags": [
+      "home-computer",
+      "best-seller",
+      "programming"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Commodore-64-Computer-FL.jpg/400px-Commodore-64-Computer-FL.jpg"
   },
   {
     "id": "nes",
@@ -35,9 +62,18 @@
     "company": "Nintendo",
     "year": 1983,
     "type": "Console",
-    "description": { "en": "The console that revived the gaming industry after the 1983 crash. Home to Super Mario Bros., The Legend of Zelda, and Metroid — franchises that still dominate today." },
-    "significance": { "en": "Saved the gaming industry from collapse. Established Nintendo as a gaming giant and set quality standards for the industry." },
-    "tags": ["iconic", "revival", "8-bit"]
+    "description": {
+      "en": "The console that revived the gaming industry after the 1983 crash. Home to Super Mario Bros., The Legend of Zelda, and Metroid — franchises that still dominate today."
+    },
+    "significance": {
+      "en": "Saved the gaming industry from collapse. Established Nintendo as a gaming giant and set quality standards for the industry."
+    },
+    "tags": [
+      "iconic",
+      "revival",
+      "8-bit"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NES-Console-Set.png/400px-NES-Console-Set.png"
   },
   {
     "id": "sega_master_system",
@@ -45,9 +81,18 @@
     "company": "Sega",
     "year": 1985,
     "type": "Console",
-    "description": { "en": "Sega's first major home console and the NES's main rival. Technically superior hardware with titles like Alex Kidd, Phantasy Star, and Wonder Boy. Hugely successful in Europe and Brazil." },
-    "significance": { "en": "Started the great console wars between Sega and Nintendo. Proved there was room for competition in gaming." },
-    "tags": ["sega", "8-bit", "console-wars"]
+    "description": {
+      "en": "Sega's first major home console and the NES's main rival. Technically superior hardware with titles like Alex Kidd, Phantasy Star, and Wonder Boy. Hugely successful in Europe and Brazil."
+    },
+    "significance": {
+      "en": "Started the great console wars between Sega and Nintendo. Proved there was room for competition in gaming."
+    },
+    "tags": [
+      "sega",
+      "8-bit",
+      "console-wars"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Sega-Master-System-Set.jpg/400px-Sega-Master-System-Set.jpg"
   },
   {
     "id": "game_boy",
@@ -55,9 +100,18 @@
     "company": "Nintendo",
     "year": 1989,
     "type": "Handheld",
-    "description": { "en": "The handheld that changed everything. With its green-tinted screen and incredible battery life, it made gaming truly portable. Tetris alone sold millions of units." },
-    "significance": { "en": "Created the handheld gaming market. Proved that gameplay matters more than graphics." },
-    "tags": ["handheld", "portable", "tetris"]
+    "description": {
+      "en": "The handheld that changed everything. With its green-tinted screen and incredible battery life, it made gaming truly portable. Tetris alone sold millions of units."
+    },
+    "significance": {
+      "en": "Created the handheld gaming market. Proved that gameplay matters more than graphics."
+    },
+    "tags": [
+      "handheld",
+      "portable",
+      "tetris"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/400px-Game-Boy-FL.png"
   },
   {
     "id": "sega_genesis",
@@ -65,9 +119,18 @@
     "company": "Sega",
     "year": 1988,
     "type": "Console",
-    "description": { "en": "Sega does what Nintendon't. The Genesis brought arcade-quality gaming home with Sonic the Hedgehog, Streets of Rage, and a rebellious marketing attitude that captured teens worldwide." },
-    "significance": { "en": "Intensified the console wars. Made gaming cool for older audiences and pushed Nintendo to innovate faster." },
-    "tags": ["16-bit", "sonic", "console-wars"]
+    "description": {
+      "en": "Sega does what Nintendon't. The Genesis brought arcade-quality gaming home with Sonic the Hedgehog, Streets of Rage, and a rebellious marketing attitude that captured teens worldwide."
+    },
+    "significance": {
+      "en": "Intensified the console wars. Made gaming cool for older audiences and pushed Nintendo to innovate faster."
+    },
+    "tags": [
+      "16-bit",
+      "sonic",
+      "console-wars"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sega-Mega-Drive-JP-Mk1-Console-Set.jpg/400px-Sega-Mega-Drive-JP-Mk1-Console-Set.jpg"
   },
   {
     "id": "snes",
@@ -75,9 +138,18 @@
     "company": "Nintendo",
     "year": 1990,
     "type": "Console",
-    "description": { "en": "Nintendo's 16-bit powerhouse. Home to some of the greatest games ever made: Super Mario World, A Link to the Past, Chrono Trigger, Super Metroid, and Final Fantasy VI." },
-    "significance": { "en": "Widely considered the golden age of 2D gaming. Its library is still a benchmark for game design excellence." },
-    "tags": ["16-bit", "golden-age", "legendary"]
+    "description": {
+      "en": "Nintendo's 16-bit powerhouse. Home to some of the greatest games ever made: Super Mario World, A Link to the Past, Chrono Trigger, Super Metroid, and Final Fantasy VI."
+    },
+    "significance": {
+      "en": "Widely considered the golden age of 2D gaming. Its library is still a benchmark for game design excellence."
+    },
+    "tags": [
+      "16-bit",
+      "golden-age",
+      "legendary"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SNES-Mod1-Console-Set.png/400px-SNES-Mod1-Console-Set.png"
   },
   {
     "id": "playstation",
@@ -85,9 +157,18 @@
     "company": "Sony",
     "year": 1994,
     "type": "Console",
-    "description": { "en": "Sony's bold entry into gaming changed everything. CD-based games meant bigger worlds, full soundtracks, and cinematic experiences. Final Fantasy VII, Metal Gear Solid, and Crash Bandicoot became cultural phenomena." },
-    "significance": { "en": "Made gaming mainstream entertainment. Proved that a newcomer could dominate the industry overnight." },
-    "tags": ["cd-rom", "3d-gaming", "cultural-shift"]
+    "description": {
+      "en": "Sony's bold entry into gaming changed everything. CD-based games meant bigger worlds, full soundtracks, and cinematic experiences. Final Fantasy VII, Metal Gear Solid, and Crash Bandicoot became cultural phenomena."
+    },
+    "significance": {
+      "en": "Made gaming mainstream entertainment. Proved that a newcomer could dominate the industry overnight."
+    },
+    "tags": [
+      "cd-rom",
+      "3d-gaming",
+      "cultural-shift"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/400px-Playstation_logo_colour.svg.png"
   },
   {
     "id": "nintendo_64",
@@ -95,9 +176,18 @@
     "company": "Nintendo",
     "year": 1996,
     "type": "Console",
-    "description": { "en": "The console that pioneered 3D gaming with an analog stick. Super Mario 64 redefined what games could be. GoldenEye 007 invented console FPS multiplayer. Ocarina of Time is still called the greatest game ever." },
-    "significance": { "en": "Defined 3D game design. The analog stick and four-controller ports made it the ultimate party console." },
-    "tags": ["3d-pioneer", "multiplayer", "analog-stick"]
+    "description": {
+      "en": "The console that pioneered 3D gaming with an analog stick. Super Mario 64 redefined what games could be. GoldenEye 007 invented console FPS multiplayer. Ocarina of Time is still called the greatest game ever."
+    },
+    "significance": {
+      "en": "Defined 3D game design. The analog stick and four-controller ports made it the ultimate party console."
+    },
+    "tags": [
+      "3d-pioneer",
+      "multiplayer",
+      "analog-stick"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Nintendo_64_%28logo%29.svg/400px-Nintendo_64_%28logo%29.svg.png"
   },
   {
     "id": "dreamcast",
@@ -105,9 +195,18 @@
     "company": "Sega",
     "year": 1998,
     "type": "Console",
-    "description": { "en": "Sega's final console was years ahead of its time. First console with built-in modem for online play, a visual memory unit controller, and stunning games like Shenmue, Jet Set Radio, and Soul Calibur." },
-    "significance": { "en": "Pioneered online console gaming. A commercial failure that was artistically brilliant — beloved by collectors and enthusiasts." },
-    "tags": ["ahead-of-time", "online-pioneer", "cult-classic"]
+    "description": {
+      "en": "Sega's final console was years ahead of its time. First console with built-in modem for online play, a visual memory unit controller, and stunning games like Shenmue, Jet Set Radio, and Soul Calibur."
+    },
+    "significance": {
+      "en": "Pioneered online console gaming. A commercial failure that was artistically brilliant — beloved by collectors and enthusiasts."
+    },
+    "tags": [
+      "ahead-of-time",
+      "online-pioneer",
+      "cult-classic"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Dreamcast_logo_Japan.svg/400px-Dreamcast_logo_Japan.svg.png"
   },
   {
     "id": "ps2",
@@ -115,9 +214,18 @@
     "company": "Sony",
     "year": 2000,
     "type": "Console",
-    "description": { "en": "The best-selling console of all time with over 155 million units sold. Its massive library includes GTA San Andreas, Shadow of the Colossus, God of War, Kingdom Hearts, and Final Fantasy X. Also doubled as a DVD player." },
-    "significance": { "en": "Dominated an entire console generation. Set the standard for what a gaming library should look like." },
-    "tags": ["best-seller", "dvd", "massive-library"]
+    "description": {
+      "en": "The best-selling console of all time with over 155 million units sold. Its massive library includes GTA San Andreas, Shadow of the Colossus, God of War, Kingdom Hearts, and Final Fantasy X. Also doubled as a DVD player."
+    },
+    "significance": {
+      "en": "Dominated an entire console generation. Set the standard for what a gaming library should look like."
+    },
+    "tags": [
+      "best-seller",
+      "dvd",
+      "massive-library"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PS2-Versions.png/400px-PS2-Versions.png"
   },
   {
     "id": "xbox",
@@ -125,9 +233,18 @@
     "company": "Microsoft",
     "year": 2001,
     "type": "Console",
-    "description": { "en": "Microsoft's debut in gaming brought PC-level hardware to the living room. Halo: Combat Evolved became a system seller overnight, and Xbox Live pioneered online console multiplayer." },
-    "significance": { "en": "Brought Microsoft into the console wars. Xbox Live set the gold standard for online gaming services." },
-    "tags": ["microsoft", "halo", "xbox-live"]
+    "description": {
+      "en": "Microsoft's debut in gaming brought PC-level hardware to the living room. Halo: Combat Evolved became a system seller overnight, and Xbox Live pioneered online console multiplayer."
+    },
+    "significance": {
+      "en": "Brought Microsoft into the console wars. Xbox Live set the gold standard for online gaming services."
+    },
+    "tags": [
+      "microsoft",
+      "halo",
+      "xbox-live"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Xbox-Console-wDuke-L.jpg/400px-Xbox-Console-wDuke-L.jpg"
   },
   {
     "id": "game_boy_advance",
@@ -135,9 +252,18 @@
     "company": "Nintendo",
     "year": 2001,
     "type": "Handheld",
-    "description": { "en": "A SNES in your pocket. The GBA delivered stunning 2D games including Pokemon Ruby/Sapphire, Advance Wars, Metroid Fusion, and Fire Emblem. The SP model added a backlit screen and clamshell design." },
-    "significance": { "en": "Kept handheld gaming alive while home consoles went 3D. Perfect bridge between retro and modern portable gaming." },
-    "tags": ["handheld", "32-bit", "pokemon"]
+    "description": {
+      "en": "A SNES in your pocket. The GBA delivered stunning 2D games including Pokemon Ruby/Sapphire, Advance Wars, Metroid Fusion, and Fire Emblem. The SP model added a backlit screen and clamshell design."
+    },
+    "significance": {
+      "en": "Kept handheld gaming alive while home consoles went 3D. Perfect bridge between retro and modern portable gaming."
+    },
+    "tags": [
+      "handheld",
+      "32-bit",
+      "pokemon"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Nintendo-Game-Boy-Advance-Purple-FL.png/400px-Nintendo-Game-Boy-Advance-Purple-FL.png"
   },
   {
     "id": "nintendo_ds",
@@ -145,9 +271,18 @@
     "company": "Nintendo",
     "year": 2004,
     "type": "Handheld",
-    "description": { "en": "The dual-screen handheld with a touchscreen that seemed crazy — until it worked brilliantly. Brain Age, Nintendogs, Pokemon Diamond/Pearl, and Professor Layton made it a phenomenon across all ages." },
-    "significance": { "en": "Second best-selling console ever (154M units). Proved touch controls and innovation could beat raw power." },
-    "tags": ["dual-screen", "touchscreen", "innovation"]
+    "description": {
+      "en": "The dual-screen handheld with a touchscreen that seemed crazy — until it worked brilliantly. Brain Age, Nintendogs, Pokemon Diamond/Pearl, and Professor Layton made it a phenomenon across all ages."
+    },
+    "significance": {
+      "en": "Second best-selling console ever (154M units). Proved touch controls and innovation could beat raw power."
+    },
+    "tags": [
+      "dual-screen",
+      "touchscreen",
+      "innovation"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Nintendo-DS-Fat-Blue.png/400px-Nintendo-DS-Fat-Blue.png"
   },
   {
     "id": "psp",
@@ -155,9 +290,18 @@
     "company": "Sony",
     "year": 2004,
     "type": "Handheld",
-    "description": { "en": "Sony's answer to Nintendo's handheld dominance. A portable multimedia powerhouse with console-quality graphics, UMD discs, and games like God of War: Chains of Olympus, Monster Hunter, and Crisis Core." },
-    "significance": { "en": "Showed handhelds could deliver console-quality experiences. Became a cult favorite for RPGs and action games." },
-    "tags": ["portable", "multimedia", "console-quality"]
+    "description": {
+      "en": "Sony's answer to Nintendo's handheld dominance. A portable multimedia powerhouse with console-quality graphics, UMD discs, and games like God of War: Chains of Olympus, Monster Hunter, and Crisis Core."
+    },
+    "significance": {
+      "en": "Showed handhelds could deliver console-quality experiences. Became a cult favorite for RPGs and action games."
+    },
+    "tags": [
+      "portable",
+      "multimedia",
+      "console-quality"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Psp-1000.jpg/400px-Psp-1000.jpg"
   },
   {
     "id": "xbox_360",
@@ -165,9 +309,18 @@
     "company": "Microsoft",
     "year": 2005,
     "type": "Console",
-    "description": { "en": "Microsoft's second console defined online gaming for a generation. Xbox Live, Achievements, and games like Gears of War, Mass Effect, and Halo 3 made it the go-to platform for multiplayer gaming." },
-    "significance": { "en": "Made online multiplayer and digital distribution mainstream. Achievements changed how we play games." },
-    "tags": ["online", "achievements", "multiplayer"]
+    "description": {
+      "en": "Microsoft's second console defined online gaming for a generation. Xbox Live, Achievements, and games like Gears of War, Mass Effect, and Halo 3 made it the go-to platform for multiplayer gaming."
+    },
+    "significance": {
+      "en": "Made online multiplayer and digital distribution mainstream. Achievements changed how we play games."
+    },
+    "tags": [
+      "online",
+      "achievements",
+      "multiplayer"
+    ],
+    "image": null
   },
   {
     "id": "wii",
@@ -175,9 +328,18 @@
     "company": "Nintendo",
     "year": 2006,
     "type": "Console",
-    "description": { "en": "Motion controls brought gaming to everyone — grandparents, families, and people who never touched a controller. Wii Sports alone made it a cultural event. Sold over 100 million units worldwide." },
-    "significance": { "en": "Expanded gaming beyond core gamers. Proved innovation in controls matters more than raw power." },
-    "tags": ["motion-controls", "family", "cultural-phenomenon"]
+    "description": {
+      "en": "Motion controls brought gaming to everyone — grandparents, families, and people who never touched a controller. Wii Sports alone made it a cultural event. Sold over 100 million units worldwide."
+    },
+    "significance": {
+      "en": "Expanded gaming beyond core gamers. Proved innovation in controls matters more than raw power."
+    },
+    "tags": [
+      "motion-controls",
+      "family",
+      "cultural-phenomenon"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/400px-Wii-Console.png"
   },
   {
     "id": "ps3",
@@ -185,9 +347,18 @@
     "company": "Sony",
     "year": 2006,
     "type": "Console",
-    "description": { "en": "Despite a rocky launch, the PS3 delivered some of the best exclusives ever: The Last of Us, Uncharted 2, Journey, and Demon's Souls. Also served as an affordable Blu-ray player." },
-    "significance": { "en": "Pushed gaming into the HD era. Its exclusives set new standards for storytelling in games." },
-    "tags": ["blu-ray", "exclusives", "hd-era"]
+    "description": {
+      "en": "Despite a rocky launch, the PS3 delivered some of the best exclusives ever: The Last of Us, Uncharted 2, Journey, and Demon's Souls. Also served as an affordable Blu-ray player."
+    },
+    "significance": {
+      "en": "Pushed gaming into the HD era. Its exclusives set new standards for storytelling in games."
+    },
+    "tags": [
+      "blu-ray",
+      "exclusives",
+      "hd-era"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/PS3_consoles_montage.png/400px-PS3_consoles_montage.png"
   },
   {
     "id": "ps4",
@@ -195,9 +366,18 @@
     "company": "Sony",
     "year": 2013,
     "type": "Console",
-    "description": { "en": "Sony's comeback console dominated its generation with 117 million units sold. Bloodborne, Horizon Zero Dawn, God of War, Spider-Man, and The Last of Us Part II showcased gaming as art." },
-    "significance": { "en": "Cemented PlayStation as the premium single-player experience brand. Pushed narrative gaming forward." },
-    "tags": ["dominant", "single-player", "narrative"]
+    "description": {
+      "en": "Sony's comeback console dominated its generation with 117 million units sold. Bloodborne, Horizon Zero Dawn, God of War, Spider-Man, and The Last of Us Part II showcased gaming as art."
+    },
+    "significance": {
+      "en": "Cemented PlayStation as the premium single-player experience brand. Pushed narrative gaming forward."
+    },
+    "tags": [
+      "dominant",
+      "single-player",
+      "narrative"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/PS4-Console-wDS4.jpg/400px-PS4-Console-wDS4.jpg"
   },
   {
     "id": "xbox_one",
@@ -205,9 +385,18 @@
     "company": "Microsoft",
     "year": 2013,
     "type": "Console",
-    "description": { "en": "After a controversial launch focused on multimedia, Microsoft pivoted to gamers with Xbox Game Pass, backward compatibility, and the powerful Xbox One X. Forza Horizon became its standout franchise." },
-    "significance": { "en": "Introduced Xbox Game Pass — the Netflix of gaming — which changed how people buy and play games." },
-    "tags": ["game-pass", "backward-compatible", "services"]
+    "description": {
+      "en": "After a controversial launch focused on multimedia, Microsoft pivoted to gamers with Xbox Game Pass, backward compatibility, and the powerful Xbox One X. Forza Horizon became its standout franchise."
+    },
+    "significance": {
+      "en": "Introduced Xbox Game Pass — the Netflix of gaming — which changed how people buy and play games."
+    },
+    "tags": [
+      "game-pass",
+      "backward-compatible",
+      "services"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Xbox_One_consoles_montage.png/400px-Xbox_One_consoles_montage.png"
   },
   {
     "id": "nintendo_switch",
@@ -215,9 +404,18 @@
     "company": "Nintendo",
     "year": 2017,
     "type": "Hybrid",
-    "description": { "en": "The hybrid console that plays at home and on the go. Breath of the Wild, Mario Odyssey, Animal Crossing, and Splatoon 3 made it a global sensation. Over 140 million units sold." },
-    "significance": { "en": "Proved hybrid gaming works. Showed that a great concept with great games beats specs every time." },
-    "tags": ["hybrid", "portable", "innovative"]
+    "description": {
+      "en": "The hybrid console that plays at home and on the go. Breath of the Wild, Mario Odyssey, Animal Crossing, and Splatoon 3 made it a global sensation. Over 140 million units sold."
+    },
+    "significance": {
+      "en": "Proved hybrid gaming works. Showed that a great concept with great games beats specs every time."
+    },
+    "tags": [
+      "hybrid",
+      "portable",
+      "innovative"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nintendo_Switch_logo.svg/400px-Nintendo_Switch_logo.svg.png"
   },
   {
     "id": "ps5",
@@ -225,9 +423,18 @@
     "company": "Sony",
     "year": 2020,
     "type": "Console",
-    "description": { "en": "Sony's current flagship with ultra-fast SSD, haptic feedback controller, and stunning visuals. Spider-Man 2, Final Fantasy XVI, Astro Bot, and Demon's Souls Remake showcase next-gen gaming." },
-    "significance": { "en": "The DualSense controller's haptic feedback changed how games feel. SSD technology eliminated loading screens." },
-    "tags": ["current-gen", "ssd", "haptics"]
+    "description": {
+      "en": "Sony's current flagship with ultra-fast SSD, haptic feedback controller, and stunning visuals. Spider-Man 2, Final Fantasy XVI, Astro Bot, and Demon's Souls Remake showcase next-gen gaming."
+    },
+    "significance": {
+      "en": "The DualSense controller's haptic feedback changed how games feel. SSD technology eliminated loading screens."
+    },
+    "tags": [
+      "current-gen",
+      "ssd",
+      "haptics"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Black_and_white_Playstation_5_base_edition_with_controller.png/400px-Black_and_white_Playstation_5_base_edition_with_controller.png"
   },
   {
     "id": "xbox_series",
@@ -235,9 +442,18 @@
     "company": "Microsoft",
     "year": 2020,
     "type": "Console",
-    "description": { "en": "Microsoft's current consoles offer raw power (Series X) and affordability (Series S). Game Pass remains the centerpiece, with Starfield, Forza Motorsport, and acquired studios like Bethesda and Activision." },
-    "significance": { "en": "Shifted the industry toward subscription gaming. Microsoft's massive acquisitions reshaped the competitive landscape." },
-    "tags": ["current-gen", "game-pass", "acquisitions"]
+    "description": {
+      "en": "Microsoft's current consoles offer raw power (Series X) and affordability (Series S). Game Pass remains the centerpiece, with Starfield, Forza Motorsport, and acquired studios like Bethesda and Activision."
+    },
+    "significance": {
+      "en": "Shifted the industry toward subscription gaming. Microsoft's massive acquisitions reshaped the competitive landscape."
+    },
+    "tags": [
+      "current-gen",
+      "game-pass",
+      "acquisitions"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Xbox_Series_X_S_color.svg/400px-Xbox_Series_X_S_color.svg.png"
   },
   {
     "id": "steam_deck",
@@ -245,9 +461,18 @@
     "company": "Valve",
     "year": 2022,
     "type": "Handheld PC",
-    "description": { "en": "A full PC gaming handheld running SteamOS (Linux). Play your entire Steam library on the go — from indie games to AAA titles. Customizable, repairable, and backed by Valve's massive ecosystem." },
-    "significance": { "en": "Made PC gaming truly portable. Kickstarted the handheld PC revolution that spawned ASUS ROG Ally, Lenovo Legion Go, and others." },
-    "tags": ["pc-gaming", "portable", "steam"]
+    "description": {
+      "en": "A full PC gaming handheld running SteamOS (Linux). Play your entire Steam library on the go — from indie games to AAA titles. Customizable, repairable, and backed by Valve's massive ecosystem."
+    },
+    "significance": {
+      "en": "Made PC gaming truly portable. Kickstarted the handheld PC revolution that spawned ASUS ROG Ally, Lenovo Legion Go, and others."
+    },
+    "tags": [
+      "pc-gaming",
+      "portable",
+      "steam"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Steam_Deck_%28front%29.png/400px-Steam_Deck_%28front%29.png"
   },
   {
     "id": "pc_gaming",
@@ -255,9 +480,19 @@
     "company": "Various",
     "year": 1981,
     "type": "Platform",
-    "description": { "en": "The longest-running gaming platform. From DOS to Windows to Steam to Game Pass, PC has always been at the cutting edge. Modding communities, esports, and the highest-fidelity gaming all call PC home." },
-    "significance": { "en": "The most versatile gaming platform ever. Every genre, every era, every innovation — PC has been there." },
-    "tags": ["open-platform", "modding", "esports", "cutting-edge"]
+    "description": {
+      "en": "The longest-running gaming platform. From DOS to Windows to Steam to Game Pass, PC has always been at the cutting edge. Modding communities, esports, and the highest-fidelity gaming all call PC home."
+    },
+    "significance": {
+      "en": "The most versatile gaming platform ever. Every genre, every era, every innovation — PC has been there."
+    },
+    "tags": [
+      "open-platform",
+      "modding",
+      "esports",
+      "cutting-edge"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Paku-paku4-dos.png/400px-Paku-paku4-dos.png"
   },
   {
     "id": "arcade",
@@ -265,8 +500,17 @@
     "company": "Various",
     "year": 1971,
     "type": "Arcade",
-    "description": { "en": "Where it all started. From Pong and Space Invaders to Pac-Man and Street Fighter II, arcades were the birthplace of gaming culture. Quarter by quarter, they built an industry." },
-    "significance": { "en": "Created the entire video game industry and culture. Every home console exists because arcades proved people wanted to play games." },
-    "tags": ["origin", "culture", "competitive"]
+    "description": {
+      "en": "Where it all started. From Pong and Space Invaders to Pac-Man and Street Fighter II, arcades were the birthplace of gaming culture. Quarter by quarter, they built an industry."
+    },
+    "significance": {
+      "en": "Created the entire video game industry and culture. Every home console exists because arcades proved people wanted to play games."
+    },
+    "tags": [
+      "origin",
+      "culture",
+      "competitive"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Daikeien_amusement_arcade_2018-05-10.jpg/400px-Daikeien_amusement_arcade_2018-05-10.jpg"
   }
 ]

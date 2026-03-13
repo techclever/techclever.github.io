@@ -1542,6 +1542,56 @@ a.card {
 .update-body p { margin: 0.3rem 0 0; color: var(--text-gray); font-size: 0.9rem; }
 
 /* ==========================================================================
+   29b. CARD IMAGES (Wikipedia thumbnails)
+   ========================================================================== */
+.tc-card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+/* Cards with images need adjusted padding so image goes edge-to-edge */
+.game-card:has(.tc-card-img),
+.ai-card:has(.tc-card-img),
+.dev-card:has(.tc-card-img),
+.prod-card:has(.tc-card-img),
+.hw-card:has(.tc-card-img),
+.os-card:has(.tc-card-img),
+.store-card:has(.tc-card-img),
+.timeline-card:has(.tc-card-img) {
+    padding-top: 0;
+    overflow: hidden;
+}
+
+/* All cards have border-left: 4px, so offset the image to cover it */
+.game-card .tc-card-img,
+.ai-card .tc-card-img,
+.dev-card .tc-card-img,
+.prod-card .tc-card-img,
+.hw-card .tc-card-img,
+.os-card .tc-card-img,
+.store-card .tc-card-img {
+    border-radius: 0;
+    margin-left: -4px;
+    width: calc(100% + 4px);
+}
+
+/* Timeline card images */
+.timeline-card .tc-card-img {
+    border-radius: 0;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    .tc-card-img {
+        height: 140px;
+    }
+}
+
+/* ==========================================================================
    30. RESPONSIVE BREAKPOINTS
    ========================================================================== */
 

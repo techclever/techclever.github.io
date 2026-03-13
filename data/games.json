@@ -12,7 +12,12 @@
     "why_play": {
       "en": "One of the greatest RPGs ever made, offering hundreds of hours of masterful storytelling and world-building. The combat, exploration, and Gwent card game create an experience that keeps pulling you back in."
     },
-    "tags": ["open-world", "story-rich", "classic"]
+    "tags": [
+      "open-world",
+      "story-rich",
+      "classic"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Witcher_3_cover_art.jpg/400px-Witcher_3_cover_art.jpg"
   },
   {
     "id": "skyrim",
@@ -27,7 +32,13 @@
     "why_play": {
       "en": "Few games offer the sheer sense of freedom and discovery that Skyrim delivers. Whether you want to be a stealthy archer, a powerful mage, or a noble warrior, the world bends to your imagination."
     },
-    "tags": ["open-world", "moddable", "classic", "fantasy"]
+    "tags": [
+      "open-world",
+      "moddable",
+      "classic",
+      "fantasy"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png"
   },
   {
     "id": "elden-ring",
@@ -42,7 +53,12 @@
     "why_play": {
       "en": "Elden Ring combines the punishing satisfaction of Dark Souls with unprecedented open-world freedom. Every hill hides a secret, every boss tells a story, and victory has never felt so earned."
     },
-    "tags": ["open-world", "souls-like", "challenging"]
+    "tags": [
+      "open-world",
+      "souls-like",
+      "challenging"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Elden_Ring_Box_art.jpg/400px-Elden_Ring_Box_art.jpg"
   },
   {
     "id": "baldurs-gate-3",
@@ -57,7 +73,13 @@
     "why_play": {
       "en": "Baldur's Gate 3 is a masterclass in player agency, where your creativity is genuinely rewarded at every turn. Its co-op multiplayer makes it one of the best shared RPG experiences ever crafted."
     },
-    "tags": ["turn-based", "story-rich", "co-op", "D&D"]
+    "tags": [
+      "turn-based",
+      "story-rich",
+      "co-op",
+      "D&D"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/12/Baldur%27s_Gate_3_cover_art.jpg"
   },
   {
     "id": "ff7-remake",
@@ -72,7 +94,12 @@
     "why_play": {
       "en": "Whether you are a longtime fan or a newcomer, the Remake delivers an emotionally powerful story wrapped in gorgeous visuals and thrilling combat. It honors the legacy of the original while boldly charting its own path."
     },
-    "tags": ["action-rpg", "story-rich", "remake"]
+    "tags": [
+      "action-rpg",
+      "story-rich",
+      "remake"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/FFVIIRemake.png/400px-FFVIIRemake.png"
   },
   {
     "id": "civilization-vi",
@@ -87,7 +114,12 @@
     "why_play": {
       "en": "The ultimate 'just one more turn' experience that can consume entire weekends in the best possible way. Its accessible design welcomes newcomers while offering enough depth to satisfy veteran strategists."
     },
-    "tags": ["4X", "turn-based", "historical"]
+    "tags": [
+      "4X",
+      "turn-based",
+      "historical"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Civilization_VI_cover_art.jpg"
   },
   {
     "id": "age-of-empires-iv",
@@ -102,7 +134,12 @@
     "why_play": {
       "en": "Age of Empires IV perfectly balances nostalgia with modern game design, making it the best entry point for RTS newcomers and veterans alike. The historical campaigns are both educational and thrilling."
     },
-    "tags": ["real-time", "historical", "competitive"]
+    "tags": [
+      "real-time",
+      "historical",
+      "competitive"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/08/Age_of_Empires_IV_Cover_Art.png"
   },
   {
     "id": "xcom-2",
@@ -117,7 +154,12 @@
     "why_play": {
       "en": "XCOM 2 creates unforgettable emergent stories through its permadeath system and procedurally generated missions. The tension of a perfectly executed ambush or a desperate last-stand evacuation is unmatched in gaming."
     },
-    "tags": ["turn-based", "tactical", "permadeath"]
+    "tags": [
+      "turn-based",
+      "tactical",
+      "permadeath"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/XCOM_2_cover_art.jpg"
   },
   {
     "id": "starcraft-ii",
@@ -132,7 +174,13 @@
     "why_play": {
       "en": "StarCraft II remains the pinnacle of competitive RTS design, with a free-to-play multiplayer that is as thrilling to watch as it is to play. Its campaigns offer some of the best single-player strategy content ever made."
     },
-    "tags": ["real-time", "competitive", "esports", "sci-fi"]
+    "tags": [
+      "real-time",
+      "competitive",
+      "esports",
+      "sci-fi"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/20/StarCraft_II_-_Box_Art.jpg"
   },
   {
     "id": "total-war-warhammer-iii",
@@ -147,7 +195,13 @@
     "why_play": {
       "en": "Total War: Warhammer III is the ultimate fantasy strategy experience, offering a scale and variety that no other game can match. Commanding a tide of monsters, heroes, and magic across epic battlefields never gets old."
     },
-    "tags": ["real-time", "turn-based", "fantasy", "grand-strategy"]
+    "tags": [
+      "real-time",
+      "turn-based",
+      "fantasy",
+      "grand-strategy"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/27/Total_War_Warhammer_3_cover_art.jpg"
   },
   {
     "id": "counter-strike-2",
@@ -162,7 +216,12 @@
     "why_play": {
       "en": "Counter-Strike 2 is the definitive competitive FPS, where raw skill, map knowledge, and teamwork matter more than anything else. Its high skill ceiling ensures that improving always feels rewarding."
     },
-    "tags": ["competitive", "esports", "tactical"]
+    "tags": [
+      "competitive",
+      "esports",
+      "tactical"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/CS2_Cover_Art.jpg/400px-CS2_Cover_Art.jpg"
   },
   {
     "id": "doom-eternal",
@@ -177,7 +236,12 @@
     "why_play": {
       "en": "DOOM Eternal is pure, distilled fun that makes you feel like an unstoppable force of nature. Its combat system is so perfectly tuned that every demon encounter feels like a violent ballet."
     },
-    "tags": ["fast-paced", "single-player", "action"]
+    "tags": [
+      "fast-paced",
+      "single-player",
+      "action"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Cover_Art_of_Doom_Eternal.png/400px-Cover_Art_of_Doom_Eternal.png"
   },
   {
     "id": "half-life-2",
@@ -192,7 +256,12 @@
     "why_play": {
       "en": "Half-Life 2 is a timeless masterpiece that still feels incredible to play, with level design and pacing that most modern shooters cannot match. It is essential gaming history that every FPS fan should experience."
     },
-    "tags": ["story-rich", "classic", "physics-based"]
+    "tags": [
+      "story-rich",
+      "classic",
+      "physics-based"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Half-Life_2_cover.jpg/400px-Half-Life_2_cover.jpg"
   },
   {
     "id": "valorant",
@@ -207,7 +276,13 @@
     "why_play": {
       "en": "Valorant strikes a brilliant balance between mechanical skill and strategic depth, making it accessible yet incredibly deep. Its thriving competitive scene and frequent updates ensure there is always something new to master."
     },
-    "tags": ["competitive", "tactical", "esports", "hero-shooter"]
+    "tags": [
+      "competitive",
+      "tactical",
+      "esports",
+      "hero-shooter"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/400px-Valorant_logo_-_pink_color_version.svg.png"
   },
   {
     "id": "halo-infinite",
@@ -222,7 +297,12 @@
     "why_play": {
       "en": "Halo Infinite's sandbox combat is endlessly creative, and the grappleshot is one of the most fun tools in FPS history. The multiplayer delivers that unmistakable Halo magic that keeps you coming back for one more match."
     },
-    "tags": ["arena-shooter", "open-world", "sci-fi"]
+    "tags": [
+      "arena-shooter",
+      "open-world",
+      "sci-fi"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Halo_Infinite.png/400px-Halo_Infinite.png"
   },
   {
     "id": "hollow-knight",
@@ -237,7 +317,12 @@
     "why_play": {
       "en": "Hollow Knight offers an absurd amount of content and quality for its price, with dozens of hours of exploration and some of the best boss fights in any 2D game. It is a masterpiece that rewards curiosity and perseverance in equal measure."
     },
-    "tags": ["metroidvania", "challenging", "atmospheric"]
+    "tags": [
+      "metroidvania",
+      "challenging",
+      "atmospheric"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Hollow_Knight_2026_cover_art.jpg/400px-Hollow_Knight_2026_cover_art.jpg"
   },
   {
     "id": "celeste",
@@ -252,7 +337,12 @@
     "why_play": {
       "en": "Celeste proves that difficulty and accessibility can coexist, with assist options that let anyone experience its beautiful story. The pixel-perfect controls and deeply human narrative make it one of the most emotionally resonant games ever made."
     },
-    "tags": ["platformer", "story-rich", "challenging"]
+    "tags": [
+      "platformer",
+      "story-rich",
+      "challenging"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Celeste_box_art_full.png/400px-Celeste_box_art_full.png"
   },
   {
     "id": "hades",
@@ -267,7 +357,12 @@
     "why_play": {
       "en": "Hades solved the biggest problem in roguelikes by making every single run feel meaningful through its ever-advancing story. Its fast, fluid combat and incredible voice acting make it impossible to put down."
     },
-    "tags": ["roguelike", "action", "story-rich"]
+    "tags": [
+      "roguelike",
+      "action",
+      "story-rich"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Hades_cover_art.jpg/400px-Hades_cover_art.jpg"
   },
   {
     "id": "stardew-valley",
@@ -282,7 +377,12 @@
     "why_play": {
       "en": "Stardew Valley is the perfect cozy game, offering a gentle escape where there is always something satisfying to do at your own pace. Its depth of content and continued free updates make it an incredible value."
     },
-    "tags": ["farming-sim", "relaxing", "co-op"]
+    "tags": [
+      "farming-sim",
+      "relaxing",
+      "co-op"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Logo_of_Stardew_Valley.png/400px-Logo_of_Stardew_Valley.png"
   },
   {
     "id": "undertale",
@@ -297,7 +397,12 @@
     "why_play": {
       "en": "Undertale subverts everything you expect from an RPG and delivers one of the most memorable experiences in gaming. Multiple playthroughs reveal entirely different games, and its emotional moments will stay with you long after the credits roll."
     },
-    "tags": ["story-rich", "unique-combat", "multiple-endings"]
+    "tags": [
+      "story-rich",
+      "unique-combat",
+      "multiple-endings"
+    ],
+    "image": null
   },
   {
     "id": "portal-2",
@@ -312,7 +417,13 @@
     "why_play": {
       "en": "Portal 2 is a perfect game, combining brilliant puzzle design with laugh-out-loud humor and a surprisingly emotional story. Its co-op mode is one of the best cooperative experiences ever designed."
     },
-    "tags": ["first-person", "co-op", "humor", "classic"]
+    "tags": [
+      "first-person",
+      "co-op",
+      "humor",
+      "classic"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Portal2cover.jpg/400px-Portal2cover.jpg"
   },
   {
     "id": "tetris-effect",
@@ -327,7 +438,12 @@
     "why_play": {
       "en": "Tetris Effect transforms the most iconic puzzle game ever made into a meditative, emotional experience that can genuinely move you to tears. It proves that even a 40-year-old game can feel completely new."
     },
-    "tags": ["rhythm", "meditative", "classic-reimagined"]
+    "tags": [
+      "rhythm",
+      "meditative",
+      "classic-reimagined"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/Tetris_Effect_cover.jpg"
   },
   {
     "id": "the-witness",
@@ -342,7 +458,12 @@
     "why_play": {
       "en": "The Witness is a celebration of the joy of learning, where every breakthrough moment makes you feel genuinely brilliant. Its non-linear structure means you can always walk away from a tough puzzle and find something new to discover."
     },
-    "tags": ["open-world", "non-linear", "minimalist"]
+    "tags": [
+      "open-world",
+      "non-linear",
+      "minimalist"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/The_Witness_cover.jpg/400px-The_Witness_cover.jpg"
   },
   {
     "id": "baba-is-you",
@@ -357,7 +478,12 @@
     "why_play": {
       "en": "Baba Is You will make you think about puzzle games in an entirely new way, constantly surprising you with solutions you never thought possible. It is one of the most original and creative games ever made."
     },
-    "tags": ["logic", "innovative", "minimalist"]
+    "tags": [
+      "logic",
+      "innovative",
+      "minimalist"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/28/Baba_is_you_cover_art.jpg"
   },
   {
     "id": "return-of-the-obra-dinn",
@@ -372,7 +498,12 @@
     "why_play": {
       "en": "Return of the Obra Dinn is the most satisfying detective game ever made, where every deduction feels like cracking a real case. Its ingenious design respects your intelligence and delivers some of the most rewarding eureka moments in gaming."
     },
-    "tags": ["mystery", "deduction", "unique-art-style"]
+    "tags": [
+      "mystery",
+      "deduction",
+      "unique-art-style"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Return_of_the_Obra_Dinn_logo-title.jpg/400px-Return_of_the_Obra_Dinn_logo-title.jpg"
   },
   {
     "id": "zelda-totk",
@@ -387,7 +518,12 @@
     "why_play": {
       "en": "Tears of the Kingdom is a triumph of game design that makes you feel like a genius inventor every time you solve a problem your own way. It is one of the most creatively liberating games ever made."
     },
-    "tags": ["open-world", "creative", "adventure"]
+    "tags": [
+      "open-world",
+      "creative",
+      "adventure"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg/400px-The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg"
   },
   {
     "id": "god-of-war-ragnarok",
@@ -402,7 +538,12 @@
     "why_play": {
       "en": "God of War Ragnarok delivers a blockbuster experience that balances spectacular action with genuinely moving storytelling. The relationship between Kratos and Atreus is one of gaming's greatest father-son narratives."
     },
-    "tags": ["story-rich", "mythology", "cinematic"]
+    "tags": [
+      "story-rich",
+      "mythology",
+      "cinematic"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg/400px-God_of_War_Ragnar%C3%B6k_cover.jpg"
   },
   {
     "id": "rdr2",
@@ -417,7 +558,12 @@
     "why_play": {
       "en": "Red Dead Redemption 2 is a once-in-a-generation achievement in world-building and storytelling that sets the gold standard for open-world games. Arthur Morgan's journey will leave a lasting impression long after the final credits."
     },
-    "tags": ["open-world", "story-rich", "western"]
+    "tags": [
+      "open-world",
+      "story-rich",
+      "western"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Red_Dead_Redemption_II.jpg/400px-Red_Dead_Redemption_II.jpg"
   },
   {
     "id": "ghost-of-tsushima",
@@ -432,7 +578,12 @@
     "why_play": {
       "en": "Ghost of Tsushima is a love letter to samurai cinema that delivers deeply satisfying sword combat and one of the most gorgeous open worlds ever crafted. Its Kurosawa mode, presented in black and white with Japanese audio, is a standout experience."
     },
-    "tags": ["open-world", "samurai", "cinematic"]
+    "tags": [
+      "open-world",
+      "samurai",
+      "cinematic"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Ghost_of_Tsushima.jpg/400px-Ghost_of_Tsushima.jpg"
   },
   {
     "id": "horizon-forbidden-west",
@@ -447,6 +598,11 @@
     "why_play": {
       "en": "Horizon Forbidden West is a visual masterpiece with deep combat that makes every machine encounter a thrilling tactical puzzle. Its fascinating sci-fi mystery and stunning world make exploration a constant reward."
     },
-    "tags": ["open-world", "sci-fi", "action-rpg"]
+    "tags": [
+      "open-world",
+      "sci-fi",
+      "action-rpg"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Horizon_Forbidden_West_cover_art.jpg/400px-Horizon_Forbidden_West_cover_art.jpg"
   }
 ]

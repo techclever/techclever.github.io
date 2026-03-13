@@ -11,7 +11,13 @@
     "best_for": {
       "en": "Long-form writing, document analysis, coding assistance, and thoughtful multi-turn conversations."
     },
-    "tags": ["chatbot", "writing", "analysis", "coding"]
+    "tags": [
+      "chatbot",
+      "writing",
+      "analysis",
+      "coding"
+    ],
+    "image": null
   },
   {
     "id": "chatgpt",
@@ -25,7 +31,12 @@
     "best_for": {
       "en": "General-purpose AI chat, brainstorming, quick answers, and creative writing."
     },
-    "tags": ["chatbot", "writing", "general-purpose"]
+    "tags": [
+      "chatbot",
+      "writing",
+      "general-purpose"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/400px-OpenAI_logo_2025_%28symbol%29.svg.png"
   },
   {
     "id": "gemini",
@@ -39,7 +50,12 @@
     "best_for": {
       "en": "Google ecosystem users who want AI integrated with Gmail, Docs, and Search for research and productivity."
     },
-    "tags": ["chatbot", "research", "multimodal"]
+    "tags": [
+      "chatbot",
+      "research",
+      "multimodal"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Google_Gemini_Screenshot_%282026%29.png/400px-Google_Gemini_Screenshot_%282026%29.png"
   },
   {
     "id": "perplexity",
@@ -53,7 +69,12 @@
     "best_for": {
       "en": "Research and fact-checking where you need AI answers backed by cited sources and real-time information."
     },
-    "tags": ["search", "research", "citations"]
+    "tags": [
+      "search",
+      "research",
+      "citations"
+    ],
+    "image": null
   },
   {
     "id": "venice",
@@ -67,7 +88,13 @@
     "best_for": {
       "en": "Privacy-conscious users who want powerful AI without data collection, censorship, or conversation logging."
     },
-    "tags": ["privacy", "uncensored", "open-source", "chatbot"]
+    "tags": [
+      "privacy",
+      "uncensored",
+      "open-source",
+      "chatbot"
+    ],
+    "image": null
   },
   {
     "id": "grok",
@@ -81,7 +108,12 @@
     "best_for": {
       "en": "Users on X who want real-time social media context and a more direct, less filtered AI conversation style."
     },
-    "tags": ["chatbot", "real-time", "social-media"]
+    "tags": [
+      "chatbot",
+      "real-time",
+      "social-media"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Grok_chatbot_example_screenshot.webp/400px-Grok_chatbot_example_screenshot.webp.png"
   },
   {
     "id": "deepseek",
@@ -95,7 +127,13 @@
     "best_for": {
       "en": "Developers and researchers wanting top-tier open-source models for local deployment, coding, and reasoning tasks."
     },
-    "tags": ["open-source", "reasoning", "coding", "free"]
+    "tags": [
+      "open-source",
+      "reasoning",
+      "coding",
+      "free"
+    ],
+    "image": null
   },
   {
     "id": "mistral",
@@ -109,7 +147,13 @@
     "best_for": {
       "en": "European users and developers who want efficient, multilingual AI with strong open-source options."
     },
-    "tags": ["chatbot", "open-source", "european", "multilingual"]
+    "tags": [
+      "chatbot",
+      "open-source",
+      "european",
+      "multilingual"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mistral_AI_logo_%282025%E2%80%93%29.svg/400px-Mistral_AI_logo_%282025%E2%80%93%29.svg.png"
   },
   {
     "id": "midjourney",
@@ -123,7 +167,12 @@
     "best_for": {
       "en": "Creating stunning concept art, illustrations, and artistic imagery with rich stylistic control."
     },
-    "tags": ["image-generation", "art", "design"]
+    "tags": [
+      "image-generation",
+      "art",
+      "design"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Midjourney_logo.svg/400px-Midjourney_logo.svg.png"
   },
   {
     "id": "dall-e-3",
@@ -137,7 +186,12 @@
     "best_for": {
       "en": "Generating images with accurate text rendering and precise prompt adherence, especially via ChatGPT."
     },
-    "tags": ["image-generation", "text-rendering", "ai-art"]
+    "tags": [
+      "image-generation",
+      "text-rendering",
+      "ai-art"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/DALL-E_2_artificial_intelligence_digital_image_generated_photo.jpg/400px-DALL-E_2_artificial_intelligence_digital_image_generated_photo.jpg"
   },
   {
     "id": "stable-diffusion",
@@ -151,7 +205,12 @@
     "best_for": {
       "en": "Users who want full control, local generation without cloud dependencies, and extensive customization options."
     },
-    "tags": ["image-generation", "open-source", "customizable"]
+    "tags": [
+      "image-generation",
+      "open-source",
+      "customizable"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp/400px-Astronaut_Riding_a_Horse_%28SD3.5%29.webp.png"
   },
   {
     "id": "adobe-firefly",
@@ -165,7 +224,12 @@
     "best_for": {
       "en": "Professional designers who need commercially safe AI-generated assets integrated into their Adobe workflow."
     },
-    "tags": ["image-generation", "design", "commercial-safe"]
+    "tags": [
+      "image-generation",
+      "design",
+      "commercial-safe"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_Firefly_CC_2026_icon.svg/400px-Adobe_Firefly_CC_2026_icon.svg.png"
   },
   {
     "id": "flux",
@@ -179,7 +243,12 @@
     "best_for": {
       "en": "Developers and creators wanting cutting-edge open-source image generation with strong photorealism and prompt accuracy."
     },
-    "tags": ["image-generation", "open-source", "photorealistic"]
+    "tags": [
+      "image-generation",
+      "open-source",
+      "photorealistic"
+    ],
+    "image": null
   },
   {
     "id": "freepik",
@@ -193,7 +262,13 @@
     "best_for": {
       "en": "Designers, marketers, and content creators who need high-quality stock assets combined with AI-powered design and image generation tools."
     },
-    "tags": ["design", "stock-assets", "ai-image", "vectors"]
+    "tags": [
+      "design",
+      "stock-assets",
+      "ai-image",
+      "vectors"
+    ],
+    "image": null
   },
   {
     "id": "canva",
@@ -207,7 +282,13 @@
     "best_for": {
       "en": "Non-designers, social media managers, teachers, and small businesses who need professional-looking visuals quickly with AI-powered assistance."
     },
-    "tags": ["design", "ai-image", "templates", "social-media"]
+    "tags": [
+      "design",
+      "ai-image",
+      "templates",
+      "social-media"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Canva_Logo.svg/400px-Canva_Logo.svg.png"
   },
   {
     "id": "github-copilot",
@@ -221,7 +302,12 @@
     "best_for": {
       "en": "Day-to-day coding with intelligent autocomplete, boilerplate generation, and in-editor chat assistance."
     },
-    "tags": ["coding", "autocomplete", "ide-integration"]
+    "tags": [
+      "coding",
+      "autocomplete",
+      "ide-integration"
+    ],
+    "image": null
   },
   {
     "id": "cursor",
@@ -235,7 +321,12 @@
     "best_for": {
       "en": "Developers who want an AI-native editor with codebase-aware assistance and multi-file editing capabilities."
     },
-    "tags": ["coding", "editor", "ai-native"]
+    "tags": [
+      "coding",
+      "editor",
+      "ai-native"
+    ],
+    "image": null
   },
   {
     "id": "claude-code",
@@ -249,7 +340,12 @@
     "best_for": {
       "en": "Complex coding tasks requiring multi-file changes, refactoring, and autonomous project-wide development work."
     },
-    "tags": ["coding", "terminal", "agentic"]
+    "tags": [
+      "coding",
+      "terminal",
+      "agentic"
+    ],
+    "image": null
   },
   {
     "id": "replit-ai",
@@ -263,7 +359,12 @@
     "best_for": {
       "en": "Rapid prototyping and building full-stack applications in the browser with integrated hosting and deployment."
     },
-    "tags": ["coding", "cloud-ide", "deployment"]
+    "tags": [
+      "coding",
+      "cloud-ide",
+      "deployment"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/400px-New_Replit_Logo.svg.png"
   },
   {
     "id": "windsurf",
@@ -277,7 +378,13 @@
     "best_for": {
       "en": "Developers wanting an agentic coding experience with deep codebase understanding and multi-file editing at a lower price point."
     },
-    "tags": ["coding", "editor", "agentic", "ai-native"]
+    "tags": [
+      "coding",
+      "editor",
+      "agentic",
+      "ai-native"
+    ],
+    "image": null
   },
   {
     "id": "bolt",
@@ -291,7 +398,13 @@
     "best_for": {
       "en": "Quickly prototyping and building full web applications from descriptions without any local setup."
     },
-    "tags": ["coding", "app-builder", "browser-based", "full-stack"]
+    "tags": [
+      "coding",
+      "app-builder",
+      "browser-based",
+      "full-stack"
+    ],
+    "image": null
   },
   {
     "id": "suno",
@@ -305,7 +418,12 @@
     "best_for": {
       "en": "Creating complete songs with vocals and instrumentation for content creators, hobbyists, and musicians seeking inspiration."
     },
-    "tags": ["music", "song-generation", "vocals"]
+    "tags": [
+      "music",
+      "song-generation",
+      "vocals"
+    ],
+    "image": null
   },
   {
     "id": "elevenlabs",
@@ -319,7 +437,12 @@
     "best_for": {
       "en": "High-quality voiceovers, audiobook narration, and voice cloning for content production."
     },
-    "tags": ["text-to-speech", "voice-cloning", "narration"]
+    "tags": [
+      "text-to-speech",
+      "voice-cloning",
+      "narration"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Midtown_Manhattan_March_2023_014.jpg/400px-Midtown_Manhattan_March_2023_014.jpg"
   },
   {
     "id": "udio",
@@ -333,7 +456,12 @@
     "best_for": {
       "en": "Generating realistic AI music with high-quality vocals, ideal for musicians exploring ideas and content creators."
     },
-    "tags": ["music", "song-generation", "composition"]
+    "tags": [
+      "music",
+      "song-generation",
+      "composition"
+    ],
+    "image": null
   },
   {
     "id": "descript",
@@ -347,7 +475,12 @@
     "best_for": {
       "en": "Podcast and video editing with AI-powered transcription, filler word removal, and voice correction."
     },
-    "tags": ["audio-editing", "transcription", "podcast"]
+    "tags": [
+      "audio-editing",
+      "transcription",
+      "podcast"
+    ],
+    "image": null
   },
   {
     "id": "runway",
@@ -361,7 +494,12 @@
     "best_for": {
       "en": "Creative professionals generating short video clips, visual effects, and AI-enhanced video editing."
     },
-    "tags": ["video-generation", "vfx", "filmmaking"]
+    "tags": [
+      "video-generation",
+      "vfx",
+      "filmmaking"
+    ],
+    "image": null
   },
   {
     "id": "sora",
@@ -375,7 +513,12 @@
     "best_for": {
       "en": "Generating realistic, physically coherent video scenes from detailed text descriptions."
     },
-    "tags": ["video-generation", "text-to-video", "realistic"]
+    "tags": [
+      "video-generation",
+      "text-to-video",
+      "realistic"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/29/OpenAI_Sora_icon.png"
   },
   {
     "id": "synthesia",
@@ -389,7 +532,12 @@
     "best_for": {
       "en": "Corporate training videos, product walkthroughs, and multilingual educational content with AI presenters."
     },
-    "tags": ["ai-avatars", "training-videos", "multilingual"]
+    "tags": [
+      "ai-avatars",
+      "training-videos",
+      "multilingual"
+    ],
+    "image": null
   },
   {
     "id": "heygen",
@@ -403,7 +551,12 @@
     "best_for": {
       "en": "Marketing videos, personalized sales outreach, and translating existing videos into multiple languages."
     },
-    "tags": ["ai-avatars", "video-translation", "marketing"]
+    "tags": [
+      "ai-avatars",
+      "video-translation",
+      "marketing"
+    ],
+    "image": null
   },
   {
     "id": "notion-ai",
@@ -417,7 +570,12 @@
     "best_for": {
       "en": "Teams already using Notion who want AI-powered writing, summarization, and knowledge management within their workspace."
     },
-    "tags": ["productivity", "writing", "knowledge-management"]
+    "tags": [
+      "productivity",
+      "writing",
+      "knowledge-management"
+    ],
+    "image": null
   },
   {
     "id": "grammarly",
@@ -431,7 +589,12 @@
     "best_for": {
       "en": "Professionals and students who want polished, error-free writing with tone and style suggestions everywhere they type."
     },
-    "tags": ["writing", "grammar", "proofreading"]
+    "tags": [
+      "writing",
+      "grammar",
+      "proofreading"
+    ],
+    "image": null
   },
   {
     "id": "otter-ai",
@@ -445,7 +608,12 @@
     "best_for": {
       "en": "Capturing meeting notes automatically with transcription, summaries, and action items across all major video platforms."
     },
-    "tags": ["transcription", "meetings", "notes"]
+    "tags": [
+      "transcription",
+      "meetings",
+      "notes"
+    ],
+    "image": null
   },
   {
     "id": "jasper",
@@ -459,7 +627,12 @@
     "best_for": {
       "en": "Marketing teams creating on-brand content at scale across blogs, ads, social media, and email campaigns."
     },
-    "tags": ["marketing", "content-creation", "brand-voice"]
+    "tags": [
+      "marketing",
+      "content-creation",
+      "brand-voice"
+    ],
+    "image": null
   },
   {
     "id": "notebooklm",
@@ -473,7 +646,13 @@
     "best_for": {
       "en": "Researchers and students who want AI analysis grounded in their own documents and sources, plus AI-generated audio summaries."
     },
-    "tags": ["research", "documents", "audio-summaries", "free"]
+    "tags": [
+      "research",
+      "documents",
+      "audio-summaries",
+      "free"
+    ],
+    "image": null
   },
   {
     "id": "pika",
@@ -487,6 +666,11 @@
     "best_for": {
       "en": "Content creators wanting quick, creative AI video generation with unique special effects and easy editing tools."
     },
-    "tags": ["video-generation", "effects", "creative"]
+    "tags": [
+      "video-generation",
+      "effects",
+      "creative"
+    ],
+    "image": null
   }
 ]

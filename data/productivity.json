@@ -12,7 +12,13 @@
       "en": "Teams and individuals who want a single tool for notes, docs, and lightweight project management. Especially popular with startups and knowledge workers."
     },
     "platforms": "Web, Desktop, Mobile",
-    "tags": ["all-in-one", "collaborative", "databases", "wiki"]
+    "tags": [
+      "all-in-one",
+      "collaborative",
+      "databases",
+      "wiki"
+    ],
+    "image": null
   },
   {
     "id": "obsidian",
@@ -27,7 +33,13 @@
       "en": "Researchers, writers, and developers who value privacy, local-first storage, and building a personal knowledge graph with linked notes."
     },
     "platforms": "Desktop, Mobile",
-    "tags": ["local-first", "markdown", "knowledge-graph", "privacy"]
+    "tags": [
+      "local-first",
+      "markdown",
+      "knowledge-graph",
+      "privacy"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2023_Obsidian_logo.svg/400px-2023_Obsidian_logo.svg.png"
   },
   {
     "id": "apple_notes",
@@ -42,7 +54,13 @@
       "en": "Apple ecosystem users who want a simple, fast, and reliable note-taking app that syncs effortlessly across iPhone, iPad, and Mac."
     },
     "platforms": "macOS, iOS, iPadOS, Web (iCloud)",
-    "tags": ["free", "apple-ecosystem", "simple", "built-in"]
+    "tags": [
+      "free",
+      "apple-ecosystem",
+      "simple",
+      "built-in"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/Apple_Notes_iOS_17.PNG"
   },
   {
     "id": "trello",
@@ -57,7 +75,13 @@
       "en": "Small teams and freelancers who prefer a visual, card-based approach to task management without a steep learning curve."
     },
     "platforms": "Web, Desktop, Mobile",
-    "tags": ["kanban", "visual", "beginner-friendly", "collaborative"]
+    "tags": [
+      "kanban",
+      "visual",
+      "beginner-friendly",
+      "collaborative"
+    ],
+    "image": null
   },
   {
     "id": "asana",
@@ -72,7 +96,13 @@
       "en": "Mid-size to large teams that need structured project tracking with dependencies, milestones, and cross-project visibility."
     },
     "platforms": "Web, Desktop, Mobile",
-    "tags": ["enterprise", "timeline", "goals", "collaborative"]
+    "tags": [
+      "enterprise",
+      "timeline",
+      "goals",
+      "collaborative"
+    ],
+    "image": null
   },
   {
     "id": "linear",
@@ -87,7 +117,13 @@
       "en": "Software engineering teams who want a fast, focused issue tracker with Git integration and minimal friction in their development workflow."
     },
     "platforms": "Web, Desktop, Mobile",
-    "tags": ["developer", "fast", "issue-tracking", "git-integration"]
+    "tags": [
+      "developer",
+      "fast",
+      "issue-tracking",
+      "git-integration"
+    ],
+    "image": null
   },
   {
     "id": "slack",
@@ -102,7 +138,13 @@
       "en": "Remote and hybrid teams that need organized, real-time communication with deep integrations into their existing tools and workflows."
     },
     "platforms": "Web, Desktop, Mobile",
-    "tags": ["team-chat", "integrations", "channels", "enterprise"]
+    "tags": [
+      "team-chat",
+      "integrations",
+      "channels",
+      "enterprise"
+    ],
+    "image": null
   },
   {
     "id": "discord",
@@ -117,7 +159,13 @@
       "en": "Communities, open-source projects, and informal teams who want always-on voice channels alongside persistent text chat and community features."
     },
     "platforms": "Web, Desktop, Mobile",
-    "tags": ["community", "voice-chat", "free", "forums"]
+    "tags": [
+      "community",
+      "voice-chat",
+      "free",
+      "forums"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Discord_screenshot.png/400px-Discord_screenshot.png"
   },
   {
     "id": "zoom",
@@ -132,7 +180,13 @@
       "en": "Businesses and educators who need reliable, high-quality video meetings with features like recording, transcription, and large-participant webinars."
     },
     "platforms": "Web, Desktop, Mobile",
-    "tags": ["video-conferencing", "webinars", "enterprise", "recording"]
+    "tags": [
+      "video-conferencing",
+      "webinars",
+      "enterprise",
+      "recording"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Zoom_participants_Bubrikh_readings_2020_conference.png/400px-Zoom_participants_Bubrikh_readings_2020_conference.png"
   },
   {
     "id": "figma",
@@ -147,7 +201,13 @@
       "en": "Design teams building user interfaces, design systems, and interactive prototypes who need real-time collaboration without desktop software installs."
     },
     "platforms": "Web, Desktop",
-    "tags": ["ui-design", "collaborative", "prototyping", "design-systems"]
+    "tags": [
+      "ui-design",
+      "collaborative",
+      "prototyping",
+      "design-systems"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/A_newly-created_design_project_on_Figma.png/400px-A_newly-created_design_project_on_Figma.png"
   },
   {
     "id": "canva",
@@ -162,7 +222,13 @@
       "en": "Marketers, small business owners, and content creators who need to produce polished visuals quickly without professional design skills."
     },
     "platforms": "Web, Desktop, Mobile",
-    "tags": ["templates", "beginner-friendly", "marketing", "social-media"]
+    "tags": [
+      "templates",
+      "beginner-friendly",
+      "marketing",
+      "social-media"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Canva_Logo.svg/400px-Canva_Logo.svg.png"
   },
   {
     "id": "excalidraw",
@@ -177,7 +243,13 @@
       "en": "Developers and teams who need a quick, lightweight tool for architecture diagrams, wireframes, and collaborative brainstorming with a distinctive hand-drawn look."
     },
     "platforms": "Web, Desktop (via Electron)",
-    "tags": ["open-source", "whiteboard", "diagrams", "hand-drawn"]
+    "tags": [
+      "open-source",
+      "whiteboard",
+      "diagrams",
+      "hand-drawn"
+    ],
+    "image": null
   },
   {
     "id": "zapier",
@@ -192,7 +264,13 @@
       "en": "Non-technical users and small businesses who want to automate repetitive tasks across their favorite apps without any coding knowledge."
     },
     "platforms": "Web",
-    "tags": ["no-code", "integrations", "workflow", "popular"]
+    "tags": [
+      "no-code",
+      "integrations",
+      "workflow",
+      "popular"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Zapier-logo.png/400px-Zapier-logo.png"
   },
   {
     "id": "make",
@@ -207,7 +285,13 @@
       "en": "Power users and agencies who need advanced automation scenarios with data manipulation, branching logic, and detailed execution control."
     },
     "platforms": "Web",
-    "tags": ["visual-builder", "advanced", "data-transformation", "affordable"]
+    "tags": [
+      "visual-builder",
+      "advanced",
+      "data-transformation",
+      "affordable"
+    ],
+    "image": null
   },
   {
     "id": "n8n",
@@ -222,7 +306,13 @@
       "en": "Developers and technical teams who want self-hosted automation with the flexibility to write custom code alongside visual workflow building."
     },
     "platforms": "Web (self-hosted or cloud)",
-    "tags": ["self-hosted", "open-source", "developer", "privacy"]
+    "tags": [
+      "self-hosted",
+      "open-source",
+      "developer",
+      "privacy"
+    ],
+    "image": null
   },
   {
     "id": "google_drive",
@@ -237,7 +327,13 @@
       "en": "Teams and individuals already using Google Workspace who need reliable cloud storage with excellent collaboration and sharing capabilities."
     },
     "platforms": "Web, Desktop, Mobile",
-    "tags": ["google-ecosystem", "collaborative", "office-suite", "popular"]
+    "tags": [
+      "google-ecosystem",
+      "collaborative",
+      "office-suite",
+      "popular"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/400px-Google_Drive_icon_%282020%29.svg.png"
   },
   {
     "id": "dropbox",
@@ -252,7 +348,13 @@
       "en": "Professionals and teams who prioritize fast, reliable file syncing across devices and need features like smart sync to manage storage efficiently."
     },
     "platforms": "Web, Desktop, Mobile",
-    "tags": ["file-sync", "reliable", "smart-sync", "established"]
+    "tags": [
+      "file-sync",
+      "reliable",
+      "smart-sync",
+      "established"
+    ],
+    "image": null
   },
   {
     "id": "icloud",
@@ -267,6 +369,12 @@
       "en": "Apple ecosystem users who want effortless syncing of photos, files, and device data across iPhone, iPad, Mac, and Apple Watch."
     },
     "platforms": "macOS, iOS, iPadOS, Web, Windows",
-    "tags": ["apple-ecosystem", "photos", "backup", "privacy"]
+    "tags": [
+      "apple-ecosystem",
+      "photos",
+      "backup",
+      "privacy"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/ICloud_and_iWork_for_web_screenshot.png/400px-ICloud_and_iWork_for_web_screenshot.png"
   }
 ]
